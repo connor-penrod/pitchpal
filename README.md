@@ -1,6 +1,6 @@
 # Running
 To run, call the executable in 'bin' from the command line like so:
-<path to executable>/pitchpal.exe keyword <path to file>/keywordfile.txt
+|path to executable|/pitchpal.exe keyword |path to file|/keywordfile.txt
 For example:
 C:/Users/Connor/Documents/PitchPal/pitchpal/bin/pitchpal.exe keyword C:/manuscript.txt
 This activates keyword mode with the keywords given in ‘manuscript.txt’.
