@@ -1,0 +1,275 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+
+<HEAD>
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<TITLE>Release notes</TITLE>
+
+<STYLE>@import url(basicIE4.css);</STYLE>
+
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000"><font size="-1">
+
+<p><font size="-1">Microsoft Speech SDK 5.1</font></p>
+<HR ALIGN="left" SIZE="1" WIDTH="100%" COLOR="#ff0000" NOSHADE>
+
+ 
+<h1>Release notes</h1>
+<p>7/31/2001</p>
+
+<h2>Introduction</h2>
+
+<p>Welcome to the Microsoft&#174; Speech SDK 5.1 (Speech SDK 5.1). This file describes system requirements, installation notes, and known issues. This SDK provides the tools, information, and samples you need to incorporate speech technologies into your Windows&#174; applications.</p>
+
+<p>Before installing Speech SDK 5.1, read through this document to become familiar with installation and performance issues. This file accompanies Speech SDK 5.1 and is released under the License Agreement on the license.chm file on the CD or install point.</p>
+
+<p>The following topics are available:</p>
+
+<UL>
+<LI><a href="#System_Requirements">System Requirements</a></LI>
+<LI><a href="#Installation_Notes">Installation Notes</a></LI>
+<LI><a href="#Known_Issues">Known Issues</a></LI>
+<LI><a href="#Miscellaneous_Issues">Miscellaneous Issues</a></LI>
+</UL>
+
+
+<h2><a name="System_Requirements">System Requirements</a></h2>
+
+<h3>Operating Systems</h3>
+<p>Supported operating systems are:</p>
+<ul>
+<li>Windows XP Professional or Home Edition; all language versions.</li>
+<li>Microsoft Windows 2000 all versions; all language versions.</li>
+<li>Microsoft Windows Millennium Edition; all language versions.</li>
+<li>Microsoft Windows 98 all versions; all language versions.</li>
+<li>Microsoft Windows NT 4.0 Workstation or Server, Service Pack 6a, English, Japanese, or Simplified Chinese versions.</li>
+<li>Windows 95 or earlier is not supported.</li>
+</ul>
+
+<h3>Software Requirements</h3>
+<ul>
+<li>Microsoft Internet Explorer &#174; 5.0 or later version. Users of Windows NT&nbsp; 4.0 require Microsoft Internet Explorer 5.5 or later. Download the latest version of <a href="http://go.microsoft.com/fwlink/?LinkId=361&clcid=0x409">Microsoft Internet Explorer</a>.</li>
+
+<li>Microsoft Visual C++ &#174; 6.0, Service Pack 3 or later version is needed to run the SAPI 5 SDK samples. In general, any 32-bit C compiler will work for writing SAPI applications.</li>
+
+<li>Microsoft Visual Basic &#174; 6.0 is needed to write applications incorporating SAPI automation, or for compiling the Visual Basic sample code. Since SAPI supports COM automation, other languages and compilers may be used with SAPI automation provided it supports OLE automation. Microsoft Visual Studio &#174; 7, also called Visual Studio.NET, is needed to compile the C# examples.</li>
+
+<li>The Platform SDK is generally not needed although some samples and functionality may require it. See the specific samples for confirmation. If required, the Platform SDK may be downloaded from the <a href="http://go.microsoft.com/fwlink/?LinkId=633">Microsoft Platform SDK</a> site.</li>
+</ul>
+
+<h3>Hardware Requirements</h3>
+<ul>
+<li>A Pentium II\Pentium II-equivalent or later processor at 233 MHz with 128 megabytes (MB) of RAM is recommended.</li>
+
+<li>A microphone or some other sound input device to receive the sound is required for speech recognition (SR). In general, the microphone should be a high quality device with noise filters built in. The speech recognition rate is directly related to the quality of the input. The recognition rate will be significantly lower or perhaps even unacceptable with a poor microphone.</li>
+
+<li>Not all sound cards or sound devices are supported by SAPI 5, even if the operating system supports them otherwise.</li>
+
+<li>The following table outlines the RAM usage:</li>
+</ul>
+
+<TABLE CELLSPACING=4 COLS=3>
+<TR VALIGN=TOP>
+<TH ALIGN=LEFT WIDTH=20%>Component</TH>
+<TH ALIGN=LEFT WIDTH=40%>Minimum RAM</TH>
+<TH ALIGN=LEFT WIDTH=40%>Recommended RAM</TH>
+</TR>
+<TR VALIGN=TOP>
+<TD width="20%">Text-to-speech (TTS) Engine</TD>
+<TD width="80%">14.5 MB</TD>
+<TD width="80%">32 MB</TD>
+</TR>
+<TR VALIGN=TOP>
+<TD>SR Command and control</TD>
+<TD>16 MB</TD>
+<TD width="80%">32 MB</TD>
+</TR>
+<TR VALIGN=TOP>
+<TD>SR Dictation</TD>
+<TD>25.5 MB</TD>
+<TD width="80%">128 MB</TD>
+</TR>
+<TR VALIGN=TOP>
+<TD>SR Both</TD>
+<TD>26.5 MB</TD>
+<TD width="80%">128 MB</TD>
+</TR>
+</TABLE>
+
+<ul>
+<li>The following table outlines the disk usage:</li>
+</ul>
+<TABLE CELLSPACING=4 COLS=3>
+<TR VALIGN=TOP>
+<TH ALIGN=LEFT WIDTH=33%>File Name</TH>
+<TH ALIGN=LEFT WIDTH=33%>Approximate File Size</TH>
+<TH ALIGN=LEFT WIDTH=33%>Setup Merge Names</TH>
+
+</TR>
+<TR VALIGN=TOP>
+<TD>Sapi.dll and Sapisvr.exe</TD>
+<TD>0.5 MB</TD>
+<TD>Sp5.msm</TD>
+</TR>
+<TR VALIGN=TOP>
+<TD>Sapi.cpl</TD>
+<TD>36 KB</TD>
+<TD>Sp5Intl.msm</TD>
+</TR>
+<TR VALIGN=TOP>
+<TD>SR Engine</TD>
+<TD>1.7 MB</TD>
+<TD>Sp5Sr.msm</TD>
+</TR>
+<TR VALIGN=TOP>
+<TD>Dication, and command and control data files</TD>
+<TD>13.4 MB</TD>
+<TD>Sp5CCInt.msm</TD>
+</TR>
+<TR VALIGN=TOP>
+<TD>TTS Engine and voices</TD>
+<TD>7.8 MB</TD>
+<TD>Sp5TTInt.msm</TD>
+</TR>
+<TR VALIGN=TOP>
+<TD>Files common to both Microsoft SAPI 5.1 TTS and SR.</TD>
+<TD>92 KB</TD>
+<TD>SpCommon.Msm</TD>
+</TR>
+<TR VALIGN=TOP>
+<TD>Language-specific SAPI 5.1 inverse text normalization (ITN) components.</TD>
+<TD>108 KB</TD>
+<TD>Sp5itn.Msm</TD>
+</TR>
+</TABLE>
+
+
+<h2><a name="Installation_Notes">Installation Notes</a></h2>
+
+<p>You must have administrator privileges on the computer to install the Speech SDK 5.1 properly.</p>
+
+<P>SAPI and the Speech SDK 5.1 are installed by Windows Installer. If Windows Installer has not previously been used on the computer, it may require a reboot before beginning the SDK installation process. On some versions of Windows, the SDK installation process will not automatically resume after this reboot, and the user must run setup again.</P>
+
+<H3>SAPI 4.0</H3>
+<p>SAPI 5.1 can coexist on your computer with SAPI 4.0. However, applications using different versions may not be compatible and should not be run simultaneously. Usually, contention for system resources will prevent this from happening.</p>
+
+<H3>SAPI 5.0</H3>
+<P>Because SAPI 5.1 is a superset of SAPI 5.0, the two versions can coexist on the same machine. But if both SAPI 5.0 and SAPI 5.1 are installed on the same machine, uninstalling either version could damage the other installation and require it to be reinstalled. For this reason, we recommend that you uninstall SAPI 5.0 before installing SAPI 5.1.<P>
+
+<P>When English Office XP and SAPI 5.1 reside on a computer with a non-English version of Windows, removing SAPI 5 or an application which removes SAPI 5 could cause Office Speech to fail. If this occurs, use Office's "Detect and Repair" program.</P>
+
+<p>None of the SAPI 5.1 components or compliance tests were tested with power-managed (OnNow) computers. As long as the system determines that there is application activity, it will not put the system or any devices into the sleeping state. However, if you encounter unexpected performance issues while using power management, OnNow should be disabled.</p>
+
+<p>Occasionally, it can be difficult to uninstall a previous release of the Microsoft Speech SDK 5.0. Subsequently, install the Speech SDK 5.1. Here are two options:
+
+<blockquote>
+<p>(i) Run the application Regedit.exe. Delete all entries under HKEY_CURRENT_USER\Software\Microsoft\Speech\RecoProfiles\Tokens. Deleting the contents of this registry key removes the speech recognition profiles. Next, install the Speech&nbsp;SDK&nbsp;5.1.</p>
+<p>(ii) If your problem continues, delete the HKEY_CURRENT_USER\Software\Microsoft\Speech and the HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech keys. Then try installing the Speech&nbsp;SDK&nbsp;5.1 .</p>
+</blockquote>
+
+<H3>64-bit</H3>
+<P>The Speech SDK 5.1 will install on Windows XP 64-bit edition, but it is not supported. Speech recognition will not function, the sample applications will not run and the TTS engines will not be listed in Control Panel. The existing Speech functionality in Windows XP 64-bit edition will continue to function The SDK is installed to the Program Files (x86) folder and all its registry entries and it is placed in a different location (i.e., they are in a WOW folder). The TTS voices in the SDK are not added to Speech properties in Control Panel. Installing the SDK does not have any effect on the existing TTS support in Win64.</P>
+
+
+<h2><a name="Known_Issues">Known Issues</a></h2>
+
+<p>There may be additional situations or conditions where SAPI 5 performs differently than you expect. Please refer to this list of known issues first. If anomalies persist, you are encouraged to contact <a href="mailto:sapi5@microsoft.com">sapi5@microsoft.com</a>.</p>
+
+<h3>Language Issues</h3>
+
+<P>The Speech SDK 5.1 installs the English SR and TTS engines automatically. The Speech SDK 5.1 Language Pack, included on the SDK CD, installs the Japanese and/or Simplified Chinese engines. These are general guidelines for using the Japanese and/or Simplified Chinese engines:
+<UL>
+<LI>The computer must either run a version of the Windows OS in the target language, or must have OS language support for that language, installed as follows:
+
+<UL>
+
+<li>Under Windows&nbsp;2000 and Windows&nbsp;XP, language support can be installed from <B>Regional Options</B> in <B>Control Panel</B>, using the Windows&nbsp;2000 or Windows&nbsp;XP CD.</li>
+
+<li>For English Windows&nbsp;NT&nbsp;4.0 or Windows&nbsp;98, Internet Explorer must be supplemented with the corresponding language pack.</li>
+</UL>
+</LI>
+
+<li>Once these requirements are met, the Speech SDK 5.1 can be installed.</li>
+<li>The Speech SDK 5.1 Language Pack, which installs SAPI language support, should be installed last. Run SETUP.EXE in the LangPack folder on the Speech SDK 5.1  CD.</li>
+</UL>
+</P>
+
+<p>Note that, unless your computer already has OS language support, you will need to install <b>both</b> OS language support <b>and</b> the Speech SDK 5.1 Language Pack in order to use non-English engines.</p>
+
+<P>After all necessary language support has been installed, it may be necessary to change the computer's system locale in order to set Japanese or Chinese as its language.</P>
+
+<P>Failure to install language support, or failure to adjust the system locale may result in one or more of the following problems:
+<UL>
+<LI>The Voice Training Wizard may improperly display or fail to display Japanese or Chinese text.</LI>
+<LI>Speech properties in Control Panel may improperly display or fail to display Japanese or Chinese text.</LI>
+<LI>Attempts to use non-English engines may result in the error message,<BR>"No Simplified Chinese Language Pack installed, failed!"<BR>This message always identifies the missing language pack as Chinese.</LI>
+</UL>
+</P>
+
+<p>Other language-related issues:</p>
+<UL>
+
+<LI>After installing language support on Windows&nbsp;NT&nbsp;4, Speech properties in Control Panel may not appear until the machine is rebooted.</LI>
+
+<LI>The Coffee tutorials contain only English grammars and will work only when an English SR engine is active.</LI>
+
+<LI>Do not use spaces in text encoded in double byte character sets (DBCS).</LI>
+
+<LI>If a Japanese grammar is written without pronunciation, the Microsoft Japanese SR engine will not properly recognize the context-free grammar (CFG). To avoid this, you can write a grammar based on SAPI 5.0 word format of "/display_format/lexical_format/pronunciation;" where "/" is an element separator and, ";" is a word terminator. For Japanese, the "display format" is what you will see. A word may display as Kanji, Kana, or an alphanumeric symbol, or any combination of the three. The "lexical format" is how the word is typed in Hiragana. Pronunciation is indicated using the symbols (Katakana) in the SAPI 5.1 Japanese phonetic list and is similar to the JEITA TTS Kana list in Katakana. Please refer to SAPI 5.1 documentation for more detail.</LI>
+
+<LI>When a Japanese XML grammar specifies either, a) Kanji, Kana, and pronunciation Katakana (display, lexical and pronunciation as /D/L/P;) or, b) Kanji, Kana (/D/L;) as word units, SAPI returns all of the three attributes correctly. If only one of the three forms is specified, it should be the lexical form (Hiragana). If the XML grammar has only plain Kanji word units, SAPI returns the original Kanji phrases in both the display form and lexical form attributes. The engine may not be able to generate the correct pronunciations for this case. Authors are discouraged from using Kanji as the default lexical form. 
+</LI>
+
+</UL>
+
+
+<h3>Speech Recognition Issues</h3>
+<P>The sample SR Engine shipped with SAPI 5.1 does not set RequiredConfidence or ActualConfidence levels.</P> 
+
+<P>Dictation should recognize words in user lexicons and application lexicons. Currently it recognizes words only in user lexicons.</P>
+
+<P>When you use "&lt;DEFINE&gt;" tags with an alphanumeric value in an XML grammar, the grammar compiler will recommend that you use an attribute called "VALSTR." Disregard this recommendation, since alphanumeric constants are not currently supported, and use the "VAL" attribute to define numeric constants.</P>
+
+<P>In XML grammars, evaluation of data inside a "VAL" attribute is inconsistent. If the attribute contains a numeric value, the value is rounded. If the attribute contains a named constant, the value of the constant is not rounded.</P>
+
+<P>In XML grammars, SAPI will default the string portion of a semantic property (<I>pszValue</I>) to the first unambiguous portion of the recognized string (see Grammar Documentation: Property Pushing). To determine the complete text (including ambiguous portion), use the starting phrase element and length (<I>ulFirstElement</I> and <I>ulCountOfElements</I>).</P>
+
+<P>The ISpCFGGrammar (and ISpeechRecoGrammar) object cannot import rules from an XML grammar file which was opened as dynamic.</P>
+
+<p>Roaming profiles sometimes yield less optimal recognitions on different systems. You may need to perform additional training on each system you use if the recognition quality is unacceptable.</p>
+
+<h3>Text-to-Speech Issues</h3>
+
+<P>If ISpVoice::Speak (or SpVoice.Speak) is called with the VoicePurge option when voice input streams are enqueued, an extra EndStream event is raised. There is no StartStream event corresponding to this EndStream event.</p>
+
+<P>Windows XP has an upgraded Remote Desktop Protocol (RDP) that supports the redirection of audio output to the client machine. The operating system will automatically change the audio output device to "RDP Connection" instead of the standard sound card when a Terminal Services client connects to it. However, the OS does not currently differentiate between legacy Terminal Services clients that do not support audio output-redirection and new clients that do support it. Therefore, pre-Windows XP Terminal Services clients that use Speech properties in Control Panel will see "RDP Connection" listed as the output device, but TTS will not work.</P>
+
+
+<h3>Audio Issues</h3>
+<P>SAPI 5.1 has been tested on a wide range of audio equipment, but it is possible that some sound cards will hang during an attempt to install SAPI. If this happens, you must use a different computer or install a different sound card.<P>
+
+<h3>SDK Sample Issues</h3>
+<P>The C# samples were written and compiled on a pre-release version of VisualStudio.NET. Minor changes may be necessary in order for these samples to work under the final version of VisualStudio.NET.</P>
+
+<P>The Mkvoice application is currently ANSI; to use it for non-English TTS, compile it as Unicode.</P>
+
+<p>If you modify SR compliance tests, use the newly-compiled version of srcomp.dll and then copy srcomp.dll to the Microsoft Speech SDK 5.1\tools\comp\bin folder.</p>
+
+<p>A speech application using the InProc engine will fail to load if Speech properties in Control Panel is open, as the latter uses the shared engine. Exit all sample applications to start Speech properties in Control Panel.</p>
+
+<p>From the command line, Gramcomp.exe cannot open files that contain spaces in the name. Rename the file so that it does not contain spaces.</p>
+
+
+<h2><a name="Miscellaneous_Issues">Miscellaneous Issues</a></h2>
+<P>The ISpeechFileStream <b>Read</b> method operates on text streams differently than on audio streams. If you <B>Open</B> a file with the SPFMCreateAlways option, <B>Write</B> text data to the file, and <B>Seek</B> to zero, you can <B>Read</B> the data back. If you <B>Open</B> a file with the SPFMCreateAlways option, <B>Speak</B> audio data to the file, and <B>Seek</B> to zero, an attempt to <B>Read</B> will fail.</P>
+
+<p>SR compliance tests use the LoadStringW() function that depends on Unicode data. Because Windows&nbsp;98 and Windows&nbsp;Me do not support Unicode, these tests will neither compile nor run with these platforms.</p>
+
+<p>Many grammar operations are asynchronous for efficiency and result in the inability of the application to detect errors unless the engine is in the stopped or paused state. Hence, if the application needs to test for errors in grammar loading operations and/or setting a CFG or dictation rule state, the application should pause the engine first, perform the operation, and then unpause the engine. This is recommended mainly for debugging a speech application.</p>
+
+<p>(c) 2001 Microsoft Corporation. All rights reserved.</p>
+
+</BODY>
+</HTML>
