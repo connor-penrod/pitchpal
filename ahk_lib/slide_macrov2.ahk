@@ -14,58 +14,71 @@ ReturnIndex(key, list)
 }
 
 paramCount = %0%
-if (paramCount != 2)
+mode = %1%
+fileName = %2%
+
+if (paramCount > 2 or paramCount < 1)
 {
-  MsgBox, Invalid number of parameters.
+  MsgBox, Invalid option. `n`n  Options:`n`n   "keyword" transitions slides based on keywords provided in a text file`n   Usage: pitchpal.exe keyword <file name>`n`n   "dictation" records speech to text in the command prompt`n   Usage: pitchpal.exe dictation
+  ExitApp
+}
+else if (mode = "dictation" and paramCount != 1)
+{
+  MsgBox, Invalid option. `n`n  Options:`n`n   "keyword" transitions slides based on keywords provided in a text file`n   Usage: pitchpal.exe keyword <file name>`n`n   "dictation" records speech to text in the command prompt`n   Usage: pitchpal.exe dictation
+  ExitApp
+}
+else if (mode = "keyword" and paramCount != 2)
+{
+  MsgBox, Invalid option. `n`n  Options:`n`n   "keyword" transitions slides based on keywords provided in a text file`n   Usage: pitchpal.exe keyword <file name>`n`n   "dictation" records speech to text in the command prompt`n   Usage: pitchpal.exe dictation
   ExitApp
 }
 
-mode = %2%
-fileName = %1%
 SetTitleMatchMode 2
 
- ; Try to open keyword list
-try
+ ; Retrieve keywords
+if (mode = "keyword")
 {
-  file := FileOpen(fileName, "r")
-  manuscript := file.Read()
-  file.Close()
-}
-catch e
-{
-  MsgBox, The manuscript file '%fileName%' could not be opened.
-  ExitApp
-}
-
-; split sentences, turn all words to lowercase
-
-sentences := []
-wordList := []
-keywordList := []
-repeatList := []
-
-StringSplit, sentences, manuscript, `n
-Loop % sentences0
-{
-  StringSplit, words, sentences%A_Index%, %A_Space%
-  Loop % words0
-  {
-    StringLower, words%A_Index%, words%A_Index%
-    StringGetPos, pos, words%A_Index%, `r
-    StringReplace, words%A_Index%, words%A_Index%, `r
-
-    If (pos != -1) 
+    try
     {
-      keywordList.Push(words%A_Index%)
-      repeatList.Push(1)
+      file := FileOpen(fileName, "r")
+      manuscript := file.Read()
+      file.Close()
     }
-    wordList.Push(words%A_Index%)
-  }
-}
+    catch e
+    {
+      MsgBox, The manuscript file '%fileName%' could not be opened.
+      ExitApp
+    }
+    ; split sentences, turn all words to lowercase
 
-keywordList.Push("next slide")
-keywordList.Push("previous slide")
-keywordList.Push("pitch pal stop")
+    sentences := []
+    wordList := []
+    keywordList := []
+    repeatList := []
+
+    StringSplit, sentences, manuscript, `n
+    Loop % sentences0
+    {
+      StringSplit, words, sentences%A_Index%, %A_Space%
+      Loop % words0
+      {
+        StringLower, words%A_Index%, words%A_Index%
+        StringGetPos, pos, words%A_Index%, `r
+        StringReplace, words%A_Index%, words%A_Index%, `r
+
+        If (pos != -1) 
+        {
+          keywordList.Push(words%A_Index%)
+          repeatList.Push(1)
+        }
+        wordList.Push(words%A_Index%)
+      }
+    }
+
+    keywordList.Push("next slide")
+    keywordList.Push("previous slide")
+    keywordList.Push("pitch pal stop")
+}
 
  ; Set up speech recognizer object
 Recognizer := new SpeechRecognizer
