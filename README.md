@@ -42,5 +42,6 @@ Self
 ```
 
 # Credits:
-..* Microsoft for the [Microsoft Speech API](https://msdn.microsoft.com/en-us/library/ee125663(v=vs.85).aspx)
-..* Uberi for his [SpeechRecognizer library](https://autohotkey.com/board/topic/96450-speech-recognition/) for Microsoft Speech API integration into AutoHotKey.
+* Microsoft for the [Microsoft Speech API](https://msdn.microsoft.com/en-us/library/ee125663(v=vs.85).aspx)
+
+* Uberi for his [SpeechRecognizer library](https://autohotkey.com/board/topic/96450-speech-recognition/) for Microsoft Speech API integration into AutoHotKey.
