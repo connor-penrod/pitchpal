@@ -36,6 +36,11 @@ else if (mode = "keyword" and paramCount != 2)
   MsgBox, Invalid option. `n`n  Options:`n`n   "keyword" transitions slides based on keywords provided in a text file`n   Usage: pitchpal.exe keyword <file name>`n`n   "dictation" records speech to text in the command prompt`n   Usage: pitchpal.exe dictation
   ExitApp
 }
+else if (mode != "keyword" and mode != "dictation")
+{
+  MsgBox, Invalid option. `n`n  Options:`n`n   "keyword" transitions slides based on keywords provided in a text file`n   Usage: pitchpal.exe keyword <file name>`n`n   "dictation" records speech to text in the command prompt`n   Usage: pitchpal.exe dictation
+  ExitApp
+}
 
 SetTitleMatchMode 2
 
@@ -133,7 +138,7 @@ if (mode = "dictation")
     {
       Text := Recognizer.Prompt()
       WinGetTitle, Title, A
-      if (!inStr(Title, "Command Prompt"))
+      if (!inStr(Title, "Command Prompt") and !inStr(Title, "cmd"))
       {
         continue
       }
