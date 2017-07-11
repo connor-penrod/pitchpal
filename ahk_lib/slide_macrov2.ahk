@@ -1,3 +1,7 @@
+/*
+Copyright of Mycroft AI
+*/
+
 #include %A_ScriptDir%\SpeechRecognition.ahk
 
  ; Utility function for retrieving the index on a specified string element
@@ -92,7 +96,7 @@ if (mode = "keyword")
     Recognizer.Recognize(keywordList)
     TrayTip, Keyword Mode, Keyword mode is ready.
 
-    while Text != "pitch pal stop"
+    while true
     {
       Text := Recognizer.Prompt()
       
