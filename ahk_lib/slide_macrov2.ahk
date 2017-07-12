@@ -62,7 +62,7 @@ if (mode = "keyword")
     try
     {
       file := FileOpen(fileName, "r")
-      manuscript := file.Read()
+      manuscript := file.read()
       file.Close()
     }
     catch e
@@ -73,29 +73,23 @@ if (mode = "keyword")
     ; split sentences, turn all words to lowercase
 
     sentences := []
-    wordList := []
     keywordList := []
     repeatList := []
+    slideList := []
+    
+    cnt = 1
 
-    StringSplit, sentences, manuscript, `n
-    Loop % sentences0
+    ; StringSplit, sentences, manuscript, `n
+    Loop, Parse, manuscript,`n
     {
-      StringSplit, words, sentences%A_Index%, %A_Space%
-      Loop % words0
-      {
-        StringLower, words%A_Index%, words%A_Index%
-        StringGetPos, pos, words%A_Index%, `r
-        StringReplace, words%A_Index%, words%A_Index%, `r
-
-        If (pos != -1) 
-        {
-          keywordList.Push(words%A_Index%)
-          repeatList.Push(1)
-        }
-        wordList.Push(words%A_Index%)
-      }
+      keywordPhrase := A_LoopField
+      StringReplace, keywordPhrase, keywordPhrase, `r
+      StringLower, keywordPhrase, keywordPhrase
+      keywordList.Push(keywordPhrase)
+      repeatList.Push(1)
+      slideList.Push(cnt)
+      cnt := cnt + 1
     }
-
     keywordList.Push("next slide")
     keywordList.Push("previous slide")
     keywordList.Push("pitch pal stop")
@@ -106,13 +100,13 @@ Recognizer := new SpeechRecognizer
 Recognizer.Listen(True)
 
 Text := ""
-;begin listening loop
 
 if (mode = "keyword")
 {
     Recognizer.Recognize(keywordList)
     TrayTip, Keyword Mode, Keyword mode is ready.
 
+    currSlide = 1
     while true
     {
       Text := Recognizer.Prompt()
@@ -122,21 +116,35 @@ if (mode = "keyword")
       {
         continue
       }
-      repeatIdx := ReturnIndex(Text, keywordList)
-      repeatVal := repeatList[repeatIdx]
+      ; repeatIdx := ReturnIndex(Text, keywordList)
+      ; repeatVal := repeatList[repeatIdx]
       IfEqual, Text, previous slide
       {
         Send, {Backspace}
+        currSlide := currSlide - 1
       }
       IfEqual, Text, next slide
       {
         Send, {Space}
+        currSlide := currSlide + 1
       }
-      Else if (repeatVal = 1)
+      Else if (Text = keywordList[currSlide])
       {
         Send, {Space}
-        repeatList[repeatIdx] := repeatVal - 1
+        ; repeatList[repeatIdx] := repeatVal - 1
+        currSlide := currSlide + 1
       }
+      /*
+      Else if (Text = keywordList[currSlide + 1])
+      {
+        Loop, 2
+        {
+          Send, {Space}
+          Sleep 100
+        }
+        currSlide := currSlide + 2
+      }
+      */
     }
     MsgBox, PitchPal has stopped.
     ExitApp
