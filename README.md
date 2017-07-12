@@ -1,4 +1,4 @@
-# Running
+# Running (in Windows)
 To run, call the executable in 'bin' from the command line like so:
 
 ```|path to executable|/pitchpal.exe keyword |path to file|/keywordfile.txt```
