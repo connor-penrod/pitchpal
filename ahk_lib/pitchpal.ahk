@@ -252,7 +252,7 @@ if (mode = "keyword")
     cnt = 1
 
     ; StringSplit, sentences, manuscript, `n
-    Log("`n----`nAdding Keywords: `n", debugMode)
+    Log("`n----`nAdding Keywords: ", debugMode)
     Loop, Parse, manuscript,`n
     {
       keywordPhrase := A_LoopField
@@ -263,11 +263,11 @@ if (mode = "keyword")
       
       StringReplace, keywordPhraseClean, keywordPhrase, `r
       StringLower, keywordPhraseClean, keywordPhrase
-      Log("|" . keywordPhrase . "|", debugMode)
-      Log("Sub-keywords of |" . keywordPhrase . "|: `n", debugMode)
+      Log("`nSlide " . A_Index . ": |" . keywordPhrase . "|", debugMode)
+      Log("Sub-keywords of |" . keywordPhrase . "|:", debugMode)
       Loop, Parse, keywordPhraseClean, %A_Space%
       {
-        Log("|" . A_LoopField . "|", 1)
+        Log("|" . A_LoopField . "|", debugMode)
         keywordListClean.Push(A_LoopField)
       }
       
@@ -288,13 +288,13 @@ if (mode = "keyword")
  ; Set up speech recognizer object
 Recognizer := new SpeechRecognizer
 Recognizer.Listen(True)
-Log("`nRecognizer loaded.`n", debugMode)
+Log("`nRecognizer loaded.", debugMode)
 
 Text := ""
 
 if (mode = "keyword")
 {
-    Log("`nKeyword Mode activated, preparing recognizer`n", debugMode)
+    Log("`nKeyword Mode activated, preparing recognizer", debugMode)
     Recognizer.Recognize(keywordListClean)
     TrayTip, Keyword Mode, Keyword mode is ready.
     currSlide = 1
@@ -305,7 +305,7 @@ if (mode = "keyword")
       {
         i = 1
         recoveryList := []
-        Log("`nRecovery words for " . keywordList[currSlide] . ":`n", debugMode)
+        Log("`nRecovery words for " . keywordList[currSlide] . ":", debugMode)
         Loop % recoveryLevel
         {
           recoveryWord := keywordList[currSlide+i]
