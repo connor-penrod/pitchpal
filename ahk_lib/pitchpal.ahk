@@ -128,6 +128,26 @@ CheckArray(string, array)
   return % false
 }
 
+ ; Checks two phrases for similarity
+CrossCheckPhrases(phraseOne, phraseTwo)
+{
+  numCorrect = 0
+  for i, ele in phraseOne
+  {
+    for j, ele in phraseTwo
+    {
+      if(phraseOne[i] = phraseTwo[j])
+      {
+        numCorrect := numCorrect + 1
+      }
+    }
+  }
+  accuracy := numCorrect/(phraseTwo.Length()-1)
+  Log("Accuracy: " . accuracy, 1)
+  return % accuracy
+  
+}
+
  ; Logs to 'debug.txt' in the same directory
 Log(string, debug=1)
 {
@@ -139,6 +159,7 @@ Log(string, debug=1)
 
 
 SetTitleMatchMode 2
+SetKeyDelay 0, 10
 
 paramCount = %0%
 mode = %1%
@@ -147,33 +168,43 @@ paramThree = %3%
 paramFour = %4%
 debugMode := false
 notifMode := false
+accuracyThreshold := 0.5
 
 recoveryLevel = 0
 
 if (mode = "dictation")
 {
-  if(paramCount > 3)
+  if(paramCount > 4)
   {
     ReturnManual(manpage)
     ExitApp
   }
-  else if(paramTwo = "--debug" or paramTwo = "-d")
+  else if(paramTwo)
   {
-    debugMode := true
-    if(paramThree = "-n")
-    {
-      notifMode := true
-    }
-  }
-  else if(paramTwo = "-n")
-  {
-    notifMode := true
+    fileName := paramTwo
     if(paramThree = "--debug" or paramThree = "-d")
     {
-      debugMode := true
+        debugMode := true
+        if paramFour is float
+        {
+          accuracyThreshold := paramFour
+        }
+    }
+    else if paramThree is float
+    {
+        accuracyThreshold := paramThree
+        if(paramFour = "--debug" or paramFour = "-d")
+        {
+          debugMode := true
+        }
+    }
+    else if(paramThree)
+    {
+      ReturnManual(manpage)
+      ExitApp
     }
   }
-  else if(paramTwo)
+  else
   {
     ReturnManual(manpage)
     ExitApp
@@ -225,7 +256,7 @@ if(debugMode)
 }
 
  ; Retrieve keywords
-if (mode = "keyword")
+if (mode = "keyword" or mode = "dictation")
 {
     try
     {
@@ -248,36 +279,36 @@ if (mode = "keyword")
     keywordListClean := []
     repeatList := []
     slideList := []
+    phraseList := []
     
-    cnt = 1
-
     ; StringSplit, sentences, manuscript, `n
     Log("`n----`nAdding Keywords: ", debugMode)
     Loop, Parse, manuscript,`n
     {
       keywordPhrase := A_LoopField
-      keywordPhraseClean := A_LoopField
+      tmpList := []
       
-      StringReplace, keywordPhrase, keywordPhrase, `r
+      StringReplace, keywordPhrase, keywordPhrase, `r, , All
+      StringReplace, keywordPhrase, keywordPhrase, `n, , All
+      StringReplace, keywordPhrase, keywordPhrase, `., , All
+      StringReplace, keywordPhrase, keywordPhrase, `,, , All
+
       StringLower, keywordPhrase, keywordPhrase
       
-      StringReplace, keywordPhraseClean, keywordPhrase, `r
-      StringLower, keywordPhraseClean, keywordPhrase
       Log("`nSlide " . A_Index . ": |" . keywordPhrase . "|", debugMode)
       Log("Sub-keywords of |" . keywordPhrase . "|:", debugMode)
-      Loop, Parse, keywordPhraseClean, %A_Space%
+      Loop, Parse, keywordPhrase, %A_Space%
       {
         Log("|" . A_LoopField . "|", debugMode)
-        keywordListClean.Push(A_LoopField)
+        if A_LoopField is not integer
+        {
+          keywordListClean.Push(A_LoopField)
+        }
+        tmpList.Push(A_LoopField)
       }
+      phraseList.Push(keywordPhrase)
+      keywordList.Push(tmpList)
       
-      keywordPhrase := " " . keywordPhrase . " "
-            
-      keywordList.Push(keywordPhrase)
-      
-      repeatList.Push(1)
-      slideList.Push(cnt)
-      cnt := cnt + 1
     }
     Log("`n----`n", debugMode)
     keywordListClean.Push("next slide")
@@ -367,6 +398,7 @@ if (mode = "keyword")
     ExitApp
 }
 
+slideCount = 1
 if (mode = "dictation")
 {
     Log("`nDictation Mode activated, preparing recognizer`n", debugMode)
@@ -379,7 +411,7 @@ if (mode = "dictation")
     {
       if(initReturns)
       {
-        Send ^{C}
+        Send, {ENTER}
         initReturns = 0
       }      
     
@@ -395,11 +427,62 @@ if (mode = "dictation")
       {
         continue
       }
-      SendInput, %Text%
-      Send ^{C}
-      Send ^{C}
-      Send ^{C}
-      Log("`nMicrosoft Speech API heard: " . Text . "`n", debugMode)
+      ; ControlFocus,, cmd.exe
+      Send, %Text%
+      ControlSend, Intermediate D3D Window1, {SPACE}, Slides
+      
+      Log("----`nMicrosoft SAPI heard: " . Text . "`n----", debugMode)
+      
+      textList := []
+      Loop, Parse, Text, " "
+      {
+        textList.Push(A_LoopField)
+      }
+      maxAcc := -1
+      accIdx := 0
+      Loop % keywordList.Length()
+      {
+        Log("`nMatching against: " . phraseList[A_Index] . "`n")
+        phraseAcc := CrossCheckPhrases(textList, keywordList[A_Index])
+        if(phraseAcc > maxAcc)
+        {
+          maxAcc := phraseAcc
+          accIdx := A_Index
+        }
+      }
+      if(maxAcc >= accuracyThreshold)
+      { 
+        nextSlide := keywordList[accIdx][keywordList[accIdx].Length()]+1
+        Log("Max accuracy of " . maxAcc . ". Switching to slide " . nextSlide, debugMode)
+        Send, ^{C}
+        Send % "Highest detected accuracy above threshold: " . maxAcc
+        Send, ^{C}
+        Send % "Detected on: '" . phraseList[accIdx] . "'"    
+        Send, ^{C}SWITCH TO SLIDE %nextSlide%
+      
+        /*Loop % Abs(slideCount - nextSlide)
+        {
+          if(slideCount < nextSlide)
+          {
+            SendInput, F
+          }
+          else
+          {
+            SendInput, B
+          }
+        }
+        */
+    
+      }
+      else
+      {
+        Send, ^{C}
+        Send, No match detected at threshold level %accuracyThreshold%
+        Send, ^{C}
+      }
+      SEND, ^{C}
+      Send, {ENTER}
+      Send, {ENTER}
     }
 }
 
