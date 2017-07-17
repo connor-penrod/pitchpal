@@ -129,21 +129,30 @@ CheckArray(string, array)
 }
 
  ; Checks two phrases for similarity
-CrossCheckPhrases(phraseOne, phraseTwo)
+CrossCheckPhrases(literal, target, debug=0)
 {
   numCorrect = 0
-  for i, ele in phraseOne
+  for i, ele in target
   {
-    for j, ele in phraseTwo
+    for j, ele in literal
     {
-      if(phraseOne[i] = phraseTwo[j])
+      if(literal[j] = target[i])
       {
         numCorrect := numCorrect + 1
+        Break
       }
     }
   }
-  accuracy := numCorrect/(phraseTwo.Length()-1)
-  Log("Accuracy: " . accuracy, 1)
+  
+  accuracy := numCorrect/(target.Length()-1)
+  
+  if(debug)
+  {
+      Log("Correct: " . numCorrect,1)
+      Log("Target Length: " . target.Length()-1,1)
+      Log("Accuracy: " . accuracy, 1)
+  }
+  
   return % accuracy
   
 }
@@ -448,7 +457,7 @@ if (mode = "dictation")
       Loop % 3
       {
         Log("`nMatching against: " . phraseList[slideCount + A_Index - 1] . "`n")
-        phraseAcc := CrossCheckPhrases(textList, keywordList[A_Index])
+        phraseAcc := CrossCheckPhrases(textList, keywordList[A_Index], debugMode)
         if(phraseAcc > maxAcc)
         {
           maxAcc := phraseAcc
@@ -482,7 +491,7 @@ if (mode = "dictation")
 }
 
 F10::
-WinClose, cmd.exe - "python"
+WinClose, cmd.exe - "%A_ScriptDir%\build\exe.win32-3.6\overlay.exe"
 FileDelete, %A_ScriptDir%\overlay.txt
 MsgBox, PitchPal has stopped.
 ExitApp
