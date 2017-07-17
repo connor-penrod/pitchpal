@@ -159,7 +159,7 @@ Log(string, debug=1)
 
 
 SetTitleMatchMode 2
-SetKeyDelay 0, 10
+SetKeyDelay 0, 1
 
 paramCount = %0%
 mode = %1%
@@ -169,6 +169,7 @@ paramFour = %4%
 debugMode := false
 notifMode := false
 accuracyThreshold := 0.5
+useGSpeech = 0
 
 recoveryLevel = 0
 
@@ -347,7 +348,6 @@ if (mode = "keyword")
           i := i + 1
         }
       }
-    
       Text := Recognizer.Prompt()
       
       Log("`nMicrosoft Speech API heard: " . Text . "`n")
@@ -401,35 +401,40 @@ if (mode = "keyword")
 slideCount = 1
 if (mode = "dictation")
 {
+    Run %comspec% /k ""%A_ScriptDir%\build\exe.win32-3.6\overlay.exe""
     Log("`nDictation Mode activated, preparing recognizer`n", debugMode)
     Recognizer.Recognize(1)
     TrayTip, Dictation Mode, Dictation mode is ready.
     
     initReturns = 1
-    
     while Text != "stop"
     {
       if(initReturns)
       {
-        Send, {ENTER}
+        ;ControlSend, , cls, ahk_class ConsoleWindowClass,, python
+        ;ControlSend, , {ENTER}, ahk_class ConsoleWindowClass,, python
         initReturns = 0
       }      
-    
-      Text := Recognizer.Prompt()
-      
-      if(notifMode)
+      if(useGSpeech)
       {
-        TrayTip, Dictation, %Text%
+        FileRead, Text, %A_ScriptDir%\gapi_text.txt
+        StringReplace, Text, Text, " "
+        StringReplace, Text, Text, `n`r
       }
+      else{
+        Text := Recognizer.Prompt()
+      }
+      StringLower, Text, Text
+      FileDelete, %A_ScriptDir%\overlay.txt
+      FileAppend, %Text%, %A_ScriptDir%\overlay.txt
       
-      WinGetTitle, Title, A
+      /*WinGetTitle, Title, A
       if (!inStr(Title, "Command Prompt") and !inStr(Title, "cmd"))
       {
         continue
       }
-      ; ControlFocus,, cmd.exe
-      Send, %Text%
-      ControlSend, Intermediate D3D Window1, {SPACE}, Slides
+      */
+      ;ControlSend, , %Text%, ahk_class ConsoleWindowClass,, python
       
       Log("----`nMicrosoft SAPI heard: " . Text . "`n----", debugMode)
       
@@ -440,9 +445,9 @@ if (mode = "dictation")
       }
       maxAcc := -1
       accIdx := 0
-      Loop % keywordList.Length()
+      Loop % 3
       {
-        Log("`nMatching against: " . phraseList[A_Index] . "`n")
+        Log("`nMatching against: " . phraseList[slideCount + A_Index - 1] . "`n")
         phraseAcc := CrossCheckPhrases(textList, keywordList[A_Index])
         if(phraseAcc > maxAcc)
         {
@@ -454,39 +459,31 @@ if (mode = "dictation")
       { 
         nextSlide := keywordList[accIdx][keywordList[accIdx].Length()]+1
         Log("Max accuracy of " . maxAcc . ". Switching to slide " . nextSlide, debugMode)
-        Send, ^{C}
-        Send % "Highest detected accuracy above threshold: " . maxAcc
-        Send, ^{C}
-        Send % "Detected on: '" . phraseList[accIdx] . "'"    
-        Send, ^{C}SWITCH TO SLIDE %nextSlide%
+       
       
-        /*Loop % Abs(slideCount - nextSlide)
+        Loop % Abs(slideCount - nextSlide)
         {
           if(slideCount < nextSlide)
           {
-            SendInput, F
+            Send, {Space}
           }
           else
           {
-            SendInput, B
+            Send, {Backspace}
           }
         }
-        */
+        slideCount := nextSlide
     
       }
-      else
-      {
-        Send, ^{C}
-        Send, No match detected at threshold level %accuracyThreshold%
-        Send, ^{C}
-      }
-      SEND, ^{C}
-      Send, {ENTER}
-      Send, {ENTER}
+      ;ControlSend, , ^{C}, ahk_class ConsoleWindowClass,, python
+      ;ControlSend, , {ENTER}, ahk_class ConsoleWindowClass,, python
+      ;ControlSend, , {ENTER}, ahk_class ConsoleWindowClass,, python
     }
 }
 
 F10::
+WinClose, cmd.exe - "python"
+FileDelete, %A_ScriptDir%\overlay.txt
 MsgBox, PitchPal has stopped.
 ExitApp
 return
