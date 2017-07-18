@@ -1,11 +1,10 @@
 from cx_Freeze import setup, Executable
+import os
 
 base = None
 
-includes      = []
-include_files = [r"C:\Program Files (x86)\Python36\tcl\tcl86t.lib", \
-                 r"C:\Program Files (x86)\Python36\tcl\tk86t.lib"]
-
+os.environ['TCL_LIBRARY'] = r'C:\Program Files (x86)\Python36\tcl\tcl8.6'
+os.environ['TK_LIBRARY'] = r'C:\Program Files (x86)\Python36\tcl\tk8.6'
 
 executables = [Executable("overlay.py", base=base)]
 packages = ["tkinter", "win32api", "win32con", "pywintypes", "sys", "getopt"]
@@ -13,8 +12,7 @@ options = {
     'build_exe': {
 
         'packages':packages,
-        'includes':includes,
-        'include_files':include_files
+        "include_files": ["C:\\Program Files (x86)\\Python36\\DLLs\\tcl86t.dll", "C:\\Program Files (x86)\\Python36\\DLLs\\tk86t.dll"]
     }
 }
 

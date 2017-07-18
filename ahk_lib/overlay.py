@@ -4,7 +4,7 @@ from time import sleep
 
 def updatetext():
     try:
-        file = open("overlay.txt", "r")
+        file = open(sys.argv[1] + "\overlay.txt", "r")
         overlayText = file.read()
         file.close()
     except:

@@ -410,7 +410,8 @@ if (mode = "keyword")
 slideCount = 1
 if (mode = "dictation")
 {
-    Run %comspec% /k ""%A_ScriptDir%\build\exe.win32-3.6\overlay.exe""
+    FileDelete, %A_ScriptDir%\overlay.txt
+    Run %comspec% /k ""%A_ScriptDir%\build\exe.win32-3.6\overlay.exe" %A_ScriptDir%"
     Log("`nDictation Mode activated, preparing recognizer`n", debugMode)
     Recognizer.Recognize(1)
     TrayTip, Dictation Mode, Dictation mode is ready.
@@ -492,7 +493,6 @@ if (mode = "dictation")
 
 F10::
 WinClose, cmd.exe - "%A_ScriptDir%\build\exe.win32-3.6\overlay.exe"
-FileDelete, %A_ScriptDir%\overlay.txt
 MsgBox, PitchPal has stopped.
 ExitApp
 return
