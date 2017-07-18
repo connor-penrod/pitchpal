@@ -6,41 +6,30 @@ NAME
                    presentation helper
 
 SYNOPSIS
-    pitchpal.exe mode [-n] [file] [recovery_level] [--debug | -d]
+    pitchpal.exe mode [file] [accuracy_threshold] [--debug | -d]
 
 DESCRIPTION
     pitchpal.exe starts a session with a
     voice activated presentation helper. Given
-    customized keywords, this program will
+    customized keyphrases, this program will
     switch slides when these keywords are said
-    in order. Also, dictation mode can be activated
-    to convert all speech to text in a command
-    prompt.
+    in order. Will also display speech-to-text
+    transcription as a subtitle at the bottom
+    of the screen.
 
 OPTIONS
-    mode - can be either "keyword" or "dictation"
-           "keyword" starts keyword recognition mode
-           and requires a specified txt file with each
-           keyword on its own line.
-           "dictation" starts speech to text conversion
-           in the command prompt.
+    mode - only "dictation" option is available right now.
+           Starts PitchPal in dictation mode and will 
+           display all recognized sentences as a subtitle
+           at the bottom of the screen.
 
-    [-n] - "dictation" mode only. Send converted speech-to-
-           text as a Windows notification.
+    [file] - The keyword file to be used.
 
-    [file] - "keyword" mode only. The keyword file to be used.
-
-    [recovery_level] - "keyword" mode only. Specify how many
-           future keywords can be said to have pitchpal.exe
-           attempt to 'recover' the state of the
-           presentation by going forward multiple slides.
-           For example, if your keyword list is
-           ["start", "presentation", "community"],
-           a [recover_level] of 1 would cause the program
-           to activate on "start" but also on "presentation".
-           And if "presentation" was said then the program
-           will go forward two slides to resynchronize itself.
-           Default is 0.
+    [accuracy_threshold] - the percentage of words that must
+                           match a phrase in the keyphrase 
+                           file in order for PitchPal to 
+                           switch slides. Must be between 0
+                           and 1, inclusive. Default is 0.5.
 
     [--debug | -d] - starts pitchpal.exe in debug mode. Debug
                      messages will be displayed in "debug.txt"
