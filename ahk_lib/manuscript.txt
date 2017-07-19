@@ -1,39 +1,39 @@
-Today I'm here to talk to you about the technology that will drive the next decade of innovation. Artificial Intelligence. 1
-Self driving cars, predictive medicine and automated financial planning - all of these technologies are near. 2
-And one of the key technologies driving our AI future is natural language processing 3
-The ability of a computer to understand human language and respond via the most expressive form of human communication - speech. 4
-Natural language processing will change the way humans interact with machines. 5
-And there's a whole community of developers and innovators out there who are seeking a platform that opens this technology and allows them to innovate 6
-But so far its been the purview of a few large companies. Solutions like Apple's Siri, Microsoft's Cortana, and Google Assistant have been walled off, proprietary and secretive. Not anymore. 7
-Meet Mycroft 8
-Mycroft allows users to speak to their technology naturally and recieve a natural response. 9
-We started the Mycroft project by developing a wireless speaker with a high quality microphone. 10
-To make the device relatable and set a positive tone we modeled it on Wall-E, Eva, ET and Big Hero 6. 11
-We also wanted to encourage our community to hack 12
-To explore and extend the device so we based it on Raspberry Pi and Arduino 13
-Two popular prototyping technologies 14
-But Mycroft AI, Inc. is not a device maker, in fact we've opened our hardware schematics under an open source hardware license and encouraged others to adopt our technology. 15
-Mycroft is a software platform that allows developers to add natural language processing to anything. 16
-And that is why Mycroft's opportunity is huge. Mycroft is open so developers can include it in anything from an automobile to a microwave. 17
-Our advantage is that any software developer can download and install Mycroft free of charge. 18
-This broadens the mouth of the sales funnel and reduces risk for our customers. 19
-Supporting customers is going to take a great team and that is where Mycroft shines. 20
-Spring of 2015 we went to kick starter to see if there was a market for our idea and raised $193,000 21
-Our success brought in talented developers like Sean Fitzgerald 22
-We were invited to join Techstars 23
-And began shipping developer kits April 2016 24
-That May we reached an agreement with Canonical Ltd that will put Mycroft on more than $40,000,000 devices in the next 12 months 25
-We closed a $350,000 Angel Round in September 26
-Won a $100,000 grant from Tech week 27
-And in January we accepted a strategic investment from Jaguar Land Rover 28
-and became the first Kansas company to join 500 Startups 29
-In May, we moved on to the second round of the IBM Watson AIX Prize 30
-and accepted a spot in the prestigious Mass Challenge program in Boston 31
-And I'm happy to announce that on July 31, we'll close our $1,000,000 seed round 32
-Using Mycroft's technology 33
-innovators and creators in the field of artificial intelligence will be able to create products that communicate with users naturally in the same way that I am speaking to you 34
-Among these products will be a handful that will create value above and beyond what exists today 35
-so much so that not only will people be willing to pay for them 36
-they will change the way people use technology in a profound way 37
-Many of you work in healthcare, transportation, communication or finance. 38
-Ask yourself if your technology could understand human speech and respond naturally, what woudl you build? 39
+Today I'm here to talk to you about the technology that will drive the next decade of innovation. Artificial Intelligence.
+Self driving cars, predictive medicine and automated financial planning - all of these technologies are near.
+And one of the key technologies driving our AI future is natural language processing
+The ability of a computer to understand human language and respond via the most expressive form of human communication - speech.
+Natural language processing will change the way humans interact with machines.
+And there's a whole community of developers and innovators out there who are seeking a platform that opens this technology and allows them to innovate
+But so far its been the purview of a few large companies. Solutions like Apple's Siri, Microsoft's Cortana, and Google Assistant have been walled off, proprietary and secretive. Not anymore.
+Meet Mycroft
+Mycroft allows users to speak to their technology naturally and recieve a natural response.
+We started the Mycroft project by developing a wireless speaker with a high quality microphone.
+To make the device relatable and set a positive tone we modeled it on Wall-E, Eva, ET and Big Hero 6.
+We also wanted to encourage our community to hack
+To explore and extend the device so we based it on Raspberry Pi and Arduino
+Two popular prototyping technologies
+But Mycroft AI, Inc. is not a device maker, in fact we've opened our hardware schematics under an open source hardware license and encouraged others to adopt our technology.
+Mycroft is a software platform that allows developers to add natural language processing to anything.
+And that is why Mycroft's opportunity is huge. Mycroft is open so developers can include it in anything from an automobile to a microwave.
+Our advantage is that any software developer can download and install Mycroft free of charge.
+This broadens the mouth of the sales funnel and reduces risk for our customers.
+Supporting customers is going to take a great team and that is where Mycroft shines.
+Spring of 2015 we went to kick starter to see if there was a market for our idea and raised $193,000
+Our success brought in talented developers like Sean Fitzgerald
+We were invited to join Techstars
+And began shipping developer kits April 2016
+That May we reached an agreement with Canonical Ltd that will put Mycroft on more than $40,000,000 devices in the next 12 months
+We closed a $350,000 Angel Round in September
+Won a $100,000 grant from Tech week
+And in January we accepted a strategic investment from Jaguar Land Rover
+and became the first Kansas company to join 500 Startups
+In May, we moved on to the second round of the IBM Watson AIX Prize
+and accepted a spot in the prestigious Mass Challenge program in Boston
+And I'm happy to announce that on July 31, we'll close our $1,000,000 seed round
+Using Mycroft's technology
+innovators and creators in the field of artificial intelligence will be able to create products that communicate with users naturally in the same way that I am speaking to you
+Among these products will be a handful that will create value above and beyond what exists today
+so much so that not only will people be willing to pay for them
+they will change the way people use technology in a profound way
+Many of you work in healthcare, transportation, communication or finance.
+Ask yourself if your technology could understand human speech and respond naturally, what woudl you build?

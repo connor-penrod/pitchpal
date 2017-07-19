@@ -1,0 +1,493 @@
+[Tue Jul 18 10:06:41.686253 2017] [mpm_winnt:notice] [pid 12904:tid 792] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Tue Jul 18 10:06:41.686253 2017] [mpm_winnt:notice] [pid 12904:tid 792] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Tue Jul 18 10:06:41.686253 2017] [core:notice] [pid 12904:tid 792] AH00094: Command line: 'C:\\Uniserver\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Uniserver/UniServerZ/core/apache2 -f C:\\Uniserver\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Uniserver\\UniServerZ\\core\\apache2'
+[Tue Jul 18 10:06:41.688252 2017] [mpm_winnt:notice] [pid 12904:tid 792] AH00418: Parent: Created child process 12372
+[Tue Jul 18 10:06:42.381594 2017] [mpm_winnt:notice] [pid 12372:tid 700] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 18 11:54:21.533348 2017] [core:warn] [pid 13064:tid 788] AH00098: pid file C:/Uniserver/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 18 11:54:21.796104 2017] [mpm_winnt:notice] [pid 13064:tid 788] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Tue Jul 18 11:54:21.796104 2017] [mpm_winnt:notice] [pid 13064:tid 788] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Tue Jul 18 11:54:21.796104 2017] [core:notice] [pid 13064:tid 788] AH00094: Command line: 'C:\\Uniserver\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Uniserver/UniServerZ/core/apache2 -f C:\\Uniserver\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Uniserver\\UniServerZ\\core\\apache2'
+[Tue Jul 18 11:54:21.800114 2017] [mpm_winnt:notice] [pid 13064:tid 788] AH00418: Parent: Created child process 10464
+[Tue Jul 18 11:54:22.511575 2017] [mpm_winnt:notice] [pid 10464:tid 768] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 18 11:56:50.876803 2017] [core:warn] [pid 9812:tid 652] AH00098: pid file C:/Uniserver/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 18 11:56:51.001438 2017] [mpm_winnt:notice] [pid 9812:tid 652] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Tue Jul 18 11:56:51.001438 2017] [mpm_winnt:notice] [pid 9812:tid 652] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Tue Jul 18 11:56:51.001438 2017] [core:notice] [pid 9812:tid 652] AH00094: Command line: 'C:\\Uniserver\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Uniserver/UniServerZ/core/apache2 -f C:\\Uniserver\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Uniserver\\UniServerZ\\core\\apache2'
+[Tue Jul 18 11:56:51.004787 2017] [mpm_winnt:notice] [pid 9812:tid 652] AH00418: Parent: Created child process 4608
+[Tue Jul 18 11:56:51.508161 2017] [mpm_winnt:notice] [pid 4608:tid 700] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 18 11:56:52.197689 2017] [php7:error] [pid 4608:tid 1888] [client ::1:65337] script 'C:/Uniserver/UniServerZ/www/index.php' not found or unable to stat
+[Tue Jul 18 11:58:18.946337 2017] [core:warn] [pid 10744:tid 640] AH00098: pid file C:/Uniserver/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 18 11:58:18.962880 2017] [mpm_winnt:notice] [pid 10744:tid 640] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Tue Jul 18 11:58:18.962880 2017] [mpm_winnt:notice] [pid 10744:tid 640] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Tue Jul 18 11:58:18.962880 2017] [core:notice] [pid 10744:tid 640] AH00094: Command line: 'C:\\Uniserver\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Uniserver/UniServerZ/core/apache2 -f C:\\Uniserver\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Uniserver\\UniServerZ\\core\\apache2'
+[Tue Jul 18 11:58:18.965823 2017] [mpm_winnt:notice] [pid 10744:tid 640] AH00418: Parent: Created child process 11356
+[Tue Jul 18 11:58:19.489440 2017] [mpm_winnt:notice] [pid 11356:tid 720] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 18 11:58:19.950016 2017] [php7:crit] [pid 11356:tid 1888] [client ::1:65343] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\\Uniserver\\UniServerZ\\www\\index.php on line 2
+[Tue Jul 18 11:58:29.673543 2017] [php7:crit] [pid 11356:tid 1896] [client ::1:65342] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\\Uniserver\\UniServerZ\\www\\index.php on line 2
+[Tue Jul 18 13:42:33.762027 2017] [core:warn] [pid 8772:tid 684] AH00098: pid file C:/Uniserver/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 18 13:42:33.777068 2017] [mpm_winnt:notice] [pid 8772:tid 684] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Tue Jul 18 13:42:33.777068 2017] [mpm_winnt:notice] [pid 8772:tid 684] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Tue Jul 18 13:42:33.777068 2017] [core:notice] [pid 8772:tid 684] AH00094: Command line: 'C:\\Uniserver\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Uniserver/UniServerZ/core/apache2 -f C:\\Uniserver\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Uniserver\\UniServerZ\\core\\apache2'
+[Tue Jul 18 13:42:33.779857 2017] [mpm_winnt:notice] [pid 8772:tid 684] AH00418: Parent: Created child process 6656
+[Tue Jul 18 13:42:34.388812 2017] [mpm_winnt:notice] [pid 6656:tid 668] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 18 13:43:02.738309 2017] [core:warn] [pid 4488:tid 608] AH00098: pid file C:/Uniserver/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 18 13:43:02.753348 2017] [mpm_winnt:notice] [pid 4488:tid 608] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Tue Jul 18 13:43:02.753348 2017] [mpm_winnt:notice] [pid 4488:tid 608] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Tue Jul 18 13:43:02.753348 2017] [core:notice] [pid 4488:tid 608] AH00094: Command line: 'C:\\Uniserver\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Uniserver/UniServerZ/core/apache2 -f C:\\Uniserver\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Uniserver\\UniServerZ\\core\\apache2'
+[Tue Jul 18 13:43:02.755855 2017] [mpm_winnt:notice] [pid 4488:tid 608] AH00418: Parent: Created child process 13308
+[Tue Jul 18 13:43:03.248833 2017] [mpm_winnt:notice] [pid 13308:tid 704] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 18 13:45:53.670498 2017] [core:warn] [pid 13252:tid 208] AH00098: pid file C:/Uniserver/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 18 13:45:53.687571 2017] [mpm_winnt:notice] [pid 13252:tid 208] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Tue Jul 18 13:45:53.687571 2017] [mpm_winnt:notice] [pid 13252:tid 208] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Tue Jul 18 13:45:53.687571 2017] [core:notice] [pid 13252:tid 208] AH00094: Command line: 'C:\\Uniserver\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Uniserver/UniServerZ/core/apache2 -f C:\\Uniserver\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Uniserver\\UniServerZ\\core\\apache2'
+[Tue Jul 18 13:45:53.690257 2017] [mpm_winnt:notice] [pid 13252:tid 208] AH00418: Parent: Created child process 14564
+[Tue Jul 18 13:45:54.264767 2017] [mpm_winnt:notice] [pid 14564:tid 716] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 18 13:46:30.968385 2017] [core:warn] [pid 13984:tid 608] AH00098: pid file C:/Uniserver/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 18 13:46:30.984466 2017] [mpm_winnt:notice] [pid 13984:tid 608] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Tue Jul 18 13:46:30.984466 2017] [mpm_winnt:notice] [pid 13984:tid 608] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Tue Jul 18 13:46:30.984466 2017] [core:notice] [pid 13984:tid 608] AH00094: Command line: 'C:\\Uniserver\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Uniserver/UniServerZ/core/apache2 -f C:\\Uniserver\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Uniserver\\UniServerZ\\core\\apache2'
+[Tue Jul 18 13:46:30.986437 2017] [mpm_winnt:notice] [pid 13984:tid 608] AH00418: Parent: Created child process 4416
+[Tue Jul 18 13:46:31.581094 2017] [mpm_winnt:notice] [pid 4416:tid 732] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 18 13:47:44.615600 2017] [core:warn] [pid 5644:tid 616] AH00098: pid file C:/Uniserver/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 18 13:47:44.631674 2017] [mpm_winnt:notice] [pid 5644:tid 616] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Tue Jul 18 13:47:44.631674 2017] [mpm_winnt:notice] [pid 5644:tid 616] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Tue Jul 18 13:47:44.631674 2017] [core:notice] [pid 5644:tid 616] AH00094: Command line: 'C:\\Uniserver\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Uniserver/UniServerZ/core/apache2 -f C:\\Uniserver\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Uniserver\\UniServerZ\\core\\apache2'
+[Tue Jul 18 13:47:44.634133 2017] [mpm_winnt:notice] [pid 5644:tid 616] AH00418: Parent: Created child process 12580
+[Tue Jul 18 13:47:45.381853 2017] [mpm_winnt:notice] [pid 12580:tid 836] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 18 13:54:45.537336 2017] [core:warn] [pid 10624:tid 676] AH00098: pid file C:/Uniserver/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 18 13:54:45.554917 2017] [mpm_winnt:notice] [pid 10624:tid 676] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Tue Jul 18 13:54:45.554917 2017] [mpm_winnt:notice] [pid 10624:tid 676] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Tue Jul 18 13:54:45.554917 2017] [core:notice] [pid 10624:tid 676] AH00094: Command line: 'C:\\Uniserver\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Uniserver/UniServerZ/core/apache2 -f C:\\Uniserver\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Uniserver\\UniServerZ\\core\\apache2'
+[Tue Jul 18 13:54:45.556890 2017] [mpm_winnt:notice] [pid 10624:tid 676] AH00418: Parent: Created child process 6364
+[Tue Jul 18 13:54:46.080226 2017] [mpm_winnt:notice] [pid 6364:tid 716] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 18 14:21:09.842531 2017] [core:warn] [pid 5956:tid 620] AH00098: pid file C:/Uniserver/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 18 14:21:09.858571 2017] [mpm_winnt:notice] [pid 5956:tid 620] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Tue Jul 18 14:21:09.858571 2017] [mpm_winnt:notice] [pid 5956:tid 620] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Tue Jul 18 14:21:09.858571 2017] [core:notice] [pid 5956:tid 620] AH00094: Command line: 'C:\\Uniserver\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Uniserver/UniServerZ/core/apache2 -f C:\\Uniserver\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Uniserver\\UniServerZ\\core\\apache2'
+[Tue Jul 18 14:21:09.861758 2017] [mpm_winnt:notice] [pid 5956:tid 620] AH00418: Parent: Created child process 4836
+[Tue Jul 18 14:21:10.382053 2017] [mpm_winnt:notice] [pid 4836:tid 672] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 18 14:21:39.217620 2017] [core:warn] [pid 13072:tid 644] AH00098: pid file C:/Uniserver/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 18 14:21:39.232602 2017] [mpm_winnt:notice] [pid 13072:tid 644] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Tue Jul 18 14:21:39.232602 2017] [mpm_winnt:notice] [pid 13072:tid 644] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Tue Jul 18 14:21:39.232602 2017] [core:notice] [pid 13072:tid 644] AH00094: Command line: 'C:\\Uniserver\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Uniserver/UniServerZ/core/apache2 -f C:\\Uniserver\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Uniserver\\UniServerZ\\core\\apache2'
+[Tue Jul 18 14:21:39.234861 2017] [mpm_winnt:notice] [pid 13072:tid 644] AH00418: Parent: Created child process 12876
+[Tue Jul 18 14:21:39.729486 2017] [mpm_winnt:notice] [pid 12876:tid 688] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 18 14:23:27.997819 2017] [core:warn] [pid 13124:tid 620] AH00098: pid file C:/Uniserver/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 18 14:23:28.013848 2017] [mpm_winnt:notice] [pid 13124:tid 620] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Tue Jul 18 14:23:28.014350 2017] [mpm_winnt:notice] [pid 13124:tid 620] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Tue Jul 18 14:23:28.014350 2017] [core:notice] [pid 13124:tid 620] AH00094: Command line: 'C:\\Uniserver\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Uniserver/UniServerZ/core/apache2 -f C:\\Uniserver\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Uniserver\\UniServerZ\\core\\apache2'
+[Tue Jul 18 14:23:28.016934 2017] [mpm_winnt:notice] [pid 13124:tid 620] AH00418: Parent: Created child process 13980
+[Tue Jul 18 14:23:28.511685 2017] [mpm_winnt:notice] [pid 13980:tid 732] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 18 14:27:53.200668 2017] [core:warn] [pid 9068:tid 608] AH00098: pid file C:/Uniserver/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 18 14:27:53.215831 2017] [mpm_winnt:notice] [pid 9068:tid 608] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Tue Jul 18 14:27:53.215831 2017] [mpm_winnt:notice] [pid 9068:tid 608] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Tue Jul 18 14:27:53.215831 2017] [core:notice] [pid 9068:tid 608] AH00094: Command line: 'C:\\Uniserver\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Uniserver/UniServerZ/core/apache2 -f C:\\Uniserver\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Uniserver\\UniServerZ\\core\\apache2'
+[Tue Jul 18 14:27:53.218337 2017] [mpm_winnt:notice] [pid 9068:tid 608] AH00418: Parent: Created child process 11668
+[Tue Jul 18 14:27:53.736634 2017] [mpm_winnt:notice] [pid 11668:tid 728] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 18 14:30:16.644776 2017] [core:warn] [pid 1992:tid 648] AH00098: pid file C:/Uniserver/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 18 14:30:16.660615 2017] [mpm_winnt:notice] [pid 1992:tid 648] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Tue Jul 18 14:30:16.660615 2017] [mpm_winnt:notice] [pid 1992:tid 648] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Tue Jul 18 14:30:16.660615 2017] [core:notice] [pid 1992:tid 648] AH00094: Command line: 'C:\\Uniserver\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Uniserver/UniServerZ/core/apache2 -f C:\\Uniserver\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Uniserver\\UniServerZ\\core\\apache2'
+[Tue Jul 18 14:30:16.663142 2017] [mpm_winnt:notice] [pid 1992:tid 648] AH00418: Parent: Created child process 2540
+[Tue Jul 18 14:30:17.171235 2017] [mpm_winnt:notice] [pid 2540:tid 716] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 18 14:30:17.592455 2017] [php7:notice] [pid 2540:tid 1916] [client ::1:51055] PHP Notice:  Undefined index: text in C:\\Uniserver\\UniServerZ\\www\\index.php on line 401
+[Tue Jul 18 14:31:35.961278 2017] [core:warn] [pid 14188:tid 620] AH00098: pid file C:/Uniserver/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 18 14:31:35.977639 2017] [mpm_winnt:notice] [pid 14188:tid 620] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Tue Jul 18 14:31:35.977639 2017] [mpm_winnt:notice] [pid 14188:tid 620] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Tue Jul 18 14:31:35.977639 2017] [core:notice] [pid 14188:tid 620] AH00094: Command line: 'C:\\Uniserver\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Uniserver/UniServerZ/core/apache2 -f C:\\Uniserver\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Uniserver\\UniServerZ\\core\\apache2'
+[Tue Jul 18 14:31:35.979644 2017] [mpm_winnt:notice] [pid 14188:tid 620] AH00418: Parent: Created child process 12100
+[Tue Jul 18 14:31:36.646330 2017] [mpm_winnt:notice] [pid 12100:tid 688] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 18 14:31:36.923894 2017] [php7:crit] [pid 12100:tid 1916] [client ::1:51158] PHP Parse error:  syntax error, unexpected '%', expecting end of file in C:\\Uniserver\\UniServerZ\\www\\index.php on line 401
+[Tue Jul 18 14:31:40.893688 2017] [php7:crit] [pid 12100:tid 1904] [client ::1:51161] PHP Parse error:  syntax error, unexpected '%', expecting end of file in C:\\Uniserver\\UniServerZ\\www\\index.php on line 401
+[Tue Jul 18 14:31:55.842000 2017] [core:warn] [pid 12748:tid 652] AH00098: pid file C:/Uniserver/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 18 14:31:55.857094 2017] [mpm_winnt:notice] [pid 12748:tid 652] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Tue Jul 18 14:31:55.857094 2017] [mpm_winnt:notice] [pid 12748:tid 652] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Tue Jul 18 14:31:55.857094 2017] [core:notice] [pid 12748:tid 652] AH00094: Command line: 'C:\\Uniserver\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Uniserver/UniServerZ/core/apache2 -f C:\\Uniserver\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Uniserver\\UniServerZ\\core\\apache2'
+[Tue Jul 18 14:31:55.859564 2017] [mpm_winnt:notice] [pid 12748:tid 652] AH00418: Parent: Created child process 5104
+[Tue Jul 18 14:31:56.377511 2017] [mpm_winnt:notice] [pid 5104:tid 700] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 18 14:31:56.653076 2017] [php7:crit] [pid 5104:tid 1912] [client ::1:51193] PHP Parse error:  syntax error, unexpected '$transcribedText' (T_VARIABLE) in C:\\Uniserver\\UniServerZ\\www\\index.php on line 402
+[Tue Jul 18 14:32:09.205327 2017] [core:warn] [pid 10296:tid 212] AH00098: pid file C:/Uniserver/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 18 14:32:09.225903 2017] [mpm_winnt:notice] [pid 10296:tid 212] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Tue Jul 18 14:32:09.225903 2017] [mpm_winnt:notice] [pid 10296:tid 212] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Tue Jul 18 14:32:09.225903 2017] [core:notice] [pid 10296:tid 212] AH00094: Command line: 'C:\\Uniserver\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Uniserver/UniServerZ/core/apache2 -f C:\\Uniserver\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Uniserver\\UniServerZ\\core\\apache2'
+[Tue Jul 18 14:32:09.227878 2017] [mpm_winnt:notice] [pid 10296:tid 212] AH00418: Parent: Created child process 8708
+[Tue Jul 18 14:32:09.730672 2017] [mpm_winnt:notice] [pid 8708:tid 732] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 18 14:32:10.163265 2017] [php7:crit] [pid 8708:tid 1908] [client ::1:51218] PHP Parse error:  syntax error, unexpected '$transcribedText' (T_VARIABLE) in C:\\Uniserver\\UniServerZ\\www\\index.php on line 402
+[Tue Jul 18 14:32:25.170977 2017] [core:warn] [pid 11956:tid 664] AH00098: pid file C:/Uniserver/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 18 14:32:25.194540 2017] [mpm_winnt:notice] [pid 11956:tid 664] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Tue Jul 18 14:32:25.194540 2017] [mpm_winnt:notice] [pid 11956:tid 664] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Tue Jul 18 14:32:25.194540 2017] [core:notice] [pid 11956:tid 664] AH00094: Command line: 'C:\\Uniserver\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Uniserver/UniServerZ/core/apache2 -f C:\\Uniserver\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Uniserver\\UniServerZ\\core\\apache2'
+[Tue Jul 18 14:32:25.196976 2017] [mpm_winnt:notice] [pid 11956:tid 664] AH00418: Parent: Created child process 8628
+[Tue Jul 18 14:32:26.351803 2017] [mpm_winnt:notice] [pid 8628:tid 700] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 18 14:32:26.358321 2017] [php7:notice] [pid 8628:tid 1916] [client ::1:51244] PHP Notice:  Undefined index: text in C:\\Uniserver\\UniServerZ\\www\\index.php on line 402
+[Tue Jul 18 14:32:56.744595 2017] [core:warn] [pid 11384:tid 676] AH00098: pid file C:/Uniserver/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 18 14:32:56.759190 2017] [mpm_winnt:notice] [pid 11384:tid 676] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Tue Jul 18 14:32:56.759190 2017] [mpm_winnt:notice] [pid 11384:tid 676] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Tue Jul 18 14:32:56.759190 2017] [core:notice] [pid 11384:tid 676] AH00094: Command line: 'C:\\Uniserver\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Uniserver/UniServerZ/core/apache2 -f C:\\Uniserver\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Uniserver\\UniServerZ\\core\\apache2'
+[Tue Jul 18 14:32:56.761700 2017] [mpm_winnt:notice] [pid 11384:tid 676] AH00418: Parent: Created child process 3572
+[Tue Jul 18 14:32:57.262272 2017] [mpm_winnt:notice] [pid 3572:tid 736] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 18 14:32:57.648142 2017] [php7:crit] [pid 3572:tid 1912] [client ::1:51287] PHP Parse error:  syntax error, unexpected '$transcribedText' (T_VARIABLE) in C:\\Uniserver\\UniServerZ\\www\\index.php on line 402
+[Tue Jul 18 14:33:58.296129 2017] [core:warn] [pid 7768:tid 628] AH00098: pid file C:/Uniserver/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 18 14:33:58.313178 2017] [mpm_winnt:notice] [pid 7768:tid 628] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Tue Jul 18 14:33:58.313178 2017] [mpm_winnt:notice] [pid 7768:tid 628] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Tue Jul 18 14:33:58.313178 2017] [core:notice] [pid 7768:tid 628] AH00094: Command line: 'C:\\Uniserver\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Uniserver/UniServerZ/core/apache2 -f C:\\Uniserver\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Uniserver\\UniServerZ\\core\\apache2'
+[Tue Jul 18 14:33:58.315684 2017] [mpm_winnt:notice] [pid 7768:tid 628] AH00418: Parent: Created child process 2440
+[Tue Jul 18 14:33:58.883102 2017] [mpm_winnt:notice] [pid 2440:tid 728] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 18 14:33:59.174021 2017] [php7:crit] [pid 2440:tid 1900] [client ::1:51382] PHP Parse error:  syntax error, unexpected '$transcribedText' (T_VARIABLE) in C:\\Uniserver\\UniServerZ\\www\\index.php on line 402
+[Tue Jul 18 14:34:20.576939 2017] [core:warn] [pid 12104:tid 644] AH00098: pid file C:/Uniserver/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 18 14:34:20.594489 2017] [mpm_winnt:notice] [pid 12104:tid 644] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Tue Jul 18 14:34:20.594489 2017] [mpm_winnt:notice] [pid 12104:tid 644] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Tue Jul 18 14:34:20.594489 2017] [core:notice] [pid 12104:tid 644] AH00094: Command line: 'C:\\Uniserver\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Uniserver/UniServerZ/core/apache2 -f C:\\Uniserver\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Uniserver\\UniServerZ\\core\\apache2'
+[Tue Jul 18 14:34:20.596993 2017] [mpm_winnt:notice] [pid 12104:tid 644] AH00418: Parent: Created child process 13376
+[Tue Jul 18 14:34:21.283610 2017] [mpm_winnt:notice] [pid 13376:tid 708] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 18 14:34:21.469009 2017] [php7:notice] [pid 13376:tid 1912] [client ::1:51389] PHP Notice:  Undefined index: text in C:\\Uniserver\\UniServerZ\\www\\index.php on line 402
+[Tue Jul 18 14:34:56.365875 2017] [core:warn] [pid 13120:tid 640] AH00098: pid file C:/Uniserver/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 18 14:34:56.381032 2017] [mpm_winnt:notice] [pid 13120:tid 640] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Tue Jul 18 14:34:56.381032 2017] [mpm_winnt:notice] [pid 13120:tid 640] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Tue Jul 18 14:34:56.381032 2017] [core:notice] [pid 13120:tid 640] AH00094: Command line: 'C:\\Uniserver\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Uniserver/UniServerZ/core/apache2 -f C:\\Uniserver\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Uniserver\\UniServerZ\\core\\apache2'
+[Tue Jul 18 14:34:56.383512 2017] [mpm_winnt:notice] [pid 13120:tid 640] AH00418: Parent: Created child process 7784
+[Tue Jul 18 14:34:56.883466 2017] [mpm_winnt:notice] [pid 7784:tid 736] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 18 14:34:57.305070 2017] [php7:notice] [pid 7784:tid 1908] [client ::1:51393] PHP Notice:  Undefined index: text in C:\\Uniserver\\UniServerZ\\www\\index.php on line 402
+[Tue Jul 18 14:35:24.155610 2017] [core:warn] [pid 4036:tid 636] AH00098: pid file C:/Uniserver/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 18 14:35:24.171156 2017] [mpm_winnt:notice] [pid 4036:tid 636] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Tue Jul 18 14:35:24.171156 2017] [mpm_winnt:notice] [pid 4036:tid 636] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Tue Jul 18 14:35:24.171156 2017] [core:notice] [pid 4036:tid 636] AH00094: Command line: 'C:\\Uniserver\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Uniserver/UniServerZ/core/apache2 -f C:\\Uniserver\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Uniserver\\UniServerZ\\core\\apache2'
+[Tue Jul 18 14:35:24.174133 2017] [mpm_winnt:notice] [pid 4036:tid 636] AH00418: Parent: Created child process 14296
+[Tue Jul 18 14:35:24.688910 2017] [mpm_winnt:notice] [pid 14296:tid 732] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 18 14:35:25.084320 2017] [php7:notice] [pid 14296:tid 1900] [client ::1:51401] PHP Notice:  Undefined index: text in C:\\Uniserver\\UniServerZ\\www\\index.php on line 402
+[Tue Jul 18 14:47:30.530150 2017] [core:warn] [pid 15348:tid 656] AH00098: pid file C:/Uniserver/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 18 14:47:30.548701 2017] [mpm_winnt:notice] [pid 15348:tid 656] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Tue Jul 18 14:47:30.548701 2017] [mpm_winnt:notice] [pid 15348:tid 656] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Tue Jul 18 14:47:30.548701 2017] [core:notice] [pid 15348:tid 656] AH00094: Command line: 'C:\\Uniserver\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Uniserver/UniServerZ/core/apache2 -f C:\\Uniserver\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Uniserver\\UniServerZ\\core\\apache2'
+[Tue Jul 18 14:47:30.551206 2017] [mpm_winnt:notice] [pid 15348:tid 656] AH00418: Parent: Created child process 9080
+[Tue Jul 18 14:47:31.131117 2017] [mpm_winnt:notice] [pid 9080:tid 708] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 18 14:47:31.384920 2017] [php7:notice] [pid 9080:tid 1896] [client ::1:51509] PHP Notice:  Undefined index: text in C:\\Uniserver\\UniServerZ\\www\\index.php on line 402
+[Tue Jul 18 14:48:34.737179 2017] [core:warn] [pid 14616:tid 692] AH00098: pid file C:/Uniserver/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 18 14:48:34.751863 2017] [mpm_winnt:notice] [pid 14616:tid 692] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Tue Jul 18 14:48:34.751863 2017] [mpm_winnt:notice] [pid 14616:tid 692] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Tue Jul 18 14:48:34.751863 2017] [core:notice] [pid 14616:tid 692] AH00094: Command line: 'C:\\Uniserver\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Uniserver/UniServerZ/core/apache2 -f C:\\Uniserver\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Uniserver\\UniServerZ\\core\\apache2'
+[Tue Jul 18 14:48:34.754871 2017] [mpm_winnt:notice] [pid 14616:tid 692] AH00418: Parent: Created child process 6600
+[Tue Jul 18 14:48:35.261394 2017] [mpm_winnt:notice] [pid 6600:tid 620] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 18 14:48:35.498750 2017] [php7:notice] [pid 6600:tid 1896] [client ::1:51513] PHP Notice:  Undefined index: text in C:\\Uniserver\\UniServerZ\\www\\index.php on line 402
+[Tue Jul 18 14:49:38.557527 2017] [core:warn] [pid 13348:tid 620] AH00098: pid file C:/Uniserver/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 18 14:49:38.574071 2017] [mpm_winnt:notice] [pid 13348:tid 620] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Tue Jul 18 14:49:38.574071 2017] [mpm_winnt:notice] [pid 13348:tid 620] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Tue Jul 18 14:49:38.574071 2017] [core:notice] [pid 13348:tid 620] AH00094: Command line: 'C:\\Uniserver\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Uniserver/UniServerZ/core/apache2 -f C:\\Uniserver\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Uniserver\\UniServerZ\\core\\apache2'
+[Tue Jul 18 14:49:38.575574 2017] [mpm_winnt:notice] [pid 13348:tid 620] AH00418: Parent: Created child process 11372
+[Tue Jul 18 14:49:39.092261 2017] [mpm_winnt:notice] [pid 11372:tid 708] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 18 14:49:39.743646 2017] [php7:notice] [pid 11372:tid 1896] [client ::1:51524] PHP Notice:  Undefined index: text in C:\\Uniserver\\UniServerZ\\www\\index.php on line 402
+[Tue Jul 18 14:50:37.597560 2017] [core:warn] [pid 10512:tid 648] AH00098: pid file C:/Uniserver/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 18 14:50:37.612597 2017] [mpm_winnt:notice] [pid 10512:tid 648] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Tue Jul 18 14:50:37.612597 2017] [mpm_winnt:notice] [pid 10512:tid 648] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Tue Jul 18 14:50:37.612597 2017] [core:notice] [pid 10512:tid 648] AH00094: Command line: 'C:\\Uniserver\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Uniserver/UniServerZ/core/apache2 -f C:\\Uniserver\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Uniserver\\UniServerZ\\core\\apache2'
+[Tue Jul 18 14:50:37.615606 2017] [mpm_winnt:notice] [pid 10512:tid 648] AH00418: Parent: Created child process 3940
+[Tue Jul 18 14:50:38.125901 2017] [mpm_winnt:notice] [pid 3940:tid 728] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 18 14:50:38.490598 2017] [php7:crit] [pid 3940:tid 1872] [client ::1:51533] PHP Parse error:  syntax error, unexpected '%' in C:\\Uniserver\\UniServerZ\\www\\index.php on line 403
+[Tue Jul 18 14:50:48.670575 2017] [core:warn] [pid 6824:tid 648] AH00098: pid file C:/Uniserver/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 18 14:50:48.686115 2017] [mpm_winnt:notice] [pid 6824:tid 648] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Tue Jul 18 14:50:48.686115 2017] [mpm_winnt:notice] [pid 6824:tid 648] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Tue Jul 18 14:50:48.686115 2017] [core:notice] [pid 6824:tid 648] AH00094: Command line: 'C:\\Uniserver\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Uniserver/UniServerZ/core/apache2 -f C:\\Uniserver\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Uniserver\\UniServerZ\\core\\apache2'
+[Tue Jul 18 14:50:48.688657 2017] [mpm_winnt:notice] [pid 6824:tid 648] AH00418: Parent: Created child process 15312
+[Tue Jul 18 14:50:49.310876 2017] [mpm_winnt:notice] [pid 15312:tid 764] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 18 14:50:49.570499 2017] [php7:crit] [pid 15312:tid 1908] [client ::1:51536] PHP Parse error:  syntax error, unexpected '%' in C:\\Uniserver\\UniServerZ\\www\\index.php on line 403
+[Tue Jul 18 14:51:27.376020 2017] [core:warn] [pid 13284:tid 424] AH00098: pid file C:/Uniserver/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 18 14:51:27.392577 2017] [mpm_winnt:notice] [pid 13284:tid 424] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Tue Jul 18 14:51:27.392577 2017] [mpm_winnt:notice] [pid 13284:tid 424] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Tue Jul 18 14:51:27.392577 2017] [core:notice] [pid 13284:tid 424] AH00094: Command line: 'C:\\Uniserver\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Uniserver/UniServerZ/core/apache2 -f C:\\Uniserver\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Uniserver\\UniServerZ\\core\\apache2'
+[Tue Jul 18 14:51:27.395069 2017] [mpm_winnt:notice] [pid 13284:tid 424] AH00418: Parent: Created child process 4808
+[Tue Jul 18 14:51:27.961183 2017] [mpm_winnt:notice] [pid 4808:tid 740] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 18 14:51:28.238486 2017] [php7:crit] [pid 4808:tid 1896] [client ::1:51544] PHP Parse error:  syntax error, unexpected '%' in C:\\Uniserver\\UniServerZ\\www\\index.php on line 404
+[Tue Jul 18 14:51:40.830828 2017] [core:warn] [pid 12876:tid 608] AH00098: pid file C:/Uniserver/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 18 14:51:40.847870 2017] [mpm_winnt:notice] [pid 12876:tid 608] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Tue Jul 18 14:51:40.847870 2017] [mpm_winnt:notice] [pid 12876:tid 608] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Tue Jul 18 14:51:40.847870 2017] [core:notice] [pid 12876:tid 608] AH00094: Command line: 'C:\\Uniserver\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Uniserver/UniServerZ/core/apache2 -f C:\\Uniserver\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Uniserver\\UniServerZ\\core\\apache2'
+[Tue Jul 18 14:51:40.850053 2017] [mpm_winnt:notice] [pid 12876:tid 608] AH00418: Parent: Created child process 5280
+[Tue Jul 18 14:51:41.411340 2017] [mpm_winnt:notice] [pid 5280:tid 708] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 18 14:51:41.684146 2017] [php7:notice] [pid 5280:tid 1900] [client ::1:51547] PHP Notice:  Undefined index: text in C:\\Uniserver\\UniServerZ\\www\\index.php on line 402
+[Tue Jul 18 14:53:08.253449 2017] [core:warn] [pid 10744:tid 656] AH00098: pid file C:/Uniserver/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 18 14:53:08.268487 2017] [mpm_winnt:notice] [pid 10744:tid 656] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Tue Jul 18 14:53:08.268487 2017] [mpm_winnt:notice] [pid 10744:tid 656] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Tue Jul 18 14:53:08.268487 2017] [core:notice] [pid 10744:tid 656] AH00094: Command line: 'C:\\Uniserver\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Uniserver/UniServerZ/core/apache2 -f C:\\Uniserver\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Uniserver\\UniServerZ\\core\\apache2'
+[Tue Jul 18 14:53:08.271489 2017] [mpm_winnt:notice] [pid 10744:tid 656] AH00418: Parent: Created child process 14432
+[Tue Jul 18 14:53:08.788745 2017] [mpm_winnt:notice] [pid 14432:tid 696] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 18 14:53:09.143183 2017] [php7:crit] [pid 14432:tid 1900] [client ::1:51558] PHP Parse error:  syntax error, unexpected '%' in C:\\Uniserver\\UniServerZ\\www\\index.php on line 404
+[Tue Jul 18 14:54:14.933718 2017] [core:warn] [pid 1428:tid 620] AH00098: pid file C:/Uniserver/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 18 14:54:14.951301 2017] [mpm_winnt:notice] [pid 1428:tid 620] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Tue Jul 18 14:54:14.951301 2017] [mpm_winnt:notice] [pid 1428:tid 620] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Tue Jul 18 14:54:14.951301 2017] [core:notice] [pid 1428:tid 620] AH00094: Command line: 'C:\\Uniserver\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Uniserver/UniServerZ/core/apache2 -f C:\\Uniserver\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Uniserver\\UniServerZ\\core\\apache2'
+[Tue Jul 18 14:54:14.953770 2017] [mpm_winnt:notice] [pid 1428:tid 620] AH00418: Parent: Created child process 11360
+[Tue Jul 18 14:54:15.527578 2017] [mpm_winnt:notice] [pid 11360:tid 736] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 18 14:54:15.744156 2017] [php7:notice] [pid 11360:tid 1912] [client ::1:51563] PHP Notice:  Undefined index: text in C:\\Uniserver\\UniServerZ\\www\\index.php on line 404
+[Tue Jul 18 14:55:20.280272 2017] [core:warn] [pid 13244:tid 496] AH00098: pid file C:/Uniserver/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 18 14:55:20.294844 2017] [mpm_winnt:notice] [pid 13244:tid 496] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Tue Jul 18 14:55:20.294844 2017] [mpm_winnt:notice] [pid 13244:tid 496] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Tue Jul 18 14:55:20.294844 2017] [core:notice] [pid 13244:tid 496] AH00094: Command line: 'C:\\Uniserver\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Uniserver/UniServerZ/core/apache2 -f C:\\Uniserver\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Uniserver\\UniServerZ\\core\\apache2'
+[Tue Jul 18 14:55:20.297317 2017] [mpm_winnt:notice] [pid 13244:tid 496] AH00418: Parent: Created child process 13480
+[Tue Jul 18 14:55:20.798049 2017] [mpm_winnt:notice] [pid 13480:tid 724] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 18 14:55:21.205219 2017] [php7:notice] [pid 13480:tid 1908] [client ::1:51651] PHP Notice:  Undefined index: text in C:\\Uniserver\\UniServerZ\\www\\index.php on line 404
+[Tue Jul 18 14:56:00.173347 2017] [core:warn] [pid 10892:tid 660] AH00098: pid file C:/Uniserver/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 18 14:56:00.188391 2017] [mpm_winnt:notice] [pid 10892:tid 660] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Tue Jul 18 14:56:00.188892 2017] [mpm_winnt:notice] [pid 10892:tid 660] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Tue Jul 18 14:56:00.188892 2017] [core:notice] [pid 10892:tid 660] AH00094: Command line: 'C:\\Uniserver\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Uniserver/UniServerZ/core/apache2 -f C:\\Uniserver\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Uniserver\\UniServerZ\\core\\apache2'
+[Tue Jul 18 14:56:00.190395 2017] [mpm_winnt:notice] [pid 10892:tid 660] AH00418: Parent: Created child process 5872
+[Tue Jul 18 14:56:01.339633 2017] [mpm_winnt:notice] [pid 5872:tid 704] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 18 14:56:01.347152 2017] [php7:notice] [pid 5872:tid 1912] [client ::1:51712] PHP Notice:  Undefined index: text in C:\\Uniserver\\UniServerZ\\www\\index.php on line 404
+[Tue Jul 18 14:56:51.646735 2017] [core:warn] [pid 5548:tid 652] AH00098: pid file C:/Uniserver/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 18 14:56:51.661277 2017] [mpm_winnt:notice] [pid 5548:tid 652] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Tue Jul 18 14:56:51.661277 2017] [mpm_winnt:notice] [pid 5548:tid 652] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Tue Jul 18 14:56:51.661277 2017] [core:notice] [pid 5548:tid 652] AH00094: Command line: 'C:\\Uniserver\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Uniserver/UniServerZ/core/apache2 -f C:\\Uniserver\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Uniserver\\UniServerZ\\core\\apache2'
+[Tue Jul 18 14:56:51.663107 2017] [mpm_winnt:notice] [pid 5548:tid 652] AH00418: Parent: Created child process 9584
+[Tue Jul 18 14:56:52.202339 2017] [mpm_winnt:notice] [pid 9584:tid 708] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 18 14:56:52.825435 2017] [php7:notice] [pid 9584:tid 1916] [client ::1:51787] PHP Notice:  Undefined index: text in C:\\Uniserver\\UniServerZ\\www\\index.php on line 403
+[Tue Jul 18 14:57:36.426539 2017] [core:warn] [pid 12860:tid 672] AH00098: pid file C:/Uniserver/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 18 14:57:36.442486 2017] [mpm_winnt:notice] [pid 12860:tid 672] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Tue Jul 18 14:57:36.442486 2017] [mpm_winnt:notice] [pid 12860:tid 672] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Tue Jul 18 14:57:36.442486 2017] [core:notice] [pid 12860:tid 672] AH00094: Command line: 'C:\\Uniserver\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Uniserver/UniServerZ/core/apache2 -f C:\\Uniserver\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Uniserver\\UniServerZ\\core\\apache2'
+[Tue Jul 18 14:57:36.444995 2017] [mpm_winnt:notice] [pid 12860:tid 672] AH00418: Parent: Created child process 9308
+[Tue Jul 18 14:57:36.946188 2017] [mpm_winnt:notice] [pid 9308:tid 720] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 18 14:57:37.322159 2017] [php7:notice] [pid 9308:tid 1912] [client ::1:51849] PHP Notice:  Undefined index: text in C:\\Uniserver\\UniServerZ\\www\\index.php on line 403
+[Tue Jul 18 15:06:19.400123 2017] [core:warn] [pid 8268:tid 596] AH00098: pid file C:/Uniserver/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 18 15:06:19.415698 2017] [mpm_winnt:notice] [pid 8268:tid 596] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Tue Jul 18 15:06:19.415698 2017] [mpm_winnt:notice] [pid 8268:tid 596] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Tue Jul 18 15:06:19.415698 2017] [core:notice] [pid 8268:tid 596] AH00094: Command line: 'C:\\Uniserver\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Uniserver/UniServerZ/core/apache2 -f C:\\Uniserver\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Uniserver\\UniServerZ\\core\\apache2'
+[Tue Jul 18 15:06:19.418650 2017] [mpm_winnt:notice] [pid 8268:tid 596] AH00418: Parent: Created child process 5056
+[Tue Jul 18 15:06:19.916103 2017] [mpm_winnt:notice] [pid 5056:tid 732] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 18 15:06:20.320159 2017] [php7:notice] [pid 5056:tid 1908] [client ::1:52727] PHP Notice:  Undefined index: text in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 15:07:14.464475 2017] [core:warn] [pid 6228:tid 632] AH00098: pid file C:/Uniserver/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 18 15:07:14.479515 2017] [mpm_winnt:notice] [pid 6228:tid 632] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Tue Jul 18 15:07:14.479515 2017] [mpm_winnt:notice] [pid 6228:tid 632] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Tue Jul 18 15:07:14.479515 2017] [core:notice] [pid 6228:tid 632] AH00094: Command line: 'C:\\Uniserver\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Uniserver/UniServerZ/core/apache2 -f C:\\Uniserver\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Uniserver\\UniServerZ\\core\\apache2'
+[Tue Jul 18 15:07:14.482530 2017] [mpm_winnt:notice] [pid 6228:tid 632] AH00418: Parent: Created child process 388
+[Tue Jul 18 15:07:15.087313 2017] [mpm_winnt:notice] [pid 388:tid 736] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 18 15:07:15.382633 2017] [php7:notice] [pid 388:tid 1904] [client ::1:52808] PHP Notice:  Undefined index: text in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 15:09:24.075248 2017] [core:warn] [pid 12872:tid 612] AH00098: pid file C:/Uniserver/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 18 15:09:24.091790 2017] [mpm_winnt:notice] [pid 12872:tid 612] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Tue Jul 18 15:09:24.091790 2017] [mpm_winnt:notice] [pid 12872:tid 612] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Tue Jul 18 15:09:24.091790 2017] [core:notice] [pid 12872:tid 612] AH00094: Command line: 'C:\\Uniserver\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Uniserver/UniServerZ/core/apache2 -f C:\\Uniserver\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Uniserver\\UniServerZ\\core\\apache2'
+[Tue Jul 18 15:09:24.094797 2017] [mpm_winnt:notice] [pid 12872:tid 612] AH00418: Parent: Created child process 4608
+[Tue Jul 18 15:09:37.332591 2017] [core:warn] [pid 1372:tid 504] AH00098: pid file C:/Uniserver/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 18 15:09:37.356658 2017] [mpm_winnt:notice] [pid 1372:tid 504] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Tue Jul 18 15:09:37.356658 2017] [mpm_winnt:notice] [pid 1372:tid 504] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Tue Jul 18 15:09:37.356658 2017] [core:notice] [pid 1372:tid 504] AH00094: Command line: 'C:\\Uniserver\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Uniserver/UniServerZ/core/apache2 -f C:\\Uniserver\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Uniserver\\UniServerZ\\core\\apache2'
+[Tue Jul 18 15:09:37.361223 2017] [mpm_winnt:notice] [pid 1372:tid 504] AH00418: Parent: Created child process 15252
+[Tue Jul 18 15:09:38.306279 2017] [mpm_winnt:notice] [pid 15252:tid 424] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 18 15:09:38.312767 2017] [php7:notice] [pid 15252:tid 1908] [client ::1:53042] PHP Notice:  Undefined index: text in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 15:25:22.580721 2017] [core:warn] [pid 14852:tid 644] AH00098: pid file C:/Uniserver/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 18 15:25:22.597803 2017] [mpm_winnt:notice] [pid 14852:tid 644] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Tue Jul 18 15:25:22.598772 2017] [mpm_winnt:notice] [pid 14852:tid 644] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Tue Jul 18 15:25:22.598814 2017] [core:notice] [pid 14852:tid 644] AH00094: Command line: 'C:\\Uniserver\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Uniserver/UniServerZ/core/apache2 -f C:\\Uniserver\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Uniserver\\UniServerZ\\core\\apache2'
+[Tue Jul 18 15:25:22.600821 2017] [mpm_winnt:notice] [pid 14852:tid 644] AH00418: Parent: Created child process 10400
+[Tue Jul 18 15:25:23.095769 2017] [mpm_winnt:notice] [pid 10400:tid 712] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 18 15:25:23.600843 2017] [php7:notice] [pid 10400:tid 1908] [client ::1:54625] PHP Notice:  Undefined index: text in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 15:32:32.600522 2017] [core:warn] [pid 9044:tid 692] AH00098: pid file C:/Uniserver/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 18 15:32:32.735627 2017] [mpm_winnt:notice] [pid 9044:tid 692] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Tue Jul 18 15:32:32.736633 2017] [mpm_winnt:notice] [pid 9044:tid 692] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Tue Jul 18 15:32:32.736633 2017] [core:notice] [pid 9044:tid 692] AH00094: Command line: 'C:\\Uniserver\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Uniserver/UniServerZ/core/apache2 -f C:\\Uniserver\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Uniserver\\UniServerZ\\core\\apache2'
+[Tue Jul 18 15:32:32.738629 2017] [mpm_winnt:notice] [pid 9044:tid 692] AH00418: Parent: Created child process 12800
+[Tue Jul 18 15:32:33.257469 2017] [mpm_winnt:notice] [pid 12800:tid 704] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 18 15:32:33.521171 2017] [php7:notice] [pid 12800:tid 1912] [client ::1:50023] PHP Notice:  Undefined index: text in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 15:51:50.646997 2017] [core:warn] [pid 6044:tid 744] AH00098: pid file C:/Uniserver/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 18 15:51:50.771561 2017] [mpm_winnt:notice] [pid 6044:tid 744] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Tue Jul 18 15:51:50.771561 2017] [mpm_winnt:notice] [pid 6044:tid 744] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Tue Jul 18 15:51:50.771561 2017] [core:notice] [pid 6044:tid 744] AH00094: Command line: 'C:\\Uniserver\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Uniserver/UniServerZ/core/apache2 -f C:\\Uniserver\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Uniserver\\UniServerZ\\core\\apache2'
+[Tue Jul 18 15:51:50.774402 2017] [mpm_winnt:notice] [pid 6044:tid 744] AH00418: Parent: Created child process 9572
+[Tue Jul 18 15:51:51.286437 2017] [mpm_winnt:notice] [pid 9572:tid 708] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 18 15:51:52.085722 2017] [php7:notice] [pid 9572:tid 1916] [client ::1:57954] PHP Notice:  Undefined index: text in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 15:52:13.474579 2017] [php7:notice] [pid 9572:tid 1916] [client ::1:57991] PHP Notice:  Undefined index: text in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 15:52:14.494135 2017] [php7:notice] [pid 9572:tid 1916] [client ::1:57991] PHP Notice:  Undefined index: text in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 15:52:15.228405 2017] [php7:notice] [pid 9572:tid 1916] [client ::1:57991] PHP Notice:  Undefined index: text in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 15:52:16.090900 2017] [php7:notice] [pid 9572:tid 1916] [client ::1:57991] PHP Notice:  Undefined index: text in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 15:52:16.409486 2017] [php7:notice] [pid 9572:tid 1916] [client ::1:57991] PHP Notice:  Undefined index: text in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 15:52:16.823274 2017] [php7:notice] [pid 9572:tid 1916] [client ::1:57991] PHP Notice:  Undefined index: text in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 15:52:56.289975 2017] [php7:notice] [pid 9572:tid 1916] [client ::1:58048] PHP Notice:  Undefined index: text in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 15:52:57.321615 2017] [php7:notice] [pid 9572:tid 1916] [client ::1:58048] PHP Notice:  Undefined index: text in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 15:52:59.119371 2017] [php7:notice] [pid 9572:tid 1916] [client ::1:58048] PHP Notice:  Undefined index: text in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 15:54:07.657690 2017] [core:warn] [pid 4480:tid 616] AH00098: pid file C:/Uniserver/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 18 15:54:07.676275 2017] [mpm_winnt:notice] [pid 4480:tid 616] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Tue Jul 18 15:54:07.676275 2017] [mpm_winnt:notice] [pid 4480:tid 616] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Tue Jul 18 15:54:07.676275 2017] [core:notice] [pid 4480:tid 616] AH00094: Command line: 'C:\\Uniserver\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Uniserver/UniServerZ/core/apache2 -f C:\\Uniserver\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Uniserver\\UniServerZ\\core\\apache2'
+[Tue Jul 18 15:54:07.678823 2017] [mpm_winnt:notice] [pid 4480:tid 616] AH00418: Parent: Created child process 12572
+[Tue Jul 18 15:54:08.199698 2017] [mpm_winnt:notice] [pid 12572:tid 720] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 18 15:54:08.482630 2017] [php7:notice] [pid 12572:tid 1952] [client ::1:58188] PHP Notice:  Undefined index: text in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 15:54:43.246302 2017] [php7:notice] [pid 12572:tid 1952] [client ::1:58236] PHP Notice:  Undefined index: text in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 15:54:44.061004 2017] [php7:notice] [pid 12572:tid 1952] [client ::1:58236] PHP Notice:  Undefined index: text in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 15:55:50.140124 2017] [core:warn] [pid 4276:tid 680] AH00098: pid file C:/Uniserver/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 18 15:55:50.155699 2017] [mpm_winnt:notice] [pid 4276:tid 680] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Tue Jul 18 15:55:50.155699 2017] [mpm_winnt:notice] [pid 4276:tid 680] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Tue Jul 18 15:55:50.155699 2017] [core:notice] [pid 4276:tid 680] AH00094: Command line: 'C:\\Uniserver\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Uniserver/UniServerZ/core/apache2 -f C:\\Uniserver\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Uniserver\\UniServerZ\\core\\apache2'
+[Tue Jul 18 15:55:50.158632 2017] [mpm_winnt:notice] [pid 4276:tid 680] AH00418: Parent: Created child process 3760
+[Tue Jul 18 15:55:50.818430 2017] [mpm_winnt:notice] [pid 3760:tid 700] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 18 15:55:51.032738 2017] [php7:notice] [pid 3760:tid 1916] [client ::1:58384] PHP Notice:  Undefined index: text in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 15:56:14.649375 2017] [core:warn] [pid 1180:tid 628] AH00098: pid file C:/Uniserver/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 18 15:56:14.667423 2017] [mpm_winnt:notice] [pid 1180:tid 628] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Tue Jul 18 15:56:14.667423 2017] [mpm_winnt:notice] [pid 1180:tid 628] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Tue Jul 18 15:56:14.667423 2017] [core:notice] [pid 1180:tid 628] AH00094: Command line: 'C:\\Uniserver\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Uniserver/UniServerZ/core/apache2 -f C:\\Uniserver\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Uniserver\\UniServerZ\\core\\apache2'
+[Tue Jul 18 15:56:14.670046 2017] [mpm_winnt:notice] [pid 1180:tid 628] AH00418: Parent: Created child process 3584
+[Tue Jul 18 15:56:15.730696 2017] [mpm_winnt:notice] [pid 3584:tid 676] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 18 15:56:15.736737 2017] [php7:notice] [pid 3584:tid 1912] [client ::1:58417] PHP Notice:  Undefined index: text in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 15:56:32.786876 2017] [php7:notice] [pid 3584:tid 1912] [client ::1:58444] PHP Notice:  Undefined index: text in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 15:56:33.362861 2017] [php7:notice] [pid 3584:tid 1912] [client ::1:58444] PHP Notice:  Undefined index: text in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 15:56:33.588164 2017] [php7:notice] [pid 3584:tid 1912] [client ::1:58444] PHP Notice:  Undefined index: text in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 15:59:13.952759 2017] [php7:notice] [pid 3584:tid 1912] [client ::1:58681] PHP Notice:  Undefined index: text in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 15:59:14.785675 2017] [php7:notice] [pid 3584:tid 1912] [client ::1:58681] PHP Notice:  Undefined index: text in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 16:05:26.814179 2017] [core:warn] [pid 2020:tid 604] AH00098: pid file C:/Uniserver/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 18 16:05:26.843754 2017] [mpm_winnt:notice] [pid 2020:tid 604] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Tue Jul 18 16:05:26.843754 2017] [mpm_winnt:notice] [pid 2020:tid 604] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Tue Jul 18 16:05:26.843754 2017] [core:notice] [pid 2020:tid 604] AH00094: Command line: 'C:\\Uniserver\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Uniserver/UniServerZ/core/apache2 -f C:\\Uniserver\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Uniserver\\UniServerZ\\core\\apache2'
+[Tue Jul 18 16:05:26.847808 2017] [mpm_winnt:notice] [pid 2020:tid 604] AH00418: Parent: Created child process 7752
+[Tue Jul 18 16:05:27.393211 2017] [mpm_winnt:notice] [pid 7752:tid 724] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 18 16:05:27.692128 2017] [php7:notice] [pid 7752:tid 1912] [client ::1:59225] PHP Notice:  Undefined index: text in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 16:06:35.483128 2017] [core:warn] [pid 10284:tid 648] AH00098: pid file C:/Uniserver/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 18 16:06:35.498699 2017] [mpm_winnt:notice] [pid 10284:tid 648] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Tue Jul 18 16:06:35.498699 2017] [mpm_winnt:notice] [pid 10284:tid 648] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Tue Jul 18 16:06:35.498699 2017] [core:notice] [pid 10284:tid 648] AH00094: Command line: 'C:\\Uniserver\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Uniserver/UniServerZ/core/apache2 -f C:\\Uniserver\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Uniserver\\UniServerZ\\core\\apache2'
+[Tue Jul 18 16:06:35.501680 2017] [mpm_winnt:notice] [pid 10284:tid 648] AH00418: Parent: Created child process 2000
+[Tue Jul 18 16:06:36.338812 2017] [mpm_winnt:notice] [pid 2000:tid 716] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 18 16:06:36.344830 2017] [php7:notice] [pid 2000:tid 1916] [client ::1:59317] PHP Notice:  Undefined index: text in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 16:08:03.101074 2017] [core:warn] [pid 4016:tid 672] AH00098: pid file C:/Uniserver/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 18 16:08:03.124646 2017] [mpm_winnt:notice] [pid 4016:tid 672] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Tue Jul 18 16:08:03.124646 2017] [mpm_winnt:notice] [pid 4016:tid 672] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Tue Jul 18 16:08:03.124646 2017] [core:notice] [pid 4016:tid 672] AH00094: Command line: 'C:\\Uniserver\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Uniserver/UniServerZ/core/apache2 -f C:\\Uniserver\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Uniserver\\UniServerZ\\core\\apache2'
+[Tue Jul 18 16:08:03.127142 2017] [mpm_winnt:notice] [pid 4016:tid 672] AH00418: Parent: Created child process 12612
+[Tue Jul 18 16:08:03.631447 2017] [mpm_winnt:notice] [pid 12612:tid 668] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 18 16:08:03.921162 2017] [php7:notice] [pid 12612:tid 1916] [client ::1:59436] PHP Notice:  Undefined index: text in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 16:08:03.921162 2017] [php7:notice] [pid 12612:tid 1916] [client ::1:59436] PHP Notice:  Undefined index: text in C:\\Uniserver\\UniServerZ\\www\\index.php on line 6
+[Tue Jul 18 16:08:30.374014 2017] [php7:notice] [pid 12612:tid 1912] [client ::1:59481] PHP Notice:  Undefined index: text in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 16:08:30.374014 2017] [php7:notice] [pid 12612:tid 1912] [client ::1:59481] PHP Notice:  Undefined index: text in C:\\Uniserver\\UniServerZ\\www\\index.php on line 6
+[Tue Jul 18 16:14:12.790221 2017] [core:warn] [pid 12396:tid 464] AH00098: pid file C:/Uniserver/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 18 16:14:12.833331 2017] [mpm_winnt:notice] [pid 12396:tid 464] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Tue Jul 18 16:14:12.833331 2017] [mpm_winnt:notice] [pid 12396:tid 464] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Tue Jul 18 16:14:12.833331 2017] [core:notice] [pid 12396:tid 464] AH00094: Command line: 'C:\\Uniserver\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Uniserver/UniServerZ/core/apache2 -f C:\\Uniserver\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Uniserver\\UniServerZ\\core\\apache2'
+[Tue Jul 18 16:14:12.838845 2017] [mpm_winnt:notice] [pid 12396:tid 464] AH00418: Parent: Created child process 9824
+[Tue Jul 18 16:14:14.087160 2017] [mpm_winnt:notice] [pid 9824:tid 672] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 18 16:14:14.095182 2017] [php7:notice] [pid 9824:tid 1932] [client ::1:59993] PHP Notice:  Undefined index: test in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 16:14:36.104478 2017] [php7:notice] [pid 9824:tid 1928] [client ::1:60023] PHP Notice:  Undefined index: test in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 16:14:36.574530 2017] [php7:notice] [pid 9824:tid 1928] [client ::1:60023] PHP Notice:  Undefined index: test in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 16:14:37.248291 2017] [php7:notice] [pid 9824:tid 1928] [client ::1:60023] PHP Notice:  Undefined index: test in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 16:14:48.400664 2017] [php7:notice] [pid 9824:tid 1928] [client ::1:60040] PHP Notice:  Undefined index: test in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 16:15:32.971499 2017] [php7:notice] [pid 9824:tid 1928] [client ::1:60103] PHP Notice:  Undefined index: test in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 16:15:33.062249 2017] [php7:notice] [pid 9824:tid 1928] [client ::1:60103] PHP Notice:  Undefined index: test in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 16:15:33.968465 2017] [php7:notice] [pid 9824:tid 1928] [client ::1:60103] PHP Notice:  Undefined index: test in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 16:15:41.439031 2017] [php7:notice] [pid 9824:tid 1928] [client ::1:60117] PHP Notice:  Undefined index: test in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 16:47:46.801300 2017] [php7:notice] [pid 9824:tid 1928] [client ::1:60723] PHP Notice:  Undefined index: test in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 16:47:47.754094 2017] [php7:notice] [pid 9824:tid 1928] [client ::1:60723] PHP Notice:  Undefined index: test in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 16:48:07.084685 2017] [core:warn] [pid 4912:tid 596] AH00098: pid file C:/Uniserver/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 18 16:48:07.100726 2017] [mpm_winnt:notice] [pid 4912:tid 596] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Tue Jul 18 16:48:07.100726 2017] [mpm_winnt:notice] [pid 4912:tid 596] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Tue Jul 18 16:48:07.100726 2017] [core:notice] [pid 4912:tid 596] AH00094: Command line: 'C:\\Uniserver\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Uniserver/UniServerZ/core/apache2 -f C:\\Uniserver\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Uniserver\\UniServerZ\\core\\apache2'
+[Tue Jul 18 16:48:07.102383 2017] [mpm_winnt:notice] [pid 4912:tid 596] AH00418: Parent: Created child process 7104
+[Tue Jul 18 16:48:08.320590 2017] [mpm_winnt:notice] [pid 7104:tid 684] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 18 16:48:08.335129 2017] [php7:notice] [pid 7104:tid 1928] [client ::1:60753] PHP Notice:  Undefined index: test in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 16:48:17.397749 2017] [php7:notice] [pid 7104:tid 1928] [client ::1:60767] PHP Notice:  Undefined index: test in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 16:48:18.376961 2017] [php7:notice] [pid 7104:tid 1928] [client ::1:60767] PHP Notice:  Undefined index: test in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 16:54:03.741527 2017] [core:warn] [pid 5636:tid 688] AH00098: pid file C:/Uniserver/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 18 16:54:03.757571 2017] [mpm_winnt:notice] [pid 5636:tid 688] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Tue Jul 18 16:54:03.757571 2017] [mpm_winnt:notice] [pid 5636:tid 688] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Tue Jul 18 16:54:03.757571 2017] [core:notice] [pid 5636:tid 688] AH00094: Command line: 'C:\\Uniserver\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Uniserver/UniServerZ/core/apache2 -f C:\\Uniserver\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Uniserver\\UniServerZ\\core\\apache2'
+[Tue Jul 18 16:54:03.759080 2017] [mpm_winnt:notice] [pid 5636:tid 688] AH00418: Parent: Created child process 208
+[Tue Jul 18 16:54:04.314055 2017] [mpm_winnt:notice] [pid 208:tid 748] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 18 16:54:04.664663 2017] [php7:notice] [pid 208:tid 1928] [client ::1:61321] PHP Notice:  Undefined index: test in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 16:54:12.736550 2017] [php7:notice] [pid 208:tid 1928] [client ::1:61333] PHP Notice:  Undefined index: test in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 16:54:13.732269 2017] [php7:notice] [pid 208:tid 1928] [client ::1:61333] PHP Notice:  Undefined index: test in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 16:56:35.306659 2017] [php7:notice] [pid 208:tid 1920] [client ::1:61568] PHP Notice:  Undefined index: test in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 16:56:35.346263 2017] [php7:notice] [pid 208:tid 1928] [client ::1:61569] PHP Notice:  Undefined index: test in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 16:56:36.294680 2017] [php7:notice] [pid 208:tid 1928] [client ::1:61569] PHP Notice:  Undefined index: test in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 16:56:41.423509 2017] [php7:notice] [pid 208:tid 1928] [client ::1:61578] PHP Notice:  Undefined index: test in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 16:56:41.988800 2017] [php7:notice] [pid 208:tid 1928] [client ::1:61578] PHP Notice:  Undefined index: test in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 16:56:42.070061 2017] [php7:notice] [pid 208:tid 1928] [client ::1:61578] PHP Notice:  Undefined index: test in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 16:56:42.684606 2017] [php7:notice] [pid 208:tid 1928] [client ::1:61578] PHP Notice:  Undefined index: test in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 16:56:42.768357 2017] [php7:notice] [pid 208:tid 1928] [client ::1:61578] PHP Notice:  Undefined index: test in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 16:56:43.383666 2017] [php7:notice] [pid 208:tid 1928] [client ::1:61578] PHP Notice:  Undefined index: test in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 16:56:43.860968 2017] [php7:notice] [pid 208:tid 1928] [client ::1:61578] PHP Notice:  Undefined index: test in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 16:56:44.485792 2017] [php7:notice] [pid 208:tid 1928] [client ::1:61578] PHP Notice:  Undefined index: test in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 16:56:44.509855 2017] [php7:notice] [pid 208:tid 1920] [client ::1:61583] PHP Notice:  Undefined index: test in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 16:56:44.976170 2017] [php7:notice] [pid 208:tid 1920] [client ::1:61583] PHP Notice:  Undefined index: test in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 16:56:45.068984 2017] [php7:notice] [pid 208:tid 1920] [client ::1:61583] PHP Notice:  Undefined index: test in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 16:56:45.485616 2017] [php7:notice] [pid 208:tid 1920] [client ::1:61583] PHP Notice:  Undefined index: test in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 16:56:47.406560 2017] [php7:notice] [pid 208:tid 1920] [client ::1:61583] PHP Notice:  Undefined index: test in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 17:00:16.557939 2017] [php7:error] [pid 208:tid 1920] [client ::1:61884] script 'C:/Uniserver/UniServerZ/www/indx.php' not found or unable to stat
+[Tue Jul 18 17:00:16.559444 2017] [php7:error] [pid 208:tid 1928] [client ::1:61885] script 'C:/Uniserver/UniServerZ/www/indx.php' not found or unable to stat
+[Tue Jul 18 17:00:16.577992 2017] [php7:error] [pid 208:tid 1912] [client ::1:61886] script 'C:/Uniserver/UniServerZ/www/indx.php' not found or unable to stat
+[Tue Jul 18 17:00:17.519431 2017] [php7:error] [pid 208:tid 1912] [client ::1:61886] script 'C:/Uniserver/UniServerZ/www/indx.php' not found or unable to stat
+[Tue Jul 18 17:00:44.295013 2017] [core:warn] [pid 8284:tid 624] AH00098: pid file C:/Uniserver/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 18 17:00:44.310526 2017] [mpm_winnt:notice] [pid 8284:tid 624] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Tue Jul 18 17:00:44.310526 2017] [mpm_winnt:notice] [pid 8284:tid 624] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Tue Jul 18 17:00:44.310526 2017] [core:notice] [pid 8284:tid 624] AH00094: Command line: 'C:\\Uniserver\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Uniserver/UniServerZ/core/apache2 -f C:\\Uniserver\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Uniserver\\UniServerZ\\core\\apache2'
+[Tue Jul 18 17:00:44.312838 2017] [mpm_winnt:notice] [pid 8284:tid 624] AH00418: Parent: Created child process 12560
+[Tue Jul 18 17:00:44.811236 2017] [mpm_winnt:notice] [pid 12560:tid 716] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 18 17:00:45.278094 2017] [php7:notice] [pid 12560:tid 1904] [client ::1:61928] PHP Notice:  Undefined index: test in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 17:01:10.758545 2017] [core:warn] [pid 12488:tid 644] AH00098: pid file C:/Uniserver/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 18 17:01:10.774118 2017] [mpm_winnt:notice] [pid 12488:tid 644] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Tue Jul 18 17:01:10.774118 2017] [mpm_winnt:notice] [pid 12488:tid 644] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Tue Jul 18 17:01:10.774118 2017] [core:notice] [pid 12488:tid 644] AH00094: Command line: 'C:\\Uniserver\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Uniserver/UniServerZ/core/apache2 -f C:\\Uniserver\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Uniserver\\UniServerZ\\core\\apache2'
+[Tue Jul 18 17:01:10.776911 2017] [mpm_winnt:notice] [pid 12488:tid 644] AH00418: Parent: Created child process 636
+[Tue Jul 18 17:01:11.498593 2017] [mpm_winnt:notice] [pid 636:tid 736] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 18 17:01:11.687560 2017] [php7:notice] [pid 636:tid 1916] [client ::1:61963] PHP Notice:  Undefined index: text in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 17:01:24.267920 2017] [php7:notice] [pid 636:tid 1912] [client ::1:61984] PHP Notice:  Undefined index: text in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 17:01:25.380769 2017] [php7:notice] [pid 636:tid 1912] [client ::1:61984] PHP Notice:  Undefined index: text in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 17:02:00.139579 2017] [core:warn] [pid 12980:tid 656] AH00098: pid file C:/Uniserver/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 18 17:02:00.157125 2017] [mpm_winnt:notice] [pid 12980:tid 656] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Tue Jul 18 17:02:00.157125 2017] [mpm_winnt:notice] [pid 12980:tid 656] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Tue Jul 18 17:02:00.157125 2017] [core:notice] [pid 12980:tid 656] AH00094: Command line: 'C:\\Uniserver\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Uniserver/UniServerZ/core/apache2 -f C:\\Uniserver\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Uniserver\\UniServerZ\\core\\apache2'
+[Tue Jul 18 17:02:00.159016 2017] [mpm_winnt:notice] [pid 12980:tid 656] AH00418: Parent: Created child process 9252
+[Tue Jul 18 17:02:01.221067 2017] [mpm_winnt:notice] [pid 9252:tid 756] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 18 17:02:01.230090 2017] [php7:notice] [pid 9252:tid 1928] [client ::1:62034] PHP Notice:  Undefined index: text in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 17:02:23.812834 2017] [php7:notice] [pid 9252:tid 1932] [client ::1:62067] PHP Notice:  Undefined index: text in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 17:08:41.297354 2017] [core:warn] [pid 10356:tid 628] AH00098: pid file C:/Uniserver/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 18 17:08:41.316907 2017] [mpm_winnt:notice] [pid 10356:tid 628] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Tue Jul 18 17:08:41.316907 2017] [mpm_winnt:notice] [pid 10356:tid 628] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Tue Jul 18 17:08:41.316907 2017] [core:notice] [pid 10356:tid 628] AH00094: Command line: 'C:\\Uniserver\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Uniserver/UniServerZ/core/apache2 -f C:\\Uniserver\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Uniserver\\UniServerZ\\core\\apache2'
+[Tue Jul 18 17:08:41.319155 2017] [mpm_winnt:notice] [pid 10356:tid 628] AH00418: Parent: Created child process 904
+[Tue Jul 18 17:08:41.850411 2017] [mpm_winnt:notice] [pid 904:tid 732] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 18 17:08:42.216380 2017] [php7:notice] [pid 904:tid 1912] [client ::1:62595] PHP Notice:  Undefined index: text in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 17:09:34.204261 2017] [core:warn] [pid 1388:tid 656] AH00098: pid file C:/Uniserver/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 18 17:09:34.221812 2017] [mpm_winnt:notice] [pid 1388:tid 656] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Tue Jul 18 17:09:34.221812 2017] [mpm_winnt:notice] [pid 1388:tid 656] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Tue Jul 18 17:09:34.221812 2017] [core:notice] [pid 1388:tid 656] AH00094: Command line: 'C:\\Uniserver\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Uniserver/UniServerZ/core/apache2 -f C:\\Uniserver\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Uniserver\\UniServerZ\\core\\apache2'
+[Tue Jul 18 17:09:34.223787 2017] [mpm_winnt:notice] [pid 1388:tid 656] AH00418: Parent: Created child process 11392
+[Tue Jul 18 17:09:34.777920 2017] [mpm_winnt:notice] [pid 11392:tid 732] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 18 17:09:35.109583 2017] [php7:crit] [pid 11392:tid 1912] [client ::1:62676] PHP Parse error:  syntax error, unexpected 'file_put_contents' (T_STRING), expecting ',' or ';' in C:\\Uniserver\\UniServerZ\\www\\index.php on line 7
+[Tue Jul 18 17:09:44.549099 2017] [php7:crit] [pid 11392:tid 1912] [client ::1:62691] PHP Parse error:  syntax error, unexpected 'file_put_contents' (T_STRING), expecting ',' or ';' in C:\\Uniserver\\UniServerZ\\www\\index.php on line 7
+[Tue Jul 18 17:09:45.035232 2017] [php7:crit] [pid 11392:tid 1916] [client ::1:62692] PHP Parse error:  syntax error, unexpected 'file_put_contents' (T_STRING), expecting ',' or ';' in C:\\Uniserver\\UniServerZ\\www\\index.php on line 7
+[Tue Jul 18 17:09:45.624485 2017] [php7:crit] [pid 11392:tid 1916] [client ::1:62693] PHP Parse error:  syntax error, unexpected 'file_put_contents' (T_STRING), expecting ',' or ';' in C:\\Uniserver\\UniServerZ\\www\\index.php on line 7
+[Tue Jul 18 17:09:53.251468 2017] [php7:crit] [pid 11392:tid 1916] [client ::1:62704] PHP Parse error:  syntax error, unexpected 'file_put_contents' (T_STRING), expecting ',' or ';' in C:\\Uniserver\\UniServerZ\\www\\index.php on line 7
+[Tue Jul 18 17:09:54.239086 2017] [php7:crit] [pid 11392:tid 1916] [client ::1:62707] PHP Parse error:  syntax error, unexpected 'file_put_contents' (T_STRING), expecting ',' or ';' in C:\\Uniserver\\UniServerZ\\www\\index.php on line 7
+[Tue Jul 18 17:10:17.998587 2017] [core:warn] [pid 4864:tid 620] AH00098: pid file C:/Uniserver/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 18 17:10:18.021622 2017] [mpm_winnt:notice] [pid 4864:tid 620] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Tue Jul 18 17:10:18.022121 2017] [mpm_winnt:notice] [pid 4864:tid 620] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Tue Jul 18 17:10:18.022121 2017] [core:notice] [pid 4864:tid 620] AH00094: Command line: 'C:\\Uniserver\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Uniserver/UniServerZ/core/apache2 -f C:\\Uniserver\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Uniserver\\UniServerZ\\core\\apache2'
+[Tue Jul 18 17:10:18.024127 2017] [mpm_winnt:notice] [pid 4864:tid 620] AH00418: Parent: Created child process 7960
+[Tue Jul 18 17:10:18.897447 2017] [mpm_winnt:notice] [pid 7960:tid 636] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 18 17:10:18.942075 2017] [php7:notice] [pid 7960:tid 1996] [client ::1:62741] PHP Notice:  Undefined index: text in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Tue Jul 18 17:12:00.166866 2017] [core:warn] [pid 11828:tid 664] AH00098: pid file C:/Uniserver/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jul 18 17:12:00.203465 2017] [mpm_winnt:notice] [pid 11828:tid 664] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Tue Jul 18 17:12:00.203465 2017] [mpm_winnt:notice] [pid 11828:tid 664] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Tue Jul 18 17:12:00.203465 2017] [core:notice] [pid 11828:tid 664] AH00094: Command line: 'C:\\Uniserver\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Uniserver/UniServerZ/core/apache2 -f C:\\Uniserver\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Uniserver\\UniServerZ\\core\\apache2'
+[Tue Jul 18 17:12:00.206975 2017] [mpm_winnt:notice] [pid 11828:tid 664] AH00418: Parent: Created child process 13208
+[Tue Jul 18 17:12:01.185109 2017] [mpm_winnt:notice] [pid 13208:tid 716] AH00354: Child: Starting 150 worker threads.
+[Tue Jul 18 17:12:01.196641 2017] [php7:notice] [pid 13208:tid 1912] [client ::1:62884] PHP Notice:  Undefined index: text in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Wed Jul 19 00:05:36.707178 2017] [core:warn] [pid 17564:tid 660] AH00098: pid file C:/Uniserver/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Jul 19 00:05:36.834582 2017] [mpm_winnt:notice] [pid 17564:tid 660] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Wed Jul 19 00:05:36.834582 2017] [mpm_winnt:notice] [pid 17564:tid 660] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Wed Jul 19 00:05:36.834582 2017] [core:notice] [pid 17564:tid 660] AH00094: Command line: 'C:\\Uniserver\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Uniserver/UniServerZ/core/apache2 -f C:\\Uniserver\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Uniserver\\UniServerZ\\core\\apache2'
+[Wed Jul 19 00:05:36.837494 2017] [mpm_winnt:notice] [pid 17564:tid 660] AH00418: Parent: Created child process 5928
+[Wed Jul 19 00:05:37.447863 2017] [mpm_winnt:notice] [pid 5928:tid 704] AH00354: Child: Starting 150 worker threads.
+[Wed Jul 19 00:05:37.932930 2017] [php7:notice] [pid 5928:tid 1904] [client ::1:50314] PHP Notice:  Undefined index: text in C:\\Uniserver\\UniServerZ\\www\\index.php on line 5
+[Wed Jul 19 11:32:46.261521 2017] [core:warn] [pid 12164:tid 616] AH00098: pid file C:/Uniserver/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Jul 19 11:32:46.278570 2017] [mpm_winnt:notice] [pid 12164:tid 616] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Wed Jul 19 11:32:46.278570 2017] [mpm_winnt:notice] [pid 12164:tid 616] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Wed Jul 19 11:32:46.278570 2017] [core:notice] [pid 12164:tid 616] AH00094: Command line: 'C:\\Uniserver\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Uniserver/UniServerZ/core/apache2 -f C:\\Uniserver\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Uniserver\\UniServerZ\\core\\apache2'
+[Wed Jul 19 11:32:46.280576 2017] [mpm_winnt:notice] [pid 12164:tid 616] AH00418: Parent: Created child process 7884
+[Wed Jul 19 11:32:46.835940 2017] [mpm_winnt:notice] [pid 7884:tid 732] AH00354: Child: Starting 150 worker threads.
+[Wed Jul 19 11:48:35.719749 2017] [core:warn] [pid 2912:tid 428] AH00098: pid file C:/Uniserver/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Jul 19 11:48:35.740304 2017] [mpm_winnt:notice] [pid 2912:tid 428] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Wed Jul 19 11:48:35.740304 2017] [mpm_winnt:notice] [pid 2912:tid 428] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Wed Jul 19 11:48:35.740304 2017] [core:notice] [pid 2912:tid 428] AH00094: Command line: 'C:\\Uniserver\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Uniserver/UniServerZ/core/apache2 -f C:\\Uniserver\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Uniserver\\UniServerZ\\core\\apache2'
+[Wed Jul 19 11:48:35.743377 2017] [mpm_winnt:notice] [pid 2912:tid 428] AH00418: Parent: Created child process 7280
+[Wed Jul 19 11:48:36.469342 2017] [mpm_winnt:notice] [pid 7280:tid 728] AH00354: Child: Starting 150 worker threads.
+[Wed Jul 19 13:10:42.761548 2017] [core:warn] [pid 16788:tid 800] AH00098: pid file C:/Users/Conno/Documents/PitchPal/pitchpal/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Jul 19 13:10:42.960320 2017] [mpm_winnt:notice] [pid 16788:tid 800] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Wed Jul 19 13:10:42.960320 2017] [mpm_winnt:notice] [pid 16788:tid 800] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Wed Jul 19 13:10:42.960320 2017] [core:notice] [pid 16788:tid 800] AH00094: Command line: 'C:\\Users\\Conno\\Documents\\PitchPal\\pitchpal\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d C:/Users/Conno/Documents/PitchPal/pitchpal/UniServerZ/core/apache2 -f C:\\Users\\Conno\\Documents\\PitchPal\\pitchpal\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d C:\\Users\\Conno\\Documents\\PitchPal\\pitchpal\\UniServerZ\\core\\apache2'
+[Wed Jul 19 13:10:42.962827 2017] [mpm_winnt:notice] [pid 16788:tid 800] AH00418: Parent: Created child process 6236
+[Wed Jul 19 13:10:43.519841 2017] [mpm_winnt:notice] [pid 6236:tid 740] AH00354: Child: Starting 150 worker threads.

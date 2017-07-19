@@ -1,0 +1,22 @@
+2017-07-18 09:56:23 3940 [Note] Plugin 'FEDERATED' is disabled.
+2017-07-18 09:56:23 3940 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2017-07-18 09:56:23 3940 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-07-18 09:56:23 3940 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2017-07-18 09:56:23 3940 [Note] InnoDB: Memory barrier is not used
+2017-07-18 09:56:23 3940 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-07-18 09:56:23 3940 [Note] InnoDB: Not using CPU crc32 instructions
+2017-07-18 09:56:23 3940 [Note] InnoDB: Initializing buffer pool, size = 32.0M
+2017-07-18 09:56:23 3940 [Note] InnoDB: Completed initialization of buffer pool
+2017-07-18 09:56:23 3940 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-07-18 09:56:23 3940 [Note] InnoDB: 128 rollback segment(s) are active.
+2017-07-18 09:56:23 3940 [Note] InnoDB: Waiting for purge to start
+2017-07-18 09:56:23 3940 [Note] InnoDB: 5.6.35 started; log sequence number 1771182
+2017-07-18 09:56:23 3940 [Warning] No existing UUID has been found, so we assume that this is the first time that this server has been started. Generating a new UUID: 4479666b-6bc9-11e7-970c-3065ec97594e.
+2017-07-18 09:56:23 3940 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2017-07-18 09:56:23 3940 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2017-07-18 09:56:23 3940 [Note] Server socket created on IP: '127.0.0.1'.
+2017-07-18 09:56:24 3940 [Note] Event Scheduler: Loaded 0 events
+2017-07-18 09:56:24 3940 [Note] Execution of init_file 'C:\Uniserver\UniServerZ\core\mysql\bin\mysql-init.txt' started.
+2017-07-18 09:56:24 3940 [Note] Execution of init_file 'C:\Uniserver\UniServerZ\core\mysql\bin\mysql-init.txt' ended.
+2017-07-18 09:56:24 3940 [Note] C:\Uniserver\UniServerZ\core\mysql\bin\mysqld_z.exe: ready for connections.
+Version: '5.6.35'  socket: ''  port: 3306  MySQL Community Server (GPL)

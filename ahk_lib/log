@@ -1,0 +1,12 @@
+
+Analysis text is now: ' it only took me three weeks like'
+Change detected, checking slides -2-2
+Phrase to match:  it only took me three weeks like
+Slide: -2 -> Ratio (out of 100): -1
+Slide: -1 -> Ratio (out of 100): -1
+Slide: 0 -> Ratio (out of 100): 0
+Slide: 1 -> Ratio (out of 100): 31
+Slide: 2 -> Ratio (out of 100): 30
+----
+No ratio found over 70/100
+----
