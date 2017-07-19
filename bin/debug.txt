@@ -1,0 +1,785 @@
+
+----
+Adding Keywords: 
+
+Slide 1: |today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence 1|
+Sub-keywords of |today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence 1|:
+|today|
+|i'm|
+|here|
+|to|
+|talk|
+|to|
+|you|
+|about|
+|the|
+|technology|
+|that|
+|will|
+|drive|
+|the|
+|next|
+|decade|
+|of|
+|innovation|
+|artificial|
+|intelligence|
+|1|
+
+Slide 2: |self driving cars predictive medicine and automated financial planning - all of these technologies are near 2|
+Sub-keywords of |self driving cars predictive medicine and automated financial planning - all of these technologies are near 2|:
+|self|
+|driving|
+|cars|
+|predictive|
+|medicine|
+|and|
+|automated|
+|financial|
+|planning|
+|-|
+|all|
+|of|
+|these|
+|technologies|
+|are|
+|near|
+|2|
+
+Slide 3: |and one of the key technologies driving our ai future is natural language processing 3|
+Sub-keywords of |and one of the key technologies driving our ai future is natural language processing 3|:
+|and|
+|one|
+|of|
+|the|
+|key|
+|technologies|
+|driving|
+|our|
+|ai|
+|future|
+|is|
+|natural|
+|language|
+|processing|
+|3|
+
+Slide 4: |the ability of a computer to understand human language and respond via the most expressive form of human communication - speech 4|
+Sub-keywords of |the ability of a computer to understand human language and respond via the most expressive form of human communication - speech 4|:
+|the|
+|ability|
+|of|
+|a|
+|computer|
+|to|
+|understand|
+|human|
+|language|
+|and|
+|respond|
+|via|
+|the|
+|most|
+|expressive|
+|form|
+|of|
+|human|
+|communication|
+|-|
+|speech|
+|4|
+
+Slide 5: |natural language processing will change the way humans interact with machines 5|
+Sub-keywords of |natural language processing will change the way humans interact with machines 5|:
+|natural|
+|language|
+|processing|
+|will|
+|change|
+|the|
+|way|
+|humans|
+|interact|
+|with|
+|machines|
+|5|
+
+Slide 6: |and there's a whole community of developers and innovators out there who are seeking a platform that opens this technology and allows them to innovate 6|
+Sub-keywords of |and there's a whole community of developers and innovators out there who are seeking a platform that opens this technology and allows them to innovate 6|:
+|and|
+|there's|
+|a|
+|whole|
+|community|
+|of|
+|developers|
+|and|
+|innovators|
+|out|
+|there|
+|who|
+|are|
+|seeking|
+|a|
+|platform|
+|that|
+|opens|
+|this|
+|technology|
+|and|
+|allows|
+|them|
+|to|
+|innovate|
+|6|
+
+Slide 7: |but so far its been the purview of a few large companies solutions like apple's siri microsoft's cortana and google assistant have been walled off proprietary and secretive not anymore 7|
+Sub-keywords of |but so far its been the purview of a few large companies solutions like apple's siri microsoft's cortana and google assistant have been walled off proprietary and secretive not anymore 7|:
+|but|
+|so|
+|far|
+|its|
+|been|
+|the|
+|purview|
+|of|
+|a|
+|few|
+|large|
+|companies|
+|solutions|
+|like|
+|apple's|
+|siri|
+|microsoft's|
+|cortana|
+|and|
+|google|
+|assistant|
+|have|
+|been|
+|walled|
+|off|
+|proprietary|
+|and|
+|secretive|
+|not|
+|anymore|
+|7|
+
+Slide 8: |meet mycroft 8|
+Sub-keywords of |meet mycroft 8|:
+|meet|
+|mycroft|
+|8|
+
+Slide 9: |mycroft allows users to speak to their technology naturally and recieve a natural response 9|
+Sub-keywords of |mycroft allows users to speak to their technology naturally and recieve a natural response 9|:
+|mycroft|
+|allows|
+|users|
+|to|
+|speak|
+|to|
+|their|
+|technology|
+|naturally|
+|and|
+|recieve|
+|a|
+|natural|
+|response|
+|9|
+
+Slide 10: |we started the mycroft project by developing a wireless speaker with a high quality microphone 10|
+Sub-keywords of |we started the mycroft project by developing a wireless speaker with a high quality microphone 10|:
+|we|
+|started|
+|the|
+|mycroft|
+|project|
+|by|
+|developing|
+|a|
+|wireless|
+|speaker|
+|with|
+|a|
+|high|
+|quality|
+|microphone|
+|10|
+
+Slide 11: |to make the device relatable and set a positive tone we modeled it on wall-e eva et and big hero 6 11|
+Sub-keywords of |to make the device relatable and set a positive tone we modeled it on wall-e eva et and big hero 6 11|:
+|to|
+|make|
+|the|
+|device|
+|relatable|
+|and|
+|set|
+|a|
+|positive|
+|tone|
+|we|
+|modeled|
+|it|
+|on|
+|wall-e|
+|eva|
+|et|
+|and|
+|big|
+|hero|
+|6|
+|11|
+
+Slide 12: |we also wanted to encourage our community to hack 12|
+Sub-keywords of |we also wanted to encourage our community to hack 12|:
+|we|
+|also|
+|wanted|
+|to|
+|encourage|
+|our|
+|community|
+|to|
+|hack|
+|12|
+
+Slide 13: |to explore and extend the device so we based it on raspberry pi and arduino 13|
+Sub-keywords of |to explore and extend the device so we based it on raspberry pi and arduino 13|:
+|to|
+|explore|
+|and|
+|extend|
+|the|
+|device|
+|so|
+|we|
+|based|
+|it|
+|on|
+|raspberry|
+|pi|
+|and|
+|arduino|
+|13|
+
+Slide 14: |two popular prototyping technologies 14|
+Sub-keywords of |two popular prototyping technologies 14|:
+|two|
+|popular|
+|prototyping|
+|technologies|
+|14|
+
+Slide 15: |but mycroft ai inc is not a device maker in fact we've opened our hardware schematics under an open source hardware license and encouraged others to adopt our technology 15|
+Sub-keywords of |but mycroft ai inc is not a device maker in fact we've opened our hardware schematics under an open source hardware license and encouraged others to adopt our technology 15|:
+|but|
+|mycroft|
+|ai|
+|inc|
+|is|
+|not|
+|a|
+|device|
+|maker|
+|in|
+|fact|
+|we've|
+|opened|
+|our|
+|hardware|
+|schematics|
+|under|
+|an|
+|open|
+|source|
+|hardware|
+|license|
+|and|
+|encouraged|
+|others|
+|to|
+|adopt|
+|our|
+|technology|
+|15|
+
+Slide 16: |mycroft is a software platform that allows developers to add natural language processing to anything 16|
+Sub-keywords of |mycroft is a software platform that allows developers to add natural language processing to anything 16|:
+|mycroft|
+|is|
+|a|
+|software|
+|platform|
+|that|
+|allows|
+|developers|
+|to|
+|add|
+|natural|
+|language|
+|processing|
+|to|
+|anything|
+|16|
+
+Slide 17: |and that is why mycroft's opportunity is huge mycroft is open so developers can include it in anything from an automobile to a microwave 17|
+Sub-keywords of |and that is why mycroft's opportunity is huge mycroft is open so developers can include it in anything from an automobile to a microwave 17|:
+|and|
+|that|
+|is|
+|why|
+|mycroft's|
+|opportunity|
+|is|
+|huge|
+|mycroft|
+|is|
+|open|
+|so|
+|developers|
+|can|
+|include|
+|it|
+|in|
+|anything|
+|from|
+|an|
+|automobile|
+|to|
+|a|
+|microwave|
+|17|
+
+Slide 18: |our advantage is that any software developer can download and install mycroft free of charge 18|
+Sub-keywords of |our advantage is that any software developer can download and install mycroft free of charge 18|:
+|our|
+|advantage|
+|is|
+|that|
+|any|
+|software|
+|developer|
+|can|
+|download|
+|and|
+|install|
+|mycroft|
+|free|
+|of|
+|charge|
+|18|
+
+Slide 19: |this broadens the mouth of the sales funnel and reduces risk for our customers 19|
+Sub-keywords of |this broadens the mouth of the sales funnel and reduces risk for our customers 19|:
+|this|
+|broadens|
+|the|
+|mouth|
+|of|
+|the|
+|sales|
+|funnel|
+|and|
+|reduces|
+|risk|
+|for|
+|our|
+|customers|
+|19|
+
+Slide 20: |supporting customers is going to take a great team and that is where mycroft shines 20|
+Sub-keywords of |supporting customers is going to take a great team and that is where mycroft shines 20|:
+|supporting|
+|customers|
+|is|
+|going|
+|to|
+|take|
+|a|
+|great|
+|team|
+|and|
+|that|
+|is|
+|where|
+|mycroft|
+|shines|
+|20|
+
+Slide 21: |spring of 2015 we went to kick starter to see if there was a market for our idea and raised $193000 21|
+Sub-keywords of |spring of 2015 we went to kick starter to see if there was a market for our idea and raised $193000 21|:
+|spring|
+|of|
+|2015|
+|we|
+|went|
+|to|
+|kick|
+|starter|
+|to|
+|see|
+|if|
+|there|
+|was|
+|a|
+|market|
+|for|
+|our|
+|idea|
+|and|
+|raised|
+|$193000|
+|21|
+
+Slide 22: |our success brought in talented developers like sean fitzgerald 22|
+Sub-keywords of |our success brought in talented developers like sean fitzgerald 22|:
+|our|
+|success|
+|brought|
+|in|
+|talented|
+|developers|
+|like|
+|sean|
+|fitzgerald|
+|22|
+
+Slide 23: |we were invited to join techstars 23|
+Sub-keywords of |we were invited to join techstars 23|:
+|we|
+|were|
+|invited|
+|to|
+|join|
+|techstars|
+|23|
+
+Slide 24: |and began shipping developer kits april 2016 24|
+Sub-keywords of |and began shipping developer kits april 2016 24|:
+|and|
+|began|
+|shipping|
+|developer|
+|kits|
+|april|
+|2016|
+|24|
+
+Slide 25: |that may we reached an agreement with canonical ltd that will put mycroft on more than $40000000 devices in the next 12 months 25|
+Sub-keywords of |that may we reached an agreement with canonical ltd that will put mycroft on more than $40000000 devices in the next 12 months 25|:
+|that|
+|may|
+|we|
+|reached|
+|an|
+|agreement|
+|with|
+|canonical|
+|ltd|
+|that|
+|will|
+|put|
+|mycroft|
+|on|
+|more|
+|than|
+|$40000000|
+|devices|
+|in|
+|the|
+|next|
+|12|
+|months|
+|25|
+
+Slide 26: |we closed a $350000 angel round in september 26|
+Sub-keywords of |we closed a $350000 angel round in september 26|:
+|we|
+|closed|
+|a|
+|$350000|
+|angel|
+|round|
+|in|
+|september|
+|26|
+
+Slide 27: |won a $100000 grant from tech week 27|
+Sub-keywords of |won a $100000 grant from tech week 27|:
+|won|
+|a|
+|$100000|
+|grant|
+|from|
+|tech|
+|week|
+|27|
+
+Slide 28: |and in january we accepted a strategic investment from jaguar land rover 28|
+Sub-keywords of |and in january we accepted a strategic investment from jaguar land rover 28|:
+|and|
+|in|
+|january|
+|we|
+|accepted|
+|a|
+|strategic|
+|investment|
+|from|
+|jaguar|
+|land|
+|rover|
+|28|
+
+Slide 29: |and became the first kansas company to join 500 startups 29|
+Sub-keywords of |and became the first kansas company to join 500 startups 29|:
+|and|
+|became|
+|the|
+|first|
+|kansas|
+|company|
+|to|
+|join|
+|500|
+|startups|
+|29|
+
+Slide 30: |in may we moved on to the second round of the ibm watson aix prize 30|
+Sub-keywords of |in may we moved on to the second round of the ibm watson aix prize 30|:
+|in|
+|may|
+|we|
+|moved|
+|on|
+|to|
+|the|
+|second|
+|round|
+|of|
+|the|
+|ibm|
+|watson|
+|aix|
+|prize|
+|30|
+
+Slide 31: |and accepted a spot in the prestigious mass challenge program in boston 31|
+Sub-keywords of |and accepted a spot in the prestigious mass challenge program in boston 31|:
+|and|
+|accepted|
+|a|
+|spot|
+|in|
+|the|
+|prestigious|
+|mass|
+|challenge|
+|program|
+|in|
+|boston|
+|31|
+
+Slide 32: |and i'm happy to announce that on july 31 we'll close our $1000000 seed round 32|
+Sub-keywords of |and i'm happy to announce that on july 31 we'll close our $1000000 seed round 32|:
+|and|
+|i'm|
+|happy|
+|to|
+|announce|
+|that|
+|on|
+|july|
+|31|
+|we'll|
+|close|
+|our|
+|$1000000|
+|seed|
+|round|
+|32|
+
+Slide 33: |using mycroft's technology 33|
+Sub-keywords of |using mycroft's technology 33|:
+|using|
+|mycroft's|
+|technology|
+|33|
+
+Slide 34: |innovators and creators in the field of artificial intelligence will be able to create products that communicate with users naturally in the same way that i am speaking to you 34|
+Sub-keywords of |innovators and creators in the field of artificial intelligence will be able to create products that communicate with users naturally in the same way that i am speaking to you 34|:
+|innovators|
+|and|
+|creators|
+|in|
+|the|
+|field|
+|of|
+|artificial|
+|intelligence|
+|will|
+|be|
+|able|
+|to|
+|create|
+|products|
+|that|
+|communicate|
+|with|
+|users|
+|naturally|
+|in|
+|the|
+|same|
+|way|
+|that|
+|i|
+|am|
+|speaking|
+|to|
+|you|
+|34|
+
+Slide 35: |among these products will be a handful that will create value above and beyond what exists today 35|
+Sub-keywords of |among these products will be a handful that will create value above and beyond what exists today 35|:
+|among|
+|these|
+|products|
+|will|
+|be|
+|a|
+|handful|
+|that|
+|will|
+|create|
+|value|
+|above|
+|and|
+|beyond|
+|what|
+|exists|
+|today|
+|35|
+
+Slide 36: |so much so that not only will people be willing to pay for them 36|
+Sub-keywords of |so much so that not only will people be willing to pay for them 36|:
+|so|
+|much|
+|so|
+|that|
+|not|
+|only|
+|will|
+|people|
+|be|
+|willing|
+|to|
+|pay|
+|for|
+|them|
+|36|
+
+Slide 37: |they will change the way people use technology in a profound way 37|
+Sub-keywords of |they will change the way people use technology in a profound way 37|:
+|they|
+|will|
+|change|
+|the|
+|way|
+|people|
+|use|
+|technology|
+|in|
+|a|
+|profound|
+|way|
+|37|
+
+Slide 38: |many of you work in healthcare transportation communication or finance 38|
+Sub-keywords of |many of you work in healthcare transportation communication or finance 38|:
+|many|
+|of|
+|you|
+|work|
+|in|
+|healthcare|
+|transportation|
+|communication|
+|or|
+|finance|
+|38|
+
+Slide 39: |ask yourself if your technology could understand human speech and respond naturally what woudl you build? 39|
+Sub-keywords of |ask yourself if your technology could understand human speech and respond naturally what woudl you build? 39|:
+|ask|
+|yourself|
+|if|
+|your|
+|technology|
+|could|
+|understand|
+|human|
+|speech|
+|and|
+|respond|
+|naturally|
+|what|
+|woudl|
+|you|
+|build?|
+|39|
+
+----
+
+
+Recognizer loaded.
+
+Dictation Mode activated, preparing recognizer
+
+----
+Microsoft SAPI heard: she
+----
+
+Matching against: today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence 1
+
+Correct: 0
+Target Length: 20
+Accuracy: 0.000000
+
+Matching against: self driving cars predictive medicine and automated financial planning - all of these technologies are near 2
+
+Correct: 0
+Target Length: 16
+Accuracy: 0.000000
+
+Matching against: and one of the key technologies driving our ai future is natural language processing 3
+
+Correct: 0
+Target Length: 14
+Accuracy: 0.000000
+----
+Microsoft SAPI heard: just
+----
+
+Matching against: today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence 1
+
+Correct: 0
+Target Length: 20
+Accuracy: 0.000000
+
+Matching against: self driving cars predictive medicine and automated financial planning - all of these technologies are near 2
+
+Correct: 0
+Target Length: 16
+Accuracy: 0.000000
+
+Matching against: and one of the key technologies driving our ai future is natural language processing 3
+
+Correct: 0
+Target Length: 14
+Accuracy: 0.000000
