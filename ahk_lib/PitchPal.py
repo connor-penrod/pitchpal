@@ -1,5 +1,5 @@
-import tkinter, win32api, win32con, pywintypes, sys, getopt, os
-from math import floor
+import tkinter, win32api, win32con, pywintypes, sys, getopt, os, textwrap
+from math import floor, ceil
 from time import sleep
 from PIL import Image, ImageTk
 from fuzzywuzzy import fuzz
@@ -8,9 +8,15 @@ current_slide = 0
 current_text = ""
 analysis_text = ""
 analysis_cutoff = 90
+accuracy_threshold = 60
+font_size = 35
 
 # clear debug file
 open(sys.argv[1] + "\log", "w").close()
+
+# clear overlay file
+open(sys.argv[1] + "\overlay.txt", "w").close()
+
 
 def log(string):
     f = open(sys.argv[1] + "\log", "a")
@@ -33,6 +39,51 @@ def retrieveText():
         current_text = "[Blank]"
         log("Error: ", str(e.message))
     
+    chars = ceil(-1.462*font_size + 109.6)
+    format_text = textwrap.fill(current_text, chars)
+    newlines = format_text.count("\n")
+    log("[y] -> " + str(newlines))
+    if(newlines > 2):
+        format_text = format_text.replace("\n", "|", newlines - 2)
+        first_newline = format_text.rfind("|")
+        format_text = textwrap.fill(format_text[first_newline+1:], chars)
+        log("[x] String is -> " + repr(format_text))
+    
+    '''
+    # format for wordwrap
+    line_length = 50
+    line_end = line_length
+    last_space = 0
+    last_newline = 0
+    format_text = ""
+    
+    
+    while(1):
+   
+        if (0 <= line_end) and (line_end < len(current_text)):
+        
+            last_space = current_text[last_newline:line_end].rfind(" ")
+            
+            log("Last space -> " + str(last_space))
+            log("Last newline -> " + str(last_newline))
+            log("Text snippet -> " + current_text[last_newline:last_space])
+            
+            format_text += current_text[last_newline:last_space] + "\n"
+                              
+                            
+            line_end = last_space + line_length
+            
+            last_newline = last_space + 1
+            
+            
+            
+        else:
+            format_text = current_text
+            break
+    '''   
+        
+  
+    # get analysis text
     if(len(current_text)-analysis_cutoff < 0):
         analysis_text = current_text[0:]
     else:
@@ -42,7 +93,7 @@ def retrieveText():
         log("Analysis text is now: '" + analysis_text + "'")
         retrieveText.last_text = analysis_text
     
-    updatetext()
+    updatetext(format_text)
     
     canvas.after(10, retrieveText)
     
@@ -65,18 +116,19 @@ def switchslide(number=1):
     canvas.create_image(screen_width/2, screen_height/2, image = slides[current_slide], tags="slide")
     canvas.lift(subtitle, "slide")
     
+    analysis_cutoff = len(phrases[current_slide+1])
     log("Switching to *Slide " + str(current_slide) + "*")
-    
-    analysis_text = ""    
-    
-def updatetext():
+    log("----\nAnalysis window is now " + str(analysis_cutoff) + "\n----")
+        
+def updatetext(new_text):
     global current_text
-    modified_text = current_text
+    modified_text = new_text
     
-    if(len(modified_text) > 130):
-        removeChars = 20
-        modified_text = current_text[removeChars:]
-    
+    #while(len(current_text) > analysis_cutoff):
+     #   modified_text = current_text
+      #  wordLength = current_text.find(" ")
+       # modified_text = current_text[wordLength+1:]
+        #current_text = modified_text
     
     canvas.itemconfigure(subtitle, text = modified_text)
     
@@ -86,22 +138,22 @@ def checkSwitch():
     if(checkSwitch.last_text != analysis_text):  
         maxIdx = current_slide
         maxRat = 0
-        log("Change detected, checking slides " + str(current_slide-2) + "-" + str(current_slide+2))
+        log("Change detected, checking slides " + str(current_slide) + "-" + str(current_slide+4))
         log("Phrase to match: " + analysis_text)
-        for i in range(current_slide-2, current_slide+3):
+        for i in range(current_slide, current_slide+3):
             if(i >= 0):
                 rat = fuzz.ratio(phrases[i], analysis_text)
             else:
                 rat = -1
-            log("Slide: " + str(i) + " -> Ratio (out of 100): " + str(rat))
-            if(rat > maxRat and rat > 70):
+            log("Slide: " + str(i) + " -> Ratio (out of 100): " + str(rat) + " on phrase: '" + phrases[i] + "'")
+            if(rat > maxRat and rat > accuracy_threshold):
                 maxIdx = i
                 maxRat = rat
         if maxRat != 0:
             log("----\nHighest ratio found: " + str(maxRat) + "/100" + "\n----")
             switchslide(maxIdx)
         else:
-            log("----\nNo ratio found over 70/100\n----")
+            log("----\nNo ratio found over " + str(accuracy_threshold) + "/100\n----")
         
     checkSwitch.last_text = analysis_text
     
@@ -129,6 +181,8 @@ with open("manuscript.txt") as manu:
         line = line.lower()
         line = line.replace(".","").replace(",","").replace("\n","").replace("!","").replace("?","")
         phrases.append(line)
+        
+analysis_cutoff = len(phrases[1])
 
 root.bind("<space>", lambda event, num=1: switch(event, num))
 root.bind("<BackSpace>", lambda event, num=-1: switch(event, num))
@@ -138,7 +192,12 @@ canvas.pack()
 
 canvas.create_image(screen_width/2, screen_height/2, image = slides[0], tags="slide")
 
-subtitle = canvas.create_text(screen_width/2,screen_height*5/6,text="test",font=('Calibri','50'),width=screen_width, justify="center")
+subtitle = canvas.create_text(screen_width/2,screen_height*5/6,text="test", fill="white",font=('Calibri',str(font_size)), justify="center")
+
+#subtitle = tkinter.Label(canvas, text="TEST", font=('Calibri','36'), width = 50, justify=tkinter.CENTER, wraplength = screen_width * 7/8, fg="black", bg="white")
+#subtitle.attributes("-alpha", 0.5)
+
+#canvas.create_window(screen_width/2,screen_height*5/6,window=subtitle)
 
 root.overrideredirect(True)
 root.lift()

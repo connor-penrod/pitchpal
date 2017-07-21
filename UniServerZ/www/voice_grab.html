@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
-<title>Web Speech API Demo</title>
+<title>PitchPal</title>
 <style>
   * {
     font-family: Verdana, Arial, sans-serif;
@@ -225,6 +225,8 @@ var final_transcript = '';
 var recognizing = false;
 var ignore_onend;
 var start_timestamp;
+var isTiming = false;
+var last_spoken = 0;
 if (!('webkitSpeechRecognition' in window)) {
   upgrade();
 } else {
@@ -234,13 +236,15 @@ if (!('webkitSpeechRecognition' in window)) {
   recognition.interimResults = true;
 
   recognition.onstart = function() {
+    last_spoken = performance.now()
+    console.log("onstart")
     recognizing = true;
     showInfo('info_speak_now');
     start_img.src = 'mic-animate.gif';
   };
 
   recognition.onerror = function(event) {
-    console.log("error");
+    console.log("onerror");
     if (event.error == 'no-speech') {
       start_img.src = 'mic.gif';
       showInfo('info_no_speech');
@@ -262,7 +266,8 @@ if (!('webkitSpeechRecognition' in window)) {
   };
 
   recognition.onend = function() {
-    console.log("end speech recognition");
+    console.log("onend");
+
     recognizing = false;
     if (ignore_onend) {
       return;
@@ -288,6 +293,12 @@ if (!('webkitSpeechRecognition' in window)) {
   recognition.onspeechend = function() {
     console.log("onspeechend");
   }
+  recognition.onsoundend = function() {
+    console.log("onsoundend");
+  }
+  recognition.onaudioend = function() {
+    console.log("onaudioend");
+  }
 
   recognition.onresult = function(event) {
     var interim_transcript = '';
@@ -305,6 +316,8 @@ if (!('webkitSpeechRecognition' in window)) {
       showButtons('inline-block');
     }
     //window.location.href = "voice_grab.html?text=" + interim_transcript;
+    
+    
     $.post("http:/localhost/index.php", {text: interim_transcript}, function(response){
       console.log("Post succeeded");
       console.log(response);
@@ -376,6 +389,19 @@ function startButton(event) {
   showInfo('info_allow');
   showButtons('none');
   start_timestamp = event.timeStamp;
+}
+
+function getDelay()
+{
+  tDelay = performance.now() - last_spoken;
+  last_spoken = tDelay;
+  return tDelay
+}
+
+function restart()
+{
+    recognition.stop()
+    recognition.start()
 }
 
 function showInfo(s) {
