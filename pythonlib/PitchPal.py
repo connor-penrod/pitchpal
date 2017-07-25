@@ -1,4 +1,4 @@
-import tkinter, win32api, win32con, pywintypes, sys, getopt, os, textwrap
+import tkinter, sys, getopt, os, textwrap
 from math import floor, ceil
 from time import sleep
 from PIL import Image, ImageTk
@@ -6,7 +6,7 @@ from fuzzywuzzy import fuzz
 import subprocess
 
 try:
-    p = subprocess.Popen(["python", sys.argv[1] + "\ibmstt2.py", str(sys.argv[1])])
+    p = subprocess.Popen(["python", sys.argv[1] + "/ibmstt2.py", str(sys.argv[1])])
 except Exception as e:
     print("ERROR: " + str(e))
 
@@ -33,7 +33,6 @@ def close(event):
     global analysis_text
     global p
     analysis_text = ""
-    p.kill()
     root.destroy()
     
 def retrieveText():
@@ -170,21 +169,24 @@ def checkSwitch():
 
 root = tkinter.Tk()
 
+root.focus_set()
 root.bind("<Escape>", close)
 
 screen_width = float(root.winfo_screenwidth())
 screen_height = float(root.winfo_screenheight())
 
 slides = []
-for filename in os.listdir(sys.argv[1] + "\\images"):
-    photo = Image.open(sys.argv[1] + "\\images\\" + filename)
-    photo = photo.resize((floor(screen_width), floor(screen_height)))
+fileList = sorted(os.listdir(sys.argv[1] + "/images"))
+for filename in fileList:
+    print(filename)
+    photo = Image.open(sys.argv[1] + "/images/" + filename)
+    photo = photo.resize((int(floor(screen_width)), int(floor(screen_height))))
     tkPhoto = ImageTk.PhotoImage(photo)
     slides.append(tkPhoto)
     
 phrases = []
 phrases.append("@@@@@@") # placeholder
-with open(sys.argv[1] + "\manuscript.txt") as manu:
+with open(sys.argv[1] + "/manuscript.txt") as manu:
     for line in manu:
         line = line.lower()
         line = line.replace(".","").replace(",","").replace("\n","").replace("!","").replace("?","")
