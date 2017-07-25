@@ -1,15 +1,12 @@
 from websocket import create_connection
 from watson_developer_cloud import AuthorizationV1, SpeechToTextV1
-import wave
 import json
 import threading
-import time
 import sys
 
 ######
 
 import pyaudio
-import wave
 
 FORMAT = pyaudio.paInt16
 CHANNELS = 1
@@ -74,16 +71,9 @@ def getMicData(ws):
             data = stream.read(CHUNK)
         except Exception as e:
             print("Stream reading failed, error: " + str(e))
-        #ws.send(data, 0x2)
-        #waveFile = wave.open(WAVE_OUTPUT_FILENAME, 'wb')
-        #waveFile.setnchannels(CHANNELS)
-        #waveFile.setsampwidth(audio.get_sample_size(FORMAT))
-        #waveFile.setframerate(RATE)
-        #waveFile.writeframes(totalData)
+
         totalData += data
-        #waveFile.close()
-        #f = open("speech.wav", "rb")
-        #data = f.read()
+
         if len(totalData) > CHUNKSIZE:
             try:
                 dataChunk = totalData[0:CHUNKSIZE]
@@ -138,16 +128,13 @@ ws = create_connection('wss://stream.watsonplatform.net/speech-to-text/api/v1/re
   token + '&model=en-US_BroadbandModel')
 
 ws.send('{"action":"start","content-type":"audio/l16;rate=16000","interim_results":true,"inactivity_timeout":10}')
-#t1 = threading.Thread(target=getMicData, args=(ws,))
 t3 = threading.Thread(target=receiveAudio)
-#t1.start() 
 t3.start()
-#t1.join()
 getMicData(ws)
 t3.join()
+ws.close()
 
 
 
-#time.sleep(3)
-#ws.send('{"action":"stop"]')
-#ws.close()
+
+
