@@ -1,0 +1,14 @@
+fuzzywuzzy==0.15.0
+idna==2.5
+oauth2client==4.1.2
+Pillow==4.2.1
+PyAudio==0.2.11
+pyOpenSSL==17.2.0
+pypiwin32==220
+pyreadline==2.1
+pysolr==3.6.0
+python-Levenshtein==0.12.0
+requests==2.18.1
+virtualenv==15.1.0
+watson-developer-cloud==0.26.1
+websocket-client==0.44.0
