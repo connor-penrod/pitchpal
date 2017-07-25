@@ -3,6 +3,12 @@ from math import floor, ceil
 from time import sleep
 from PIL import Image, ImageTk
 from fuzzywuzzy import fuzz
+import subprocess
+
+try:
+    p = subprocess.Popen(["python", sys.argv[1] + "\ibmstt2.py", str(sys.argv[1])])
+except Exception as e:
+    print("ERROR: " + str(e))
 
 current_slide = 0
 current_text = ""
@@ -25,7 +31,9 @@ def log(string):
 
 def close(event):
     global analysis_text
+    global p
     analysis_text = ""
+    p.kill()
     root.destroy()
     
 def retrieveText():

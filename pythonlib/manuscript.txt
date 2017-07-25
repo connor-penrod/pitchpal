@@ -18,18 +18,18 @@ And that is why Mycroft's opportunity is huge. Mycroft is open so developers can
 Our advantage is that any software developer can download and install Mycroft free of charge.
 This broadens the mouth of the sales funnel and reduces risk for our customers.
 Supporting customers is going to take a great team and that is where Mycroft shines.
-Spring of 2015 we went to kick starter to see if there was a market for our idea and raised $193,000
+Spring of 2015 we went to kick starter to see if there was a market for our idea and raised one hundred ninety three thousand dollars
 Our success brought in talented developers like Sean Fitzgerald
 We were invited to join Techstars
-And began shipping developer kits April 2016
+And began shipping developer kits April two thousand sixteen
 That May we reached an agreement with Canonical Ltd that will put Mycroft on more than $40,000,000 devices in the next 12 months
-We closed a $350,000 Angel Round in September
-Won a $100,000 grant from Tech week
+We closed a three hundred fifty thousand dollar Angel Round in September
+Won a one hundred thousand dollar grant from Tech week
 And in January we accepted a strategic investment from Jaguar Land Rover
-and became the first Kansas company to join 500 Startups
+and became the first Kansas company to join five hundred Startups
 In May, we moved on to the second round of the IBM Watson AIX Prize
 and accepted a spot in the prestigious Mass Challenge program in Boston
-And I'm happy to announce that on July 31, we'll close our $1,000,000 seed round
+And I'm happy to announce that on July thirty first, we'll close our one million dollar seed round
 Using Mycroft's technology innovators and creators in the field of artificial intelligence 
 will be able to create products that communicate with users naturally in the same way that I am speaking to you
 Among these products will be a handful that will create value above and beyond what exists today

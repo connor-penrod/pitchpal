@@ -1,5 +1,2 @@
-UniServerZ/UniController.exe start_apache
-python pythonlib/google_recog.py
-pause
+REM start python pythonlib/ibmstt2.py "%cd%\pythonlib"
 python pythonlib/pitchpal.py "%cd%\pythonlib"
-UniServerZ/UniController.exe stop_apache
