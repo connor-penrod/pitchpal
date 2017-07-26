@@ -4,9 +4,10 @@ from time import sleep
 from PIL import Image, ImageTk
 from fuzzywuzzy import fuzz
 import subprocess
-
+child_pid = None
 try:
     p = subprocess.Popen(["python", sys.argv[1] + "/ibmstt2.py", str(sys.argv[1])])
+    child_pid = p.pid
 except Exception as e:
     print("ERROR: " + str(e))
 
@@ -32,7 +33,9 @@ def log(string):
 def close(event):
     global analysis_text
     global p
+    print("Exitting PitchPal")
     analysis_text = ""
+    os.kill(child_pid, signal.SIGTERM)
     root.destroy()
     
 def retrieveText():
@@ -169,7 +172,6 @@ def checkSwitch():
 
 root = tkinter.Tk()
 
-root.focus_set()
 root.bind("<Escape>", close)
 
 screen_width = float(root.winfo_screenwidth())
