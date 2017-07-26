@@ -35,7 +35,7 @@ def close(event):
     global p
     print("Exitting PitchPal")
     analysis_text = ""
-    os.kill(child_pid, signal.SIGTERM)
+    p.kill() #os.kill(child_pid, signal.SIGTERM)
     root.destroy()
     
 def retrieveText():
@@ -211,7 +211,8 @@ subtitle = canvas.create_text(screen_width/2,screen_height*5/6,text="test", fill
 
 #canvas.create_window(screen_width/2,screen_height*5/6,window=subtitle)
 
-root.overrideredirect(True)
+root.attributes("-fullscreen", True)
+#root.overrideredirect(True)
 root.lift()
 #root.wm_attributes("-topmost", True)
 #root.wm_attributes("-disabled", True)
