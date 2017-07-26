@@ -1,43 +1,214 @@
 
 Analysis text is now: ''
-Analysis text is now: 'tests '
+Analysis text is now: 'the '
 Change detected, checking slides 0-4
-Phrase to match: tests 
+Phrase to match: the 
 Slide: 0 -> Ratio (out of 100): 0 on phrase: '@@@@@@'
-Slide: 1 -> Ratio (out of 100): 5 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
-Slide: 2 -> Ratio (out of 100): 5 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
+Slide: 1 -> Ratio (out of 100): 6 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
+Slide: 2 -> Ratio (out of 100): 7 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
 ----
 No ratio found over 60/100
 ----
-Analysis text is now: 'test went to '
+Analysis text is now: 'death '
 Change detected, checking slides 0-4
-Phrase to match: test went to 
+Phrase to match: death 
 Slide: 0 -> Ratio (out of 100): 0 on phrase: '@@@@@@'
-Slide: 1 -> Ratio (out of 100): 11 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
+Slide: 1 -> Ratio (out of 100): 8 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
+Slide: 2 -> Ratio (out of 100): 7 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
+----
+No ratio found over 60/100
+----
+Analysis text is now: 'does '
+Change detected, checking slides 0-4
+Phrase to match: does 
+Slide: 0 -> Ratio (out of 100): 0 on phrase: '@@@@@@'
+Slide: 1 -> Ratio (out of 100): 3 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
+Slide: 2 -> Ratio (out of 100): 9 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
+----
+No ratio found over 60/100
+----
+Analysis text is now: 'testimony '
+Change detected, checking slides 0-4
+Phrase to match: testimony 
+Slide: 0 -> Ratio (out of 100): 0 on phrase: '@@@@@@'
+Slide: 1 -> Ratio (out of 100): 6 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
+Slide: 2 -> Ratio (out of 100): 7 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
+----
+No ratio found over 60/100
+----
+Analysis text is now: 'just wanted to '
+Change detected, checking slides 0-4
+Phrase to match: just wanted to 
+Slide: 0 -> Ratio (out of 100): 0 on phrase: '@@@@@@'
+Slide: 1 -> Ratio (out of 100): 9 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
+Slide: 2 -> Ratio (out of 100): 15 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
+----
+No ratio found over 60/100
+----
+Analysis text is now: 'the '
+Change detected, checking slides 0-4
+Phrase to match: the 
+Slide: 0 -> Ratio (out of 100): 0 on phrase: '@@@@@@'
+Slide: 1 -> Ratio (out of 100): 6 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
+Slide: 2 -> Ratio (out of 100): 7 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
+----
+No ratio found over 60/100
+----
+Analysis text is now: 'dust '
+Change detected, checking slides 0-4
+Phrase to match: dust 
+Slide: 0 -> Ratio (out of 100): 0 on phrase: '@@@@@@'
+Slide: 1 -> Ratio (out of 100): 6 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
+Slide: 2 -> Ratio (out of 100): 4 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
+----
+No ratio found over 60/100
+----
+Analysis text is now: ''
+Analysis text is now: 'today '
+Change detected, checking slides 0-4
+Phrase to match: today 
+Slide: 0 -> Ratio (out of 100): 0 on phrase: '@@@@@@'
+Slide: 1 -> Ratio (out of 100): 10 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
+Slide: 2 -> Ratio (out of 100): 7 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
+----
+No ratio found over 60/100
+----
+Analysis text is now: 'today me '
+Change detected, checking slides 0-4
+Phrase to match: today me 
+Slide: 0 -> Ratio (out of 100): 0 on phrase: '@@@@@@'
+Slide: 1 -> Ratio (out of 100): 14 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
 Slide: 2 -> Ratio (out of 100): 10 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
 ----
 No ratio found over 60/100
 ----
-Analysis text is now: 'tell us what to do '
+Analysis text is now: 'today muta '
 Change detected, checking slides 0-4
-Phrase to match: tell us what to do 
+Phrase to match: today muta 
 Slide: 0 -> Ratio (out of 100): 0 on phrase: '@@@@@@'
-Slide: 1 -> Ratio (out of 100): 12 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
+Slide: 1 -> Ratio (out of 100): 15 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
+Slide: 2 -> Ratio (out of 100): 14 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
+----
+No ratio found over 60/100
+----
+Analysis text is now: 'today mu talked to '
+Change detected, checking slides 0-4
+Phrase to match: today mu talked to 
+Slide: 0 -> Ratio (out of 100): 0 on phrase: '@@@@@@'
+Slide: 1 -> Ratio (out of 100): 23 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
 Slide: 2 -> Ratio (out of 100): 16 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
 ----
 No ratio found over 60/100
 ----
-Switching to *Slide 0*
+Analysis text is now: 'today mutable but '
+Change detected, checking slides 0-4
+Phrase to match: today mutable but 
+Slide: 0 -> Ratio (out of 100): 0 on phrase: '@@@@@@'
+Slide: 1 -> Ratio (out of 100): 19 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
+Slide: 2 -> Ratio (out of 100): 10 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
 ----
-Analysis window is now 120
+No ratio found over 60/100
 ----
-Switching to *Slide 0*
+Analysis text is now: 'today mutable the techno '
+Change detected, checking slides 0-4
+Phrase to match: today mutable the techno 
+Slide: 0 -> Ratio (out of 100): 0 on phrase: '@@@@@@'
+Slide: 1 -> Ratio (out of 100): 30 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
+Slide: 2 -> Ratio (out of 100): 30 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
 ----
-Analysis window is now 120
+No ratio found over 60/100
 ----
-Switching to *Slide 0*
+Analysis text is now: 'today mu talked about the technology of '
+Change detected, checking slides 0-4
+Phrase to match: today mu talked about the technology of 
+Slide: 0 -> Ratio (out of 100): 0 on phrase: '@@@@@@'
+Slide: 1 -> Ratio (out of 100): 46 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
+Slide: 2 -> Ratio (out of 100): 35 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
 ----
-Analysis window is now 120
+No ratio found over 60/100
+----
+Analysis text is now: 'today mu talked about the technology it will to '
+Change detected, checking slides 0-4
+Phrase to match: today mu talked about the technology it will to 
+Slide: 0 -> Ratio (out of 100): 0 on phrase: '@@@@@@'
+Slide: 1 -> Ratio (out of 100): 50 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
+Slide: 2 -> Ratio (out of 100): 35 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
+----
+No ratio found over 60/100
+----
+Analysis text is now: 'today mu talked about the technology that will drive the '
+Change detected, checking slides 0-4
+Phrase to match: today mu talked about the technology that will drive the 
+Slide: 0 -> Ratio (out of 100): 0 on phrase: '@@@@@@'
+Slide: 1 -> Ratio (out of 100): 61 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
+Slide: 2 -> Ratio (out of 100): 37 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
+----
+Highest ratio found: 61/100
+----
+Switching to *Slide 1*
+----
+Analysis window is now 107
+----
+Analysis text is now: 'today mu talked about the technology that will drive the next '
+Change detected, checking slides 1-5
+Phrase to match: today mu talked about the technology that will drive the next 
+Slide: 1 -> Ratio (out of 100): 65 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
+Slide: 2 -> Ratio (out of 100): 37 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
+Slide: 3 -> Ratio (out of 100): 41 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
+----
+Highest ratio found: 65/100
+----
+Switching to *Slide 1*
+----
+Analysis window is now 107
+----
+Analysis text is now: 'today mu talked about the technology that will drive the next deck '
+Change detected, checking slides 1-5
+Phrase to match: today mu talked about the technology that will drive the next deck 
+Slide: 1 -> Ratio (out of 100): 67 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
+Slide: 2 -> Ratio (out of 100): 36 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
+Slide: 3 -> Ratio (out of 100): 42 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
+----
+Highest ratio found: 67/100
+----
+Switching to *Slide 1*
+----
+Analysis window is now 107
+----
+Analysis text is now: 'today mu talked about the technology that will drive the next decade of '
+Change detected, checking slides 1-5
+Phrase to match: today mu talked about the technology that will drive the next decade of 
+Slide: 1 -> Ratio (out of 100): 72 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
+Slide: 2 -> Ratio (out of 100): 36 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
+Slide: 3 -> Ratio (out of 100): 36 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
+----
+Highest ratio found: 72/100
+----
+Switching to *Slide 1*
+----
+Analysis window is now 107
+----
+Analysis text is now: 'today mu talked about the technology that will drive the next activity '
+Change detected, checking slides 1-5
+Phrase to match: today mu talked about the technology that will drive the next activity 
+Slide: 1 -> Ratio (out of 100): 66 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
+Slide: 2 -> Ratio (out of 100): 36 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
+Slide: 3 -> Ratio (out of 100): 37 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
+----
+Highest ratio found: 66/100
+----
+Switching to *Slide 1*
+----
+Analysis window is now 107
+----
+Analysis text is now: 'today mu talked about the technology that will drive the next decade of innovation '
+Change detected, checking slides 1-5
+Phrase to match: today mu talked about the technology that will drive the next decade of innovation 
+Slide: 1 -> Ratio (out of 100): 79 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
+Slide: 2 -> Ratio (out of 100): 34 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
+Slide: 3 -> Ratio (out of 100): 36 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
+----
+Highest ratio found: 79/100
 ----
 Switching to *Slide 1*
 ----
@@ -47,177 +218,11 @@ Switching to *Slide 2*
 ----
 Analysis window is now 84
 ----
-Switching to *Slide 3*
+Switching to *Slide 1*
 ----
-Analysis window is now 127
+Analysis window is now 107
 ----
-Switching to *Slide 4*
+Switching to *Slide 0*
 ----
-Analysis window is now 77
-----
-Switching to *Slide 5*
-----
-Analysis window is now 150
-----
-Switching to *Slide 6*
-----
-Analysis window is now 185
-----
-Switching to *Slide 7*
-----
-Analysis window is now 75
-----
-Switching to *Slide 8*
-----
-Analysis window is now 90
-----
-Switching to *Slide 9*
-----
-Analysis window is now 94
-----
-Switching to *Slide 10*
-----
-Analysis window is now 98
-----
-Switching to *Slide 11*
-----
-Analysis window is now 49
-----
-Switching to *Slide 12*
-----
-Analysis window is now 75
-----
-Switching to *Slide 13*
-----
-Analysis window is now 78
-----
-Switching to *Slide 14*
-----
-Analysis window is now 128
-----
-Switching to *Slide 15*
-----
-Analysis window is now 100
-----
-Switching to *Slide 16*
-----
-Analysis window is now 136
-----
-Switching to *Slide 17*
-----
-Analysis window is now 92
-----
-Switching to *Slide 18*
-----
-Analysis window is now 78
-----
-Switching to *Slide 19*
-----
-Analysis window is now 83
-----
-Switching to *Slide 20*
-----
-Analysis window is now 133
-----
-Switching to *Slide 21*
-----
-Analysis window is now 63
-----
-Switching to *Slide 22*
-----
-Analysis window is now 33
-----
-Switching to *Slide 23*
-----
-Analysis window is now 60
-----
-Switching to *Slide 24*
-----
-Analysis window is now 126
-----
-Switching to *Slide 25*
-----
-Analysis window is now 72
-----
-Switching to *Slide 26*
-----
-Analysis window is now 54
-----
-Switching to *Slide 27*
-----
-Analysis window is now 72
-----
-Switching to *Slide 28*
-----
-Analysis window is now 65
-----
-Switching to *Slide 29*
-----
-Analysis window is now 66
-----
-Switching to *Slide 30*
-----
-Analysis window is now 71
-----
-Switching to *Slide 31*
-----
-Analysis window is now 97
-----
-Switching to *Slide 32*
-----
-Analysis window is now 91
-----
-Switching to *Slide 33*
-----
-Analysis window is now 111
-----
-Switching to *Slide 34*
-----
-Analysis window is now 96
-----
-Switching to *Slide 35*
-----
-Analysis window is now 63
-----
-Switching to *Slide 36*
-----
-Analysis window is now 64
-----
-Switching to *Slide 37*
-----
-Analysis window is now 70
-----
-Switching to *Slide 38*
-----
-Analysis window is now 104
-----
-Reached end of slideshow, analysis over.
-Switching to *Slide 39*
-----
-Analysis window is now 104
-----
-Reached end of slideshow, analysis over.
-Switching to *Slide 39*
-----
-Analysis window is now 104
-----
-Reached end of slideshow, analysis over.
-Switching to *Slide 39*
-----
-Analysis window is now 104
-----
-Reached end of slideshow, analysis over.
-Switching to *Slide 39*
-----
-Analysis window is now 104
-----
-Reached end of slideshow, analysis over.
-Switching to *Slide 39*
-----
-Analysis window is now 104
-----
-Reached end of slideshow, analysis over.
-Switching to *Slide 39*
-----
-Analysis window is now 104
+Analysis window is now 120
 ----

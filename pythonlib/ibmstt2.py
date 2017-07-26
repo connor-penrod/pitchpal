@@ -13,7 +13,7 @@ CHANNELS = 1
 RATE = 16000
 CHUNK = 1024
 CHUNKSIZE = 8000
-RECORD_SECONDS = 300
+RECORD_SECONDS = 600
 WAVE_OUTPUT_FILENAME = "speech.wav"
 
 ws = None
@@ -43,7 +43,7 @@ def resetConnection():
     
     print("\tEstablished WS connection...")
     
-    ws.send('{"action":"start","content-type":"audio/l16;rate=16000","interim_results":true,"inactivity_timeout":10}')
+    ws.send('{"action":"start","content-type":"audio/l16;rate=16000","interim_results":true,"inactivity_timeout":300}')
     
     print("\tSent initiation request to IBM")
     
@@ -57,10 +57,12 @@ def getMicData(ws):
     global isRestarting
      
     audio = pyaudio.PyAudio()
-     
+                 
+ 
     # start Recording
+    
     stream = audio.open(format=FORMAT, channels=CHANNELS,
-                    rate=RATE, input=True,
+                    rate=RATE, input=True, #input_device_index=inputDeviceIndex,
                     frames_per_buffer=CHUNK)
     print("recording...")
     frames = []
@@ -127,7 +129,7 @@ token = authorization.get_token(url=SpeechToTextV1.default_url)
 ws = create_connection('wss://stream.watsonplatform.net/speech-to-text/api/v1/recognize?watson-token=' +
   token + '&model=en-US_BroadbandModel')
 
-ws.send('{"action":"start","content-type":"audio/l16;rate=16000","interim_results":true,"inactivity_timeout":10}')
+ws.send('{"action":"start","content-type":"audio/l16;rate=16000","interim_results":true,"inactivity_timeout":300}')
 t3 = threading.Thread(target=receiveAudio)
 t3.start()
 getMicData(ws)
