@@ -29,7 +29,7 @@ Five score years ago, a great American, in whose symbolic shadow we stand signed
 This momentous decree came as a great beacon light of hope to millions of Negro slaves who had been seared in the flames of withering injustice
 `
 
-Would tell PichPal
+Would tell PitchPal
 
 `
 Slide 1 -> Five score years ago, a great American, in whose symbolic shadow we stand signed the Emancipation Proclamation
