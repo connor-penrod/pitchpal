@@ -19,14 +19,14 @@ accuracy_threshold = 60
 font_size = 35
 
 # clear debug file
-open(sys.argv[1] + "\log", "w").close()
+open(sys.argv[1] + "/log", "w").close()
 
 # clear overlay file
-open(sys.argv[1] + "\overlay.txt", "w").close()
+open(sys.argv[1] + "/overlay.txt", "w").close()
 
 
 def log(string):
-    f = open(sys.argv[1] + "\log", "a")
+    f = open(sys.argv[1] + "/log", "a")
     f.write("\n" + string)
     f.close()
 
@@ -42,7 +42,7 @@ def retrieveText():
     global current_text
     global analysis_text
     try:
-        file = open(sys.argv[1] + "\overlay.txt", "r")
+        file = open(sys.argv[1] + "/overlay.txt", "r")
         current_text = file.read()
         file.close()
     except Exception as e:
@@ -52,12 +52,10 @@ def retrieveText():
     chars = ceil(-1.462*font_size + 109.6)
     format_text = textwrap.fill(current_text, chars)
     newlines = format_text.count("\n")
-    log("[y] -> " + str(newlines))
     if(newlines > 2):
         format_text = format_text.replace("\n", "|", newlines - 2)
         first_newline = format_text.rfind("|")
         format_text = textwrap.fill(format_text[first_newline+1:], chars)
-        log("[x] String is -> " + repr(format_text))
     
     '''
     # format for wordwrap
@@ -108,7 +106,8 @@ def retrieveText():
     canvas.after(10, retrieveText)
     
 def switch(event, offset=1):
-    switchslide(offset)
+    global current_slide
+    switchslide(current_slide+offset)
     
     
 def switchslide(number=1):
@@ -126,7 +125,10 @@ def switchslide(number=1):
     canvas.create_image(screen_width/2, screen_height/2, image = slides[current_slide], tags="slide")
     canvas.lift(subtitle, "slide")
     
-    analysis_cutoff = len(phrases[current_slide+1])
+    try:
+        analysis_cutoff = len(phrases[current_slide+1])
+    except:
+        log("Reached end of slideshow, analysis over.")
     log("Switching to *Slide " + str(current_slide) + "*")
     log("----\nAnalysis window is now " + str(analysis_cutoff) + "\n----")
         

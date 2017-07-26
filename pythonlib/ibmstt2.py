@@ -114,7 +114,7 @@ def receiveAudio():
         print("----------")
         if("results" in result):
             print(result["results"][0]["alternatives"][0]["transcript"])
-            overlayF = open(sys.argv[1]+"\overlay.txt", "w")
+            overlayF = open(sys.argv[1]+"/overlay.txt", "w")
             overlayF.write(result["results"][0]["alternatives"][0]["transcript"])
 
 
