@@ -1,3 +1,17 @@
 
-sudo apt-get install libasound-dev portaudio19-dev libportaudio2 libportaudiocpp0
-pip install -r requirements.txt
+# Installation
+To install, navigate to the root 'pitchpal' directory and run
+
+  `sudo ./install.sh`
+
+---
+
+# Running
+To run PitchPal, navigate to the root 'pitchpal' directory and run
+
+  `sudo ./start.sh`
+
+---
+
+# Configuration & Settings
+PitchPal is configured via a `settings.conf` file located in the root directory.
