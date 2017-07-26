@@ -1,5 +1,10 @@
 
 # Installation
+
+PitchPal is compatible with Ubuntu 16.xx
+
+PitchPal requires Python 3 and Pip to be installed on your computer.
+
 To install, navigate to the root 'pitchpal' directory and run
 
   `sudo ./install.sh`
