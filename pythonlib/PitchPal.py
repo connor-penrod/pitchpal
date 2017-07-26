@@ -3,6 +3,7 @@ from math import floor, ceil
 from time import sleep
 from PIL import Image, ImageTk
 from fuzzywuzzy import fuzz
+from configparser import SafeConfigParser
 import subprocess
 child_pid = None
 try:
@@ -11,12 +12,29 @@ try:
 except Exception as e:
     print("ERROR: " + str(e))
 
+try:
+    parser = SafeConfigParser()
+    parser.read(sys.argv[1] + "/../settings.conf")
+    FONT_SIZE = int(parser.get('font_settings', 'font_size'))
+    FONT_COLOR = parser.get('font_settings', 'font_color')
+    SLIDE_DETECTION_RANGE = int(parser.get('slide_settings', 'slide_detection_range'))
+    SLIDE_DETECTION_THRESHOLD = int(parser.get('slide_settings', 'slide_detection_threshold'))
+    print("settings.conf successfully loaded...")
+except Exception as e:
+    print(str(e))
+    print("There was an error reading settings.conf, using default settings...")
+    FONT_SIZE = 35
+    FONT_COLOR = 'white'
+    SLIDE_DETECTION_RANGE = 2
+    SLIDE_DETECTION_THRESHOLD = 60
+
 current_slide = 0
 current_text = ""
 analysis_text = ""
 analysis_cutoff = 90
-accuracy_threshold = 60
-font_size = 35
+accuracy_threshold = SLIDE_DETECTION_THRESHOLD
+font_size = FONT_SIZE
+font_color = FONT_COLOR
 
 # clear debug file
 open(sys.argv[1] + "/log", "w").close()
@@ -152,7 +170,7 @@ def checkSwitch():
         maxRat = 0
         log("Change detected, checking slides " + str(current_slide) + "-" + str(current_slide+4))
         log("Phrase to match: " + analysis_text)
-        for i in range(current_slide, current_slide+3):
+        for i in range(current_slide, current_slide+SLIDE_DETECTION_RANGE+1):
             if(i >= 0):
                 rat = fuzz.ratio(phrases[i], analysis_text)
             else:
@@ -206,7 +224,7 @@ canvas.pack()
 
 canvas.create_image(screen_width/2, screen_height/2, image = slides[0], tags="slide")
 
-subtitle = canvas.create_text(screen_width/2,screen_height*5/6,text="test", fill="white",font=('Calibri',str(font_size)), justify="center")
+subtitle = canvas.create_text(screen_width/2,screen_height*5/6,text="test", fill=font_color ,font=('Calibri',str(font_size)), justify="center")
 
 #subtitle = tkinter.Label(canvas, text="TEST", font=('Calibri','36'), width = 50, justify=tkinter.CENTER, wraplength = screen_width * 7/8, fg="black", bg="white")
 #subtitle.attributes("-alpha", 0.5)
