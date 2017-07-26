@@ -6,7 +6,7 @@ from fuzzywuzzy import fuzz
 import subprocess
 child_pid = None
 try:
-    p = subprocess.Popen(["python", sys.argv[1] + "/ibmstt2.py", str(sys.argv[1])])
+    p = subprocess.Popen(["python3", sys.argv[1] + "/ibmstt2.py", str(sys.argv[1])])
     child_pid = p.pid
 except Exception as e:
     print("ERROR: " + str(e))
