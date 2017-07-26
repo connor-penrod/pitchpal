@@ -2,7 +2,7 @@ from websocket import create_connection
 from watson_developer_cloud import AuthorizationV1, SpeechToTextV1
 import json
 import threading
-import sys
+import sys, os
 
 ######
 
@@ -104,11 +104,25 @@ def getMicData(ws):
     
 
 ######
+def check_pid(pid):        
+    """ Check For the existence of a unix pid. """
+    try:
+        os.kill(pid, 0)
+    except OSError:
+        return False
+    else:
+        return True
 
 def receiveAudio():
+
     global isRestarting
+    global ws
     while True:
         try:
+            if(check_pid(int(sys.argv[2])) is False):
+                print("PitchPal termination detected, closing stream and websocket...")
+                ws.close()
+                os.kill(os.getpid(), 9)
             result = json.loads(ws.recv())
         except Exception as e:
             print("Receiving failed, error: " + str(e))
