@@ -1,104 +1,8 @@
 
 Analysis text is now: ''
-Analysis text is now: 'so '
+Analysis text is now: 'test '
 Change detected, checking slides 0-4
-Phrase to match: so 
-Slide: 0 -> Ratio (out of 100): 0 on phrase: '@@@@@@'
-Slide: 1 -> Ratio (out of 100): 3 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
-----
-No ratio found over 60/100
-----
-Analysis text is now: 'softer '
-Change detected, checking slides 0-4
-Phrase to match: softer 
-Slide: 0 -> Ratio (out of 100): 0 on phrase: '@@@@@@'
-Slide: 1 -> Ratio (out of 100): 6 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
-----
-No ratio found over 60/100
-----
-Analysis text is now: 'self serving her '
-Change detected, checking slides 0-4
-Phrase to match: self serving her 
-Slide: 0 -> Ratio (out of 100): 0 on phrase: '@@@@@@'
-Slide: 1 -> Ratio (out of 100): 10 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
-----
-No ratio found over 60/100
-----
-Analysis text is now: 'self driving cars '
-Change detected, checking slides 0-4
-Phrase to match: self driving cars 
-Slide: 0 -> Ratio (out of 100): 0 on phrase: '@@@@@@'
-Slide: 1 -> Ratio (out of 100): 16 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
-----
-No ratio found over 60/100
-----
-Analysis text is now: 'self driving cars predict '
-Change detected, checking slides 0-4
-Phrase to match: self driving cars predict 
-Slide: 0 -> Ratio (out of 100): 0 on phrase: '@@@@@@'
-Slide: 1 -> Ratio (out of 100): 14 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
-----
-No ratio found over 60/100
-----
-Analysis text is now: 'self driving cars predicted men '
-Change detected, checking slides 0-4
-Phrase to match: self driving cars predicted men 
-Slide: 0 -> Ratio (out of 100): 0 on phrase: '@@@@@@'
-Slide: 1 -> Ratio (out of 100): 20 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
-----
-No ratio found over 60/100
-----
-Analysis text is now: 'self driving cars predictive medicine '
-Change detected, checking slides 0-4
-Phrase to match: self driving cars predictive medicine 
-Slide: 0 -> Ratio (out of 100): 0 on phrase: '@@@@@@'
-Slide: 1 -> Ratio (out of 100): 19 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
-----
-No ratio found over 60/100
-----
-Analysis text is now: 'self driving cars predictive medicine on '
-Change detected, checking slides 0-4
-Phrase to match: self driving cars predictive medicine on 
-Slide: 0 -> Ratio (out of 100): 0 on phrase: '@@@@@@'
-Slide: 1 -> Ratio (out of 100): 20 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
-----
-No ratio found over 60/100
-----
-Analysis text is now: 'self driving cars predictive medicine automated '
-Change detected, checking slides 0-4
-Phrase to match: self driving cars predictive medicine automated 
-Slide: 0 -> Ratio (out of 100): 0 on phrase: '@@@@@@'
-Slide: 1 -> Ratio (out of 100): 20 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
-----
-No ratio found over 60/100
-----
-Analysis text is now: 'self driving cars predictive medicine automated find '
-Change detected, checking slides 0-4
-Phrase to match: self driving cars predictive medicine automated find 
-Slide: 0 -> Ratio (out of 100): 0 on phrase: '@@@@@@'
-Slide: 1 -> Ratio (out of 100): 21 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
-----
-No ratio found over 60/100
-----
-Analysis text is now: 'self driving cars predictive medicine in automated financial '
-Change detected, checking slides 0-4
-Phrase to match: self driving cars predictive medicine in automated financial 
-Slide: 0 -> Ratio (out of 100): 0 on phrase: '@@@@@@'
-Slide: 1 -> Ratio (out of 100): 29 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
-----
-No ratio found over 60/100
-----
-Analysis text is now: 'self driving cars predictive medicine in automated financial planning '
-Change detected, checking slides 0-4
-Phrase to match: self driving cars predictive medicine in automated financial planning 
-Slide: 0 -> Ratio (out of 100): 0 on phrase: '@@@@@@'
-Slide: 1 -> Ratio (out of 100): 31 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
-----
-No ratio found over 60/100
-----
-Analysis text is now: 'Dave '
-Change detected, checking slides 0-4
-Phrase to match: Dave 
+Phrase to match: test 
 Slide: 0 -> Ratio (out of 100): 0 on phrase: '@@@@@@'
 Slide: 1 -> Ratio (out of 100): 6 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
 ----
@@ -112,340 +16,107 @@ Slide: 1 -> Ratio (out of 100): 3 on phrase: 'today i'm here to talk to you abou
 ----
 No ratio found over 60/100
 ----
-Analysis text is now: 'David stalked '
+Analysis text is now: 'David thought '
 Change detected, checking slides 0-4
-Phrase to match: David stalked 
+Phrase to match: David thought 
 Slide: 0 -> Ratio (out of 100): 0 on phrase: '@@@@@@'
 Slide: 1 -> Ratio (out of 100): 10 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
 ----
 No ratio found over 60/100
 ----
-Analysis text is now: 'David sake but '
+Analysis text is now: 'David thought the '
 Change detected, checking slides 0-4
-Phrase to match: David sake but 
+Phrase to match: David thought the 
 Slide: 0 -> Ratio (out of 100): 0 on phrase: '@@@@@@'
-Slide: 1 -> Ratio (out of 100): 12 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
+Slide: 1 -> Ratio (out of 100): 16 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
 ----
 No ratio found over 60/100
 ----
-Analysis text is now: 'David stalked it but the tech '
+Analysis text is now: 'David thought even '
 Change detected, checking slides 0-4
-Phrase to match: David stalked it but the tech 
+Phrase to match: David thought even 
+Slide: 0 -> Ratio (out of 100): 0 on phrase: '@@@@@@'
+Slide: 1 -> Ratio (out of 100): 16 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
+----
+No ratio found over 60/100
+----
+Analysis text is now: 'David thought even the tech '
+Change detected, checking slides 0-4
+Phrase to match: David thought even the tech 
+Slide: 0 -> Ratio (out of 100): 0 on phrase: '@@@@@@'
+Slide: 1 -> Ratio (out of 100): 22 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
+----
+No ratio found over 60/100
+----
+Analysis text is now: 'David thought even the technology '
+Change detected, checking slides 0-4
+Phrase to match: David thought even the technology 
 Slide: 0 -> Ratio (out of 100): 0 on phrase: '@@@@@@'
 Slide: 1 -> Ratio (out of 100): 29 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
 ----
 No ratio found over 60/100
 ----
-Analysis text is now: 'David talked about the technology '
+Analysis text is now: 'David thought even the technology that will '
 Change detected, checking slides 0-4
-Phrase to match: David talked about the technology 
+Phrase to match: David thought even the technology that will 
 Slide: 0 -> Ratio (out of 100): 0 on phrase: '@@@@@@'
-Slide: 1 -> Ratio (out of 100): 36 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
+Slide: 1 -> Ratio (out of 100): 39 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
 ----
 No ratio found over 60/100
 ----
-Analysis text is now: 'David sake but the technology that will '
+Analysis text is now: 'David thought even the technology that will try '
 Change detected, checking slides 0-4
-Phrase to match: David sake but the technology that will 
+Phrase to match: David thought even the technology that will try 
 Slide: 0 -> Ratio (out of 100): 0 on phrase: '@@@@@@'
-Slide: 1 -> Ratio (out of 100): 41 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
+Slide: 1 -> Ratio (out of 100): 40 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
 ----
 No ratio found over 60/100
 ----
-Analysis text is now: 'David sake but the technology that will try '
+Analysis text is now: 'David thought even the technology that will drive the '
 Change detected, checking slides 0-4
-Phrase to match: David sake but the technology that will try 
+Phrase to match: David thought even the technology that will drive the 
 Slide: 0 -> Ratio (out of 100): 0 on phrase: '@@@@@@'
-Slide: 1 -> Ratio (out of 100): 43 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
+Slide: 1 -> Ratio (out of 100): 48 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
 ----
 No ratio found over 60/100
 ----
-Analysis text is now: 'David sake but the technology that will drive that '
+Analysis text is now: 'David thought even the technology that will drive the next that '
 Change detected, checking slides 0-4
-Phrase to match: David sake but the technology that will drive that 
+Phrase to match: David thought even the technology that will drive the next that 
 Slide: 0 -> Ratio (out of 100): 0 on phrase: '@@@@@@'
-Slide: 1 -> Ratio (out of 100): 50 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
+Slide: 1 -> Ratio (out of 100): 54 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
 ----
 No ratio found over 60/100
 ----
-Analysis text is now: 'David sake but the technology that will drive the next day '
+Analysis text is now: 'David thought even the technology that will drive the next decade of '
 Change detected, checking slides 0-4
-Phrase to match: David sake but the technology that will drive the next day 
-Slide: 0 -> Ratio (out of 100): 0 on phrase: '@@@@@@'
-Slide: 1 -> Ratio (out of 100): 57 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
-----
-No ratio found over 60/100
-----
-Analysis text is now: 'David sake but the technology that will drive the next decade '
-Change detected, checking slides 0-4
-Phrase to match: David sake but the technology that will drive the next decade 
+Phrase to match: David thought even the technology that will drive the next decade of 
 Slide: 0 -> Ratio (out of 100): 0 on phrase: '@@@@@@'
 Slide: 1 -> Ratio (out of 100): 60 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
 ----
 No ratio found over 60/100
 ----
-Analysis text is now: 'David sake but the technology that will drive the next decade of '
+Analysis text is now: 'David thought even the technology that will drive the next decade of a '
 Change detected, checking slides 0-4
-Phrase to match: David sake but the technology that will drive the next decade of 
+Phrase to match: David thought even the technology that will drive the next decade of a 
 Slide: 0 -> Ratio (out of 100): 0 on phrase: '@@@@@@'
-Slide: 1 -> Ratio (out of 100): 63 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
-----
-Highest ratio found: 63/100
-----
-Switching to *Slide 1*
-----
-Analysis window is now 107
-----
-Analysis text is now: 'David sake but the technology that will drive the next decade of innovation '
-Change detected, checking slides 1-5
-Phrase to match: David sake but the technology that will drive the next decade of innovation 
-Slide: 1 -> Ratio (out of 100): 70 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
-Slide: 2 -> Ratio (out of 100): 33 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
-----
-Highest ratio found: 70/100
-----
-Switching to *Slide 1*
-----
-Analysis window is now 107
-----
-Analysis text is now: 'so '
-Change detected, checking slides 1-5
-Phrase to match: so 
-Slide: 1 -> Ratio (out of 100): 3 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
-Slide: 2 -> Ratio (out of 100): 4 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
-----
-No ratio found over 60/100
-----
-Analysis text is now: 'softer '
-Change detected, checking slides 1-5
-Phrase to match: softer 
-Slide: 1 -> Ratio (out of 100): 6 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
-Slide: 2 -> Ratio (out of 100): 9 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
-----
-No ratio found over 60/100
-----
-Analysis text is now: 'software maker '
-Change detected, checking slides 1-5
-Phrase to match: software maker 
-Slide: 1 -> Ratio (out of 100): 9 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
-Slide: 2 -> Ratio (out of 100): 16 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
-----
-No ratio found over 60/100
-----
-Analysis text is now: 'self driving cars '
-Change detected, checking slides 1-5
-Phrase to match: self driving cars 
-Slide: 1 -> Ratio (out of 100): 16 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
-Slide: 2 -> Ratio (out of 100): 29 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
-----
-No ratio found over 60/100
-----
-Analysis text is now: 'self driving cars predict '
-Change detected, checking slides 1-5
-Phrase to match: self driving cars predict 
-Slide: 1 -> Ratio (out of 100): 14 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
-Slide: 2 -> Ratio (out of 100): 39 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
-----
-No ratio found over 60/100
-----
-Analysis text is now: 'self driving cars predicted meta '
-Change detected, checking slides 1-5
-Phrase to match: self driving cars predicted meta 
-Slide: 1 -> Ratio (out of 100): 21 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
-Slide: 2 -> Ratio (out of 100): 43 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
-----
-No ratio found over 60/100
-----
-Analysis text is now: 'self driving cars predicted medicine '
-Change detected, checking slides 1-5
-Phrase to match: self driving cars predicted medicine 
-Slide: 1 -> Ratio (out of 100): 22 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
-Slide: 2 -> Ratio (out of 100): 50 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
-----
-No ratio found over 60/100
-----
-Analysis text is now: ''
-Analysis text is now: 'self driving cars predicted medicine at all '
-Change detected, checking slides 1-5
-Phrase to match: self driving cars predicted medicine at all 
-Slide: 1 -> Ratio (out of 100): 23 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
-Slide: 2 -> Ratio (out of 100): 57 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
-----
-No ratio found over 60/100
-----
-Analysis text is now: 'self driving cars predicted medicine and automate '
-Change detected, checking slides 1-5
-Phrase to match: self driving cars predicted medicine and automate 
-Slide: 1 -> Ratio (out of 100): 24 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
-Slide: 2 -> Ratio (out of 100): 62 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
+Slide: 1 -> Ratio (out of 100): 62 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
 ----
 Highest ratio found: 62/100
 ----
-Switching to *Slide 2*
-----
-Analysis window is now 84
-----
-Analysis text is now: 'self driving cars predicted medicine and automated thing '
-Change detected, checking slides 2-6
-Phrase to match: self driving cars predicted medicine and automated thing 
-Slide: 2 -> Ratio (out of 100): 66 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
-Slide: 3 -> Ratio (out of 100): 30 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
-----
-Highest ratio found: 66/100
-----
-Switching to *Slide 2*
-----
-Analysis window is now 84
-----
-Analysis text is now: 'self driving cars predicted medicine and automated finance '
-Change detected, checking slides 2-6
-Phrase to match: self driving cars predicted medicine and automated finance 
-Slide: 2 -> Ratio (out of 100): 70 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
-Slide: 3 -> Ratio (out of 100): 27 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
-----
-Highest ratio found: 70/100
-----
-Switching to *Slide 2*
-----
-Analysis window is now 84
-----
-Analysis text is now: 'self driving cars predicted medicine in automated financial '
-Change detected, checking slides 2-6
-Phrase to match: self driving cars predicted medicine in automated financial 
-Slide: 2 -> Ratio (out of 100): 69 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
-Slide: 3 -> Ratio (out of 100): 33 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
-----
-Highest ratio found: 69/100
-----
-Switching to *Slide 2*
-----
-Analysis window is now 84
-----
-Analysis text is now: 'self driving cars predicted medicine in automated financial planning '
-Change detected, checking slides 2-6
-Phrase to match: self driving cars predicted medicine in automated financial planning 
-Slide: 2 -> Ratio (out of 100): 76 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
-Slide: 3 -> Ratio (out of 100): 39 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
-----
-Highest ratio found: 76/100
-----
-Switching to *Slide 2*
-----
-Analysis window is now 84
-----
 Switching to *Slide 1*
 ----
 Analysis window is now 107
 ----
-Analysis text is now: 'such a '
+Analysis text is now: 'David thought even the technology that will drive the next decade of innovation '
 Change detected, checking slides 1-5
-Phrase to match: such a 
-Slide: 1 -> Ratio (out of 100): 6 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
-Slide: 2 -> Ratio (out of 100): 9 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
+Phrase to match: David thought even the technology that will drive the next decade of innovation 
+Slide: 1 -> Ratio (out of 100): 68 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
+Slide: 2 -> Ratio (out of 100): 28 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
 ----
-No ratio found over 60/100
+Highest ratio found: 68/100
 ----
-Analysis text is now: 'self serving '
-Change detected, checking slides 1-5
-Phrase to match: self serving 
-Slide: 1 -> Ratio (out of 100): 11 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
-Slide: 2 -> Ratio (out of 100): 18 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
+Switching to *Slide 1*
 ----
-No ratio found over 60/100
-----
-Analysis text is now: 'self serving cars '
-Change detected, checking slides 1-5
-Phrase to match: self serving cars 
-Slide: 1 -> Ratio (out of 100): 10 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
-Slide: 2 -> Ratio (out of 100): 26 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
-----
-No ratio found over 60/100
-----
-Analysis text is now: 'self serving cars predict '
-Change detected, checking slides 1-5
-Phrase to match: self serving cars predict 
-Slide: 1 -> Ratio (out of 100): 8 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
-Slide: 2 -> Ratio (out of 100): 36 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
-----
-No ratio found over 60/100
-----
-Analysis text is now: 'self serving cars predicted men '
-Change detected, checking slides 1-5
-Phrase to match: self serving cars predicted men 
-Slide: 1 -> Ratio (out of 100): 13 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
-Slide: 2 -> Ratio (out of 100): 42 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
-----
-No ratio found over 60/100
-----
-Analysis text is now: 'self serving cars predictive medicine '
-Change detected, checking slides 1-5
-Phrase to match: self serving cars predictive medicine 
-Slide: 1 -> Ratio (out of 100): 19 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
-Slide: 2 -> Ratio (out of 100): 50 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
-----
-No ratio found over 60/100
-----
-Analysis text is now: 'self serving cars predictive medicine and I '
-Change detected, checking slides 1-5
-Phrase to match: self serving cars predictive medicine and I 
-Slide: 1 -> Ratio (out of 100): 20 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
-Slide: 2 -> Ratio (out of 100): 54 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
-----
-No ratio found over 60/100
-----
-Analysis text is now: 'self serving cars predictive medicine in autumn '
-Change detected, checking slides 1-5
-Phrase to match: self serving cars predictive medicine in autumn 
-Slide: 1 -> Ratio (out of 100): 23 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
-Slide: 2 -> Ratio (out of 100): 55 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
-----
-No ratio found over 60/100
-----
-Analysis text is now: 'self serving cars predictive medicine and automated by '
-Change detected, checking slides 1-5
-Phrase to match: self serving cars predictive medicine and automated by 
-Slide: 1 -> Ratio (out of 100): 21 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
-Slide: 2 -> Ratio (out of 100): 63 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
-----
-Highest ratio found: 63/100
-----
-Switching to *Slide 2*
-----
-Analysis window is now 84
-----
-Analysis text is now: 'self serving cars predictive medicine in automated financial '
-Change detected, checking slides 2-6
-Phrase to match: self serving cars predictive medicine in automated financial 
-Slide: 2 -> Ratio (out of 100): 69 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
-Slide: 3 -> Ratio (out of 100): 32 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
-----
-Highest ratio found: 69/100
-----
-Switching to *Slide 2*
-----
-Analysis window is now 84
-----
-Analysis text is now: 'self serving cars predictive medicine in automated financial plan '
-Change detected, checking slides 2-6
-Phrase to match: self serving cars predictive medicine in automated financial plan 
-Slide: 2 -> Ratio (out of 100): 73 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
-Slide: 3 -> Ratio (out of 100): 36 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
-----
-Highest ratio found: 73/100
-----
-Switching to *Slide 2*
-----
-Analysis window is now 84
-----
-Analysis text is now: 'self serving cars predictive medicine in automated financial planning '
-Change detected, checking slides 2-6
-Phrase to match: self serving cars predictive medicine in automated financial planning 
-Slide: 2 -> Ratio (out of 100): 76 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
-Slide: 3 -> Ratio (out of 100): 38 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
-----
-Highest ratio found: 76/100
-----
-Switching to *Slide 2*
-----
-Analysis window is now 84
+Analysis window is now 107
 ----

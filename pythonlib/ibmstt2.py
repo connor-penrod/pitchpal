@@ -3,8 +3,18 @@ from watson_developer_cloud import AuthorizationV1, SpeechToTextV1
 import json
 import threading
 import sys, os
+from configparser import SafeConfigParser
 
 ######
+try:
+    parser = SafeConfigParser()
+    parser.read(sys.argv[1] + "/../settings.conf")
+    USERNAME = parser.get('STT_settings', 'username')
+    PASSWORD = parser.get('STT_settings', 'password')
+except Exception as e:
+    print(str(e))
+    print("Could not load IBM STT configuration settings. Cannot connect websocket. Disconnecting...")
+    sys.exit()
 
 import pyaudio
 
@@ -135,8 +145,8 @@ def receiveAudio():
 
 
 authorization = AuthorizationV1(
-    username='90dfb3ab-223d-4a5f-87d7-0232a480dc21',
-    password='4mgJ1asd4KCj')
+    username=USERNAME,
+    password=PASSWORD)
 
 token = authorization.get_token(url=SpeechToTextV1.default_url)
 
