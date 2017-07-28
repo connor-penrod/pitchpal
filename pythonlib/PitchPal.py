@@ -1,4 +1,5 @@
 import threading
+from tkinter import font
 import tkinter, sys, getopt, os, textwrap
 from math import floor, ceil
 from time import sleep
@@ -36,20 +37,27 @@ analysis_cutoff = 90
 accuracy_threshold = SLIDE_DETECTION_THRESHOLD
 font_size = FONT_SIZE
 font_color = FONT_COLOR
+font_outline_color = "black"
 
 monitoring = True
 
 # clear debug file
-open(sys.argv[1] + "/log", "w").close()
+try:
+    open(sys.argv[1] + "/log", "w").close()
+except:
+    print("Log file could not be opened.")
 
 # clear overlay file
 open(sys.argv[1] + "/overlay.txt", "w").close()
 
 
 def log(string):
-    f = open(sys.argv[1] + "/log", "a")
-    f.write("\n" + string)
-    f.close()
+    try:
+        f = open(sys.argv[1] + "/log", "a")
+        f.write("\n" + string)
+        f.close()
+    except:
+        print("Log file could not be written to.")
 
 def sttMonitor():
     global p
@@ -58,7 +66,11 @@ def sttMonitor():
         pass
     if(monitoring):
         print("STT process unexpected termination detected, restarting process...")
-        p = subprocess.Popen(["python3", sys.argv[1] + "/ibmstt2.py", str(sys.argv[1]), str(os.getpid())])
+        try:
+            p = subprocess.Popen(["python3", sys.argv[1] + "/ibmstt2.py", str(sys.argv[1]), str(os.getpid())])
+        except Exception as e:
+            print("STT process could not be recreated, error type " + type(e).__name__ + ": " + str(e))
+            return
         print("STT process restarted.")
         sttMonitor()
 
@@ -72,7 +84,10 @@ def close(event):
     print("Exitting PitchPal")
     analysis_text = ""
     monitoring = False
-    p.kill() #os.kill(child_pid, signal.SIGTERM)
+    try:
+        p.kill() #os.kill(child_pid, signal.SIGTERM)
+    except Exception as e:
+        print("STT process could not be terminated. Error type " + type(e).__name__ + ": " + str(e))
     root.destroy()
     
 def retrieveText():
@@ -179,6 +194,7 @@ def updatetext(new_text):
        # modified_text = current_text[wordLength+1:]
         #current_text = modified_text
     
+    #canvas.itemconfigure(subtitleOutline, text = modified_text)
     canvas.itemconfigure(subtitle, text = modified_text)
     
 def checkSwitch():
@@ -217,7 +233,12 @@ screen_width = float(root.winfo_screenwidth())
 screen_height = float(root.winfo_screenheight())
 
 slides = []
-fileList = sorted(os.listdir(sys.argv[1] + "/images"))
+try:
+    fileList = sorted(os.listdir(sys.argv[1] + "/images"))
+except Exception as e:
+    print("Image folder not found. Errory type " + type(e).__name__ + ": " + str(e))
+    print(" Exitting...")
+    close()
 for filename in fileList:
     print(filename)
     photo = Image.open(sys.argv[1] + "/images/" + filename)
@@ -227,11 +248,17 @@ for filename in fileList:
     
 phrases = []
 phrases.append("@@@@@@") # placeholder
-with open(sys.argv[1] + "/manuscript.txt") as manu:
-    for line in manu:
-        line = line.lower()
-        line = line.replace(".","").replace(",","").replace("\n","").replace("!","").replace("?","")
-        phrases.append(line)
+try:
+    with open(sys.argv[1] + "/manuscript.txt") as manu:
+        for line in manu:
+            line = line.lower()
+            line = line.replace(".","").replace(",","").replace("\n","").replace("!","").replace("?","")
+            phrases.append(line)
+except Exception as e:
+    print("Pitch manuscript file not found, could not extract phrases. Error type " + type(e).__name__ + ": " + str(e))
+    print("Exitting...")
+    close()
+
         
 analysis_cutoff = len(phrases[1])
 
@@ -243,7 +270,11 @@ canvas.pack()
 
 canvas.create_image(screen_width/2, screen_height/2, image = slides[0], tags="slide")
 
-subtitle = canvas.create_text(screen_width/2,screen_height*5/6,text="test", fill=font_color ,font=('Calibri',str(font_size)), justify="center")
+#subtitleOutlineFont = font.Font(family="Helvatica", size=font_size+1)
+subtitleFont = font.Font(family="Helvetica", size=font_size, weight="bold")
+
+#subtitleOutline = canvas.create_text(screen_width/2,screen_height*5/6,text="test", fill=font_outline_color, font=subtitleOutlineFont, justify="center")
+subtitle = canvas.create_text(screen_width/2,screen_height*5/6,text="test", fill=font_color, font=subtitleFont, justify="center")
 
 #subtitle = tkinter.Label(canvas, text="TEST", font=('Calibri','36'), width = 50, justify=tkinter.CENTER, wraplength = screen_width * 7/8, fg="black", bg="white")
 #subtitle.attributes("-alpha", 0.5)

@@ -250,3 +250,519 @@
 07/28/2017 01:20:43 PM||INFO||line 76||resetConnection: Websocket recreated, starting Mic stream again...
 *****
 07/28/2017 01:20:43 PM||INFO||line 93||getMicData: Mic stream initiated, recording...
+*****
+07/28/2017 01:39:52 PM||INFO||line 27||<module>: ---------NEW DEBUG SESSION---------
+*****
+07/28/2017 01:39:52 PM||DEBUG||line 824||_new_conn: Starting new HTTPS connection (1): stream.watsonplatform.net
+*****
+07/28/2017 01:39:52 PM||DEBUG||line 396||_make_request: https://stream.watsonplatform.net:443 "GET /authorization/api/v1/token?url=https://stream.watsonplatform.net/speech-to-text/api HTTP/1.1" 200 None
+*****
+07/28/2017 01:39:52 PM||INFO||line 93||getMicData: Mic stream initiated, recording...
+*****
+07/28/2017 01:46:03 PM||INFO||line 27||<module>: ---------NEW DEBUG SESSION---------
+*****
+07/28/2017 01:46:03 PM||DEBUG||line 824||_new_conn: Starting new HTTPS connection (1): stream.watsonplatform.net
+*****
+07/28/2017 01:46:03 PM||DEBUG||line 396||_make_request: https://stream.watsonplatform.net:443 "GET /authorization/api/v1/token?url=https://stream.watsonplatform.net/speech-to-text/api HTTP/1.1" 200 None
+*****
+07/28/2017 01:46:03 PM||INFO||line 93||getMicData: Mic stream initiated, recording...
+*****
+07/28/2017 01:50:13 PM||ERROR||line 117||getMicData: Invalid binary message detected. Dumping message. Error type BrokenPipeError: [Errno 32] Broken pipe
+*****
+07/28/2017 01:50:13 PM||ERROR||line 120||getMicData: Sending failed, error type WebSocketConnectionClosedException: socket is already closed.
+*****
+07/28/2017 01:50:13 PM||ERROR||line 32||logExecutionInfo: !! Traceback (most recent call last):
+!!   File "/home/connor/Documents/PitchPal/pitchpal/pythonlib/ibmstt2.py", line 112, in getMicData
+    ws.send(dataChunk, opcode=0x2)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_core.py", line 234, in send
+    return self.send_frame(frame)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_core.py", line 259, in send_frame
+    l = self._send(data)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_core.py", line 423, in _send
+    return send(self.sock, data)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_socket.py", line 113, in send
+    raise WebSocketConnectionClosedException("socket is already closed.")
+!! websocket._exceptions.WebSocketConnectionClosedException: socket is already closed.
+
+*****
+07/28/2017 01:50:13 PM||INFO||line 55||resetConnection: Restarting WS...
+*****
+07/28/2017 01:50:13 PM||INFO||line 60||resetConnection: 	Closed previous websocket...
+*****
+07/28/2017 01:50:13 PM||INFO||line 70||resetConnection: 	Established WS connection...
+*****
+07/28/2017 01:50:13 PM||INFO||line 74||resetConnection: 	Sent initiation request to IBM
+*****
+07/28/2017 01:50:13 PM||INFO||line 76||resetConnection: Websocket recreated, starting Mic stream again...
+*****
+07/28/2017 01:50:13 PM||INFO||line 93||getMicData: Mic stream initiated, recording...
+*****
+07/28/2017 01:55:11 PM||INFO||line 27||<module>: ---------NEW DEBUG SESSION---------
+*****
+07/28/2017 01:55:11 PM||DEBUG||line 824||_new_conn: Starting new HTTPS connection (1): stream.watsonplatform.net
+*****
+07/28/2017 01:55:11 PM||DEBUG||line 396||_make_request: https://stream.watsonplatform.net:443 "GET /authorization/api/v1/token?url=https://stream.watsonplatform.net/speech-to-text/api HTTP/1.1" 200 None
+*****
+07/28/2017 01:55:11 PM||INFO||line 93||getMicData: Mic stream initiated, recording...
+*****
+07/28/2017 01:55:55 PM||WARNING||line 160||receiveAudio: PitchPal termination detected, closing stream and websocket...
+*****
+07/28/2017 01:56:42 PM||INFO||line 27||<module>: ---------NEW DEBUG SESSION---------
+*****
+07/28/2017 01:56:42 PM||DEBUG||line 824||_new_conn: Starting new HTTPS connection (1): stream.watsonplatform.net
+*****
+07/28/2017 01:56:42 PM||DEBUG||line 396||_make_request: https://stream.watsonplatform.net:443 "GET /authorization/api/v1/token?url=https://stream.watsonplatform.net/speech-to-text/api HTTP/1.1" 200 None
+*****
+07/28/2017 01:56:42 PM||INFO||line 93||getMicData: Mic stream initiated, recording...
+*****
+07/28/2017 01:57:37 PM||INFO||line 27||<module>: ---------NEW DEBUG SESSION---------
+*****
+07/28/2017 01:57:37 PM||DEBUG||line 824||_new_conn: Starting new HTTPS connection (1): stream.watsonplatform.net
+*****
+07/28/2017 01:57:37 PM||DEBUG||line 396||_make_request: https://stream.watsonplatform.net:443 "GET /authorization/api/v1/token?url=https://stream.watsonplatform.net/speech-to-text/api HTTP/1.1" 200 None
+*****
+07/28/2017 01:57:38 PM||INFO||line 93||getMicData: Mic stream initiated, recording...
+*****
+07/28/2017 02:00:30 PM||INFO||line 27||<module>: ---------NEW DEBUG SESSION---------
+*****
+07/28/2017 02:00:30 PM||DEBUG||line 824||_new_conn: Starting new HTTPS connection (1): stream.watsonplatform.net
+*****
+07/28/2017 02:00:30 PM||DEBUG||line 396||_make_request: https://stream.watsonplatform.net:443 "GET /authorization/api/v1/token?url=https://stream.watsonplatform.net/speech-to-text/api HTTP/1.1" 200 None
+*****
+07/28/2017 02:00:30 PM||INFO||line 93||getMicData: Mic stream initiated, recording...
+*****
+07/28/2017 02:05:27 PM||INFO||line 27||<module>: ---------NEW DEBUG SESSION---------
+*****
+07/28/2017 02:05:27 PM||DEBUG||line 824||_new_conn: Starting new HTTPS connection (1): stream.watsonplatform.net
+*****
+07/28/2017 02:05:27 PM||DEBUG||line 396||_make_request: https://stream.watsonplatform.net:443 "GET /authorization/api/v1/token?url=https://stream.watsonplatform.net/speech-to-text/api HTTP/1.1" 200 None
+*****
+07/28/2017 02:05:27 PM||INFO||line 93||getMicData: Mic stream initiated, recording...
+*****
+07/28/2017 02:06:07 PM||INFO||line 27||<module>: ---------NEW DEBUG SESSION---------
+*****
+07/28/2017 02:06:07 PM||DEBUG||line 824||_new_conn: Starting new HTTPS connection (1): stream.watsonplatform.net
+*****
+07/28/2017 02:06:08 PM||DEBUG||line 396||_make_request: https://stream.watsonplatform.net:443 "GET /authorization/api/v1/token?url=https://stream.watsonplatform.net/speech-to-text/api HTTP/1.1" 200 None
+*****
+07/28/2017 02:06:08 PM||INFO||line 93||getMicData: Mic stream initiated, recording...
+*****
+07/28/2017 02:06:45 PM||INFO||line 27||<module>: ---------NEW DEBUG SESSION---------
+*****
+07/28/2017 02:06:45 PM||DEBUG||line 824||_new_conn: Starting new HTTPS connection (1): stream.watsonplatform.net
+*****
+07/28/2017 02:06:45 PM||DEBUG||line 396||_make_request: https://stream.watsonplatform.net:443 "GET /authorization/api/v1/token?url=https://stream.watsonplatform.net/speech-to-text/api HTTP/1.1" 200 None
+*****
+07/28/2017 02:06:45 PM||INFO||line 93||getMicData: Mic stream initiated, recording...
+*****
+07/28/2017 02:07:47 PM||INFO||line 27||<module>: ---------NEW DEBUG SESSION---------
+*****
+07/28/2017 02:07:47 PM||DEBUG||line 824||_new_conn: Starting new HTTPS connection (1): stream.watsonplatform.net
+*****
+07/28/2017 02:07:47 PM||DEBUG||line 396||_make_request: https://stream.watsonplatform.net:443 "GET /authorization/api/v1/token?url=https://stream.watsonplatform.net/speech-to-text/api HTTP/1.1" 200 None
+*****
+07/28/2017 02:07:48 PM||INFO||line 93||getMicData: Mic stream initiated, recording...
+*****
+07/28/2017 02:11:50 PM||INFO||line 27||<module>: ---------NEW DEBUG SESSION---------
+*****
+07/28/2017 02:11:50 PM||DEBUG||line 824||_new_conn: Starting new HTTPS connection (1): stream.watsonplatform.net
+*****
+07/28/2017 02:11:50 PM||DEBUG||line 396||_make_request: https://stream.watsonplatform.net:443 "GET /authorization/api/v1/token?url=https://stream.watsonplatform.net/speech-to-text/api HTTP/1.1" 200 None
+*****
+07/28/2017 02:11:51 PM||INFO||line 93||getMicData: Mic stream initiated, recording...
+*****
+07/28/2017 02:15:45 PM||ERROR||line 117||getMicData: Invalid binary message detected. Dumping message. Error type BrokenPipeError: [Errno 32] Broken pipe
+*****
+07/28/2017 02:15:45 PM||ERROR||line 120||getMicData: Sending failed, error type WebSocketConnectionClosedException: socket is already closed.
+*****
+07/28/2017 02:15:45 PM||ERROR||line 32||logExecutionInfo: !! Traceback (most recent call last):
+!!   File "/home/connor/Documents/PitchPal/pitchpal/pythonlib/ibmstt2.py", line 112, in getMicData
+    ws.send(dataChunk, opcode=0x2)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_core.py", line 234, in send
+    return self.send_frame(frame)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_core.py", line 259, in send_frame
+    l = self._send(data)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_core.py", line 423, in _send
+    return send(self.sock, data)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_socket.py", line 113, in send
+    raise WebSocketConnectionClosedException("socket is already closed.")
+!! websocket._exceptions.WebSocketConnectionClosedException: socket is already closed.
+
+*****
+07/28/2017 02:15:45 PM||INFO||line 55||resetConnection: Restarting WS...
+*****
+07/28/2017 02:15:45 PM||INFO||line 60||resetConnection: 	Closed previous websocket...
+*****
+07/28/2017 02:15:46 PM||INFO||line 70||resetConnection: 	Established WS connection...
+*****
+07/28/2017 02:15:46 PM||INFO||line 74||resetConnection: 	Sent initiation request to IBM
+*****
+07/28/2017 02:15:46 PM||INFO||line 76||resetConnection: Websocket recreated, starting Mic stream again...
+*****
+07/28/2017 02:15:46 PM||INFO||line 93||getMicData: Mic stream initiated, recording...
+*****
+07/28/2017 02:16:54 PM||ERROR||line 120||getMicData: Sending failed, error type WebSocketConnectionClosedException: socket is already closed.
+*****
+07/28/2017 02:16:54 PM||ERROR||line 32||logExecutionInfo: !! Traceback (most recent call last):
+!!   File "/home/connor/Documents/PitchPal/pitchpal/pythonlib/ibmstt2.py", line 112, in getMicData
+    ws.send(dataChunk, opcode=0x2)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_core.py", line 234, in send
+    return self.send_frame(frame)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_core.py", line 259, in send_frame
+    l = self._send(data)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_core.py", line 423, in _send
+    return send(self.sock, data)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_socket.py", line 113, in send
+    raise WebSocketConnectionClosedException("socket is already closed.")
+!! websocket._exceptions.WebSocketConnectionClosedException: socket is already closed.
+!! 
+During handling of the above exception, another exception occurred:
+
+!! Traceback (most recent call last):
+!!   File "/home/connor/Documents/PitchPal/pitchpal/pythonlib/ibmstt2.py", line 112, in getMicData
+    ws.send(dataChunk, opcode=0x2)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_core.py", line 234, in send
+    return self.send_frame(frame)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_core.py", line 259, in send_frame
+    l = self._send(data)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_core.py", line 423, in _send
+    return send(self.sock, data)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_socket.py", line 113, in send
+    raise WebSocketConnectionClosedException("socket is already closed.")
+!! websocket._exceptions.WebSocketConnectionClosedException: socket is already closed.
+
+*****
+07/28/2017 02:16:54 PM||INFO||line 55||resetConnection: Restarting WS...
+*****
+07/28/2017 02:16:54 PM||INFO||line 60||resetConnection: 	Closed previous websocket...
+*****
+07/28/2017 02:16:54 PM||INFO||line 70||resetConnection: 	Established WS connection...
+*****
+07/28/2017 02:16:54 PM||INFO||line 74||resetConnection: 	Sent initiation request to IBM
+*****
+07/28/2017 02:16:54 PM||INFO||line 76||resetConnection: Websocket recreated, starting Mic stream again...
+*****
+07/28/2017 02:16:54 PM||INFO||line 93||getMicData: Mic stream initiated, recording...
+*****
+07/28/2017 02:20:13 PM||ERROR||line 117||getMicData: Invalid binary message detected. Dumping message. Error type BrokenPipeError: [Errno 32] Broken pipe
+*****
+07/28/2017 02:20:13 PM||ERROR||line 120||getMicData: Sending failed, error type WebSocketConnectionClosedException: socket is already closed.
+*****
+07/28/2017 02:20:13 PM||ERROR||line 32||logExecutionInfo: !! Traceback (most recent call last):
+!!   File "/home/connor/Documents/PitchPal/pitchpal/pythonlib/ibmstt2.py", line 112, in getMicData
+    ws.send(dataChunk, opcode=0x2)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_core.py", line 234, in send
+    return self.send_frame(frame)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_core.py", line 259, in send_frame
+    l = self._send(data)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_core.py", line 423, in _send
+    return send(self.sock, data)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_socket.py", line 113, in send
+    raise WebSocketConnectionClosedException("socket is already closed.")
+!! websocket._exceptions.WebSocketConnectionClosedException: socket is already closed.
+!! 
+During handling of the above exception, another exception occurred:
+
+!! Traceback (most recent call last):
+!!   File "/home/connor/Documents/PitchPal/pitchpal/pythonlib/ibmstt2.py", line 112, in getMicData
+    ws.send(dataChunk, opcode=0x2)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_core.py", line 234, in send
+    return self.send_frame(frame)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_core.py", line 259, in send_frame
+    l = self._send(data)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_core.py", line 423, in _send
+    return send(self.sock, data)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_socket.py", line 113, in send
+    raise WebSocketConnectionClosedException("socket is already closed.")
+!! websocket._exceptions.WebSocketConnectionClosedException: socket is already closed.
+!! 
+During handling of the above exception, another exception occurred:
+
+!! Traceback (most recent call last):
+!!   File "/home/connor/Documents/PitchPal/pitchpal/pythonlib/ibmstt2.py", line 112, in getMicData
+    ws.send(dataChunk, opcode=0x2)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_core.py", line 234, in send
+    return self.send_frame(frame)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_core.py", line 259, in send_frame
+    l = self._send(data)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_core.py", line 423, in _send
+    return send(self.sock, data)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_socket.py", line 113, in send
+    raise WebSocketConnectionClosedException("socket is already closed.")
+!! websocket._exceptions.WebSocketConnectionClosedException: socket is already closed.
+
+*****
+07/28/2017 02:20:13 PM||INFO||line 55||resetConnection: Restarting WS...
+*****
+07/28/2017 02:20:13 PM||INFO||line 60||resetConnection: 	Closed previous websocket...
+*****
+07/28/2017 02:20:13 PM||INFO||line 70||resetConnection: 	Established WS connection...
+*****
+07/28/2017 02:20:13 PM||INFO||line 74||resetConnection: 	Sent initiation request to IBM
+*****
+07/28/2017 02:20:13 PM||INFO||line 76||resetConnection: Websocket recreated, starting Mic stream again...
+*****
+07/28/2017 02:20:13 PM||INFO||line 93||getMicData: Mic stream initiated, recording...
+*****
+07/28/2017 02:21:24 PM||ERROR||line 117||getMicData: Invalid binary message detected. Dumping message. Error type BrokenPipeError: [Errno 32] Broken pipe
+*****
+07/28/2017 02:21:24 PM||ERROR||line 120||getMicData: Sending failed, error type WebSocketConnectionClosedException: socket is already closed.
+*****
+07/28/2017 02:21:24 PM||ERROR||line 32||logExecutionInfo: !! Traceback (most recent call last):
+!!   File "/home/connor/Documents/PitchPal/pitchpal/pythonlib/ibmstt2.py", line 112, in getMicData
+    ws.send(dataChunk, opcode=0x2)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_core.py", line 234, in send
+    return self.send_frame(frame)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_core.py", line 259, in send_frame
+    l = self._send(data)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_core.py", line 423, in _send
+    return send(self.sock, data)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_socket.py", line 113, in send
+    raise WebSocketConnectionClosedException("socket is already closed.")
+!! websocket._exceptions.WebSocketConnectionClosedException: socket is already closed.
+!! 
+During handling of the above exception, another exception occurred:
+
+!! Traceback (most recent call last):
+!!   File "/home/connor/Documents/PitchPal/pitchpal/pythonlib/ibmstt2.py", line 112, in getMicData
+    ws.send(dataChunk, opcode=0x2)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_core.py", line 234, in send
+    return self.send_frame(frame)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_core.py", line 259, in send_frame
+    l = self._send(data)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_core.py", line 423, in _send
+    return send(self.sock, data)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_socket.py", line 113, in send
+    raise WebSocketConnectionClosedException("socket is already closed.")
+!! websocket._exceptions.WebSocketConnectionClosedException: socket is already closed.
+!! 
+During handling of the above exception, another exception occurred:
+
+!! Traceback (most recent call last):
+!!   File "/home/connor/Documents/PitchPal/pitchpal/pythonlib/ibmstt2.py", line 112, in getMicData
+    ws.send(dataChunk, opcode=0x2)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_core.py", line 234, in send
+    return self.send_frame(frame)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_core.py", line 259, in send_frame
+    l = self._send(data)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_core.py", line 423, in _send
+    return send(self.sock, data)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_socket.py", line 113, in send
+    raise WebSocketConnectionClosedException("socket is already closed.")
+!! websocket._exceptions.WebSocketConnectionClosedException: socket is already closed.
+!! 
+During handling of the above exception, another exception occurred:
+
+!! Traceback (most recent call last):
+!!   File "/home/connor/Documents/PitchPal/pitchpal/pythonlib/ibmstt2.py", line 112, in getMicData
+    ws.send(dataChunk, opcode=0x2)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_core.py", line 234, in send
+    return self.send_frame(frame)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_core.py", line 259, in send_frame
+    l = self._send(data)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_core.py", line 423, in _send
+    return send(self.sock, data)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_socket.py", line 113, in send
+    raise WebSocketConnectionClosedException("socket is already closed.")
+!! websocket._exceptions.WebSocketConnectionClosedException: socket is already closed.
+
+*****
+07/28/2017 02:21:24 PM||INFO||line 55||resetConnection: Restarting WS...
+*****
+07/28/2017 02:21:24 PM||INFO||line 60||resetConnection: 	Closed previous websocket...
+*****
+07/28/2017 02:21:24 PM||INFO||line 70||resetConnection: 	Established WS connection...
+*****
+07/28/2017 02:21:24 PM||INFO||line 74||resetConnection: 	Sent initiation request to IBM
+*****
+07/28/2017 02:21:24 PM||INFO||line 76||resetConnection: Websocket recreated, starting Mic stream again...
+*****
+07/28/2017 02:21:24 PM||INFO||line 93||getMicData: Mic stream initiated, recording...
+*****
+07/28/2017 02:25:49 PM||INFO||line 27||<module>: ---------NEW DEBUG SESSION---------
+*****
+07/28/2017 02:25:49 PM||DEBUG||line 824||_new_conn: Starting new HTTPS connection (1): stream.watsonplatform.net
+*****
+07/28/2017 02:25:49 PM||DEBUG||line 396||_make_request: https://stream.watsonplatform.net:443 "GET /authorization/api/v1/token?url=https://stream.watsonplatform.net/speech-to-text/api HTTP/1.1" 200 None
+*****
+07/28/2017 02:25:49 PM||INFO||line 93||getMicData: Mic stream initiated, recording...
+*****
+07/28/2017 02:27:16 PM||ERROR||line 117||getMicData: Invalid binary message detected. Dumping message. Error type BrokenPipeError: [Errno 32] Broken pipe
+*****
+07/28/2017 02:27:16 PM||ERROR||line 120||getMicData: Sending failed, error type WebSocketConnectionClosedException: socket is already closed.
+*****
+07/28/2017 02:27:16 PM||ERROR||line 32||logExecutionInfo: !! Traceback (most recent call last):
+!!   File "/home/connor/Documents/PitchPal/pitchpal/pythonlib/ibmstt2.py", line 112, in getMicData
+    ws.send(dataChunk, opcode=0x2)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_core.py", line 234, in send
+    return self.send_frame(frame)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_core.py", line 259, in send_frame
+    l = self._send(data)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_core.py", line 423, in _send
+    return send(self.sock, data)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_socket.py", line 113, in send
+    raise WebSocketConnectionClosedException("socket is already closed.")
+!! websocket._exceptions.WebSocketConnectionClosedException: socket is already closed.
+
+*****
+07/28/2017 02:27:16 PM||INFO||line 55||resetConnection: Restarting WS...
+*****
+07/28/2017 02:27:16 PM||INFO||line 60||resetConnection: 	Closed previous websocket...
+*****
+07/28/2017 02:27:16 PM||INFO||line 70||resetConnection: 	Established WS connection...
+*****
+07/28/2017 02:27:16 PM||INFO||line 74||resetConnection: 	Sent initiation request to IBM
+*****
+07/28/2017 02:27:16 PM||INFO||line 76||resetConnection: Websocket recreated, starting Mic stream again...
+*****
+07/28/2017 02:27:16 PM||INFO||line 93||getMicData: Mic stream initiated, recording...
+*****
+07/28/2017 02:30:06 PM||INFO||line 27||<module>: ---------NEW DEBUG SESSION---------
+*****
+07/28/2017 02:30:06 PM||DEBUG||line 824||_new_conn: Starting new HTTPS connection (1): stream.watsonplatform.net
+*****
+07/28/2017 02:30:07 PM||DEBUG||line 396||_make_request: https://stream.watsonplatform.net:443 "GET /authorization/api/v1/token?url=https://stream.watsonplatform.net/speech-to-text/api HTTP/1.1" 200 None
+*****
+07/28/2017 02:30:07 PM||INFO||line 93||getMicData: Mic stream initiated, recording...
+*****
+07/28/2017 02:30:46 PM||INFO||line 27||<module>: ---------NEW DEBUG SESSION---------
+*****
+07/28/2017 02:30:46 PM||DEBUG||line 824||_new_conn: Starting new HTTPS connection (1): stream.watsonplatform.net
+*****
+07/28/2017 02:30:46 PM||DEBUG||line 396||_make_request: https://stream.watsonplatform.net:443 "GET /authorization/api/v1/token?url=https://stream.watsonplatform.net/speech-to-text/api HTTP/1.1" 200 None
+*****
+07/28/2017 02:30:47 PM||INFO||line 93||getMicData: Mic stream initiated, recording...
+*****
+07/28/2017 02:30:57 PM||ERROR||line 117||getMicData: Invalid binary message detected. Dumping message. Error type OSError: [Errno 9] Bad file descriptor
+*****
+07/28/2017 02:30:57 PM||ERROR||line 120||getMicData: Sending failed, error type WebSocketConnectionClosedException: socket is already closed.
+*****
+07/28/2017 02:30:57 PM||ERROR||line 32||logExecutionInfo: !! Traceback (most recent call last):
+!!   File "/home/connor/Documents/PitchPal/pitchpal/pythonlib/ibmstt2.py", line 112, in getMicData
+    ws.send(dataChunk, opcode=0x2)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_core.py", line 234, in send
+    return self.send_frame(frame)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_core.py", line 259, in send_frame
+    l = self._send(data)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_core.py", line 423, in _send
+    return send(self.sock, data)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_socket.py", line 113, in send
+    raise WebSocketConnectionClosedException("socket is already closed.")
+!! websocket._exceptions.WebSocketConnectionClosedException: socket is already closed.
+
+*****
+07/28/2017 02:30:57 PM||INFO||line 55||resetConnection: Restarting WS...
+*****
+07/28/2017 02:30:57 PM||INFO||line 60||resetConnection: 	Closed previous websocket...
+*****
+07/28/2017 02:30:57 PM||INFO||line 70||resetConnection: 	Established WS connection...
+*****
+07/28/2017 02:30:57 PM||INFO||line 74||resetConnection: 	Sent initiation request to IBM
+*****
+07/28/2017 02:30:57 PM||INFO||line 76||resetConnection: Websocket recreated, starting Mic stream again...
+*****
+07/28/2017 02:30:57 PM||INFO||line 93||getMicData: Mic stream initiated, recording...
+*****
+07/28/2017 02:32:02 PM||INFO||line 27||<module>: ---------NEW DEBUG SESSION---------
+*****
+07/28/2017 02:32:02 PM||DEBUG||line 824||_new_conn: Starting new HTTPS connection (1): stream.watsonplatform.net
+*****
+07/28/2017 02:32:03 PM||DEBUG||line 396||_make_request: https://stream.watsonplatform.net:443 "GET /authorization/api/v1/token?url=https://stream.watsonplatform.net/speech-to-text/api HTTP/1.1" 200 None
+*****
+07/28/2017 02:32:03 PM||INFO||line 93||getMicData: Mic stream initiated, recording...
+*****
+07/28/2017 02:32:13 PM||INFO||line 27||<module>: ---------NEW DEBUG SESSION---------
+*****
+07/28/2017 02:32:13 PM||DEBUG||line 824||_new_conn: Starting new HTTPS connection (1): stream.watsonplatform.net
+*****
+07/28/2017 02:32:13 PM||DEBUG||line 396||_make_request: https://stream.watsonplatform.net:443 "GET /authorization/api/v1/token?url=https://stream.watsonplatform.net/speech-to-text/api HTTP/1.1" 200 None
+*****
+07/28/2017 02:32:13 PM||INFO||line 93||getMicData: Mic stream initiated, recording...
+*****
+07/28/2017 02:33:04 PM||INFO||line 27||<module>: ---------NEW DEBUG SESSION---------
+*****
+07/28/2017 02:33:04 PM||DEBUG||line 824||_new_conn: Starting new HTTPS connection (1): stream.watsonplatform.net
+*****
+07/28/2017 02:33:04 PM||DEBUG||line 396||_make_request: https://stream.watsonplatform.net:443 "GET /authorization/api/v1/token?url=https://stream.watsonplatform.net/speech-to-text/api HTTP/1.1" 200 None
+*****
+07/28/2017 02:33:04 PM||INFO||line 93||getMicData: Mic stream initiated, recording...
+*****
+07/28/2017 02:34:10 PM||INFO||line 27||<module>: ---------NEW DEBUG SESSION---------
+*****
+07/28/2017 02:34:10 PM||DEBUG||line 824||_new_conn: Starting new HTTPS connection (1): stream.watsonplatform.net
+*****
+07/28/2017 02:34:10 PM||DEBUG||line 396||_make_request: https://stream.watsonplatform.net:443 "GET /authorization/api/v1/token?url=https://stream.watsonplatform.net/speech-to-text/api HTTP/1.1" 200 None
+*****
+07/28/2017 02:34:11 PM||INFO||line 93||getMicData: Mic stream initiated, recording...
+*****
+07/28/2017 02:34:30 PM||ERROR||line 117||getMicData: Invalid binary message detected. Dumping message. Error type ConnectionResetError: [Errno 104] Connection reset by peer
+*****
+07/28/2017 02:34:30 PM||ERROR||line 117||getMicData: Invalid binary message detected. Dumping message. Error type BrokenPipeError: [Errno 32] Broken pipe
+*****
+07/28/2017 02:34:30 PM||ERROR||line 117||getMicData: Invalid binary message detected. Dumping message. Error type BrokenPipeError: [Errno 32] Broken pipe
+*****
+07/28/2017 02:34:30 PM||ERROR||line 117||getMicData: Invalid binary message detected. Dumping message. Error type BrokenPipeError: [Errno 32] Broken pipe
+*****
+07/28/2017 02:34:30 PM||ERROR||line 120||getMicData: Sending failed, error type WebSocketConnectionClosedException: socket is already closed.
+*****
+07/28/2017 02:34:30 PM||ERROR||line 32||logExecutionInfo: !! Traceback (most recent call last):
+!!   File "/home/connor/Documents/PitchPal/pitchpal/pythonlib/ibmstt2.py", line 112, in getMicData
+    ws.send(dataChunk, opcode=0x2)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_core.py", line 234, in send
+    return self.send_frame(frame)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_core.py", line 259, in send_frame
+    l = self._send(data)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_core.py", line 423, in _send
+    return send(self.sock, data)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_socket.py", line 113, in send
+    raise WebSocketConnectionClosedException("socket is already closed.")
+!! websocket._exceptions.WebSocketConnectionClosedException: socket is already closed.
+
+*****
+07/28/2017 02:34:30 PM||INFO||line 55||resetConnection: Restarting WS...
+*****
+07/28/2017 02:34:30 PM||INFO||line 60||resetConnection: 	Closed previous websocket...
+*****
+07/28/2017 02:34:30 PM||INFO||line 70||resetConnection: 	Established WS connection...
+*****
+07/28/2017 02:34:30 PM||INFO||line 74||resetConnection: 	Sent initiation request to IBM
+*****
+07/28/2017 02:34:30 PM||INFO||line 76||resetConnection: Websocket recreated, starting Mic stream again...
+*****
+07/28/2017 02:34:30 PM||INFO||line 93||getMicData: Mic stream initiated, recording...
+*****
+07/28/2017 02:40:15 PM||INFO||line 27||<module>: ---------NEW DEBUG SESSION---------
+*****
+07/28/2017 02:40:15 PM||DEBUG||line 824||_new_conn: Starting new HTTPS connection (1): stream.watsonplatform.net
+*****
+07/28/2017 02:40:15 PM||DEBUG||line 396||_make_request: https://stream.watsonplatform.net:443 "GET /authorization/api/v1/token?url=https://stream.watsonplatform.net/speech-to-text/api HTTP/1.1" 200 None
+*****
+07/28/2017 02:40:16 PM||INFO||line 93||getMicData: Mic stream initiated, recording...
+*****
+07/28/2017 02:41:37 PM||ERROR||line 120||getMicData: Sending failed, error type WebSocketConnectionClosedException: socket is already closed.
+*****
+07/28/2017 02:41:37 PM||ERROR||line 32||logExecutionInfo: !! Traceback (most recent call last):
+!!   File "/home/connor/Documents/PitchPal/pitchpal/pythonlib/ibmstt2.py", line 112, in getMicData
+    ws.send(dataChunk, opcode=0x2)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_core.py", line 234, in send
+    return self.send_frame(frame)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_core.py", line 259, in send_frame
+    l = self._send(data)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_core.py", line 423, in _send
+    return send(self.sock, data)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_socket.py", line 113, in send
+    raise WebSocketConnectionClosedException("socket is already closed.")
+!! websocket._exceptions.WebSocketConnectionClosedException: socket is already closed.
+
+*****
+07/28/2017 02:41:37 PM||INFO||line 55||resetConnection: Restarting WS...
+*****
+07/28/2017 02:41:37 PM||INFO||line 60||resetConnection: 	Closed previous websocket...
+*****
+07/28/2017 02:41:38 PM||INFO||line 70||resetConnection: 	Established WS connection...
+*****
+07/28/2017 02:41:38 PM||INFO||line 74||resetConnection: 	Sent initiation request to IBM
+*****
+07/28/2017 02:41:38 PM||INFO||line 76||resetConnection: Websocket recreated, starting Mic stream again...
+*****
+07/28/2017 02:41:38 PM||INFO||line 93||getMicData: Mic stream initiated, recording...

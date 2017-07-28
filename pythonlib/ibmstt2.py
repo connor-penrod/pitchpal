@@ -113,12 +113,13 @@ def getMicData(ws):
                 #except Exception as e:
                 #    logging.error("Invalid binary message detected. Dumping message. Error type " + type(e).__name__ + ": " + str(e))
                 #    totalData = totalData[CHUNKSIZE:]
-            except OSError as e:
+            except (OSError) as e:
                 logging.error("Invalid binary message detected. Dumping message. Error type " + type(e).__name__ + ": " + str(e))
                 totalData = totalData[CHUNKSIZE:]
             except Exception as e:
                 logging.error("Sending failed, error type " + type(e).__name__ + ": " + str(e))
                 logExecutionInfo()
+                totalData = totalData[CHUNKSIZE:]
                 resetConnection()
                 logging.info("Closing mic data stream")
                 stream.stop_stream()
