@@ -185,6 +185,7 @@ def switchslide(number=1):
     log("----\nAnalysis window is now " + str(analysis_cutoff) + "\n----")
         
 def updatetext(new_text):
+    global subtitleBBox
     global current_text
     modified_text = new_text
     
@@ -195,8 +196,17 @@ def updatetext(new_text):
         #current_text = modified_text
     
     #canvas.itemconfigure(subtitleOutline, text = modified_text)
-    canvas.itemconfigure(subtitle, text = modified_text)
+    try:
+        canvas.delete(subtitleBBox)
+    except:
+        pass
+
     
+    canvas.itemconfigure(subtitle, text = modified_text)
+    subCoords = canvas.bbox("subtitletext")
+    subtitleBBox = canvas.create_rectangle(subCoords[0], subCoords[1], subCoords[2], subCoords[3], fill="black", stipple="gray75")
+    canvas.lift(subtitle, subtitleBBox)
+
 def checkSwitch():
     global current_slide
     
@@ -274,7 +284,8 @@ canvas.create_image(screen_width/2, screen_height/2, image = slides[0], tags="sl
 subtitleFont = font.Font(family="Helvetica", size=font_size, weight="bold")
 
 #subtitleOutline = canvas.create_text(screen_width/2,screen_height*5/6,text="test", fill=font_outline_color, font=subtitleOutlineFont, justify="center")
-subtitle = canvas.create_text(screen_width/2,screen_height*5/6,text="test", fill=font_color, font=subtitleFont, justify="center")
+subtitle = canvas.create_text(screen_width/2,screen_height*5/6,text="test", fill=font_color, font=subtitleFont, justify="center", tags="subtitletext")
+subtitleBBox = None
 
 #subtitle = tkinter.Label(canvas, text="TEST", font=('Calibri','36'), width = 50, justify=tkinter.CENTER, wraplength = screen_width * 7/8, fg="black", bg="white")
 #subtitle.attributes("-alpha", 0.5)
