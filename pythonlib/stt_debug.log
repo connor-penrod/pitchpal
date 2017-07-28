@@ -1,0 +1,252 @@
+*****
+07/27/2017 08:30:08 PM||INFO||line 27||<module>: ---------NEW DEBUG SESSION--------
+*****
+07/27/2017 08:30:08 PM||DEBUG||line 824||_new_conn: Starting new HTTPS connection (1): stream.watsonplatform.net
+*****
+07/27/2017 08:30:10 PM||DEBUG||line 396||_make_request: https://stream.watsonplatform.net:443 "GET /authorization/api/v1/token?url=https://stream.watsonplatform.net/speech-to-text/api HTTP/1.1" 200 None
+*****
+07/27/2017 08:30:11 PM||INFO||line 93||getMicData: Mic stream initiated, recording...
+*****
+07/27/2017 08:58:35 PM||INFO||line 27||<module>: ---------NEW DEBUG SESSION--------
+*****
+07/27/2017 08:58:35 PM||DEBUG||line 824||_new_conn: Starting new HTTPS connection (1): stream.watsonplatform.net
+*****
+07/27/2017 08:58:35 PM||DEBUG||line 396||_make_request: https://stream.watsonplatform.net:443 "GET /authorization/api/v1/token?url=https://stream.watsonplatform.net/speech-to-text/api HTTP/1.1" 200 None
+*****
+07/27/2017 08:58:36 PM||INFO||line 93||getMicData: Mic stream initiated, recording...
+*****
+07/27/2017 08:58:36 PM||ERROR||line 114||getMicData: Invalid binary message detected. Dumping message. Error type AttributeError: 'bytes' object has no attribute 'encode'
+*****
+07/27/2017 08:58:36 PM||ERROR||line 114||getMicData: Invalid binary message detected. Dumping message. Error type AttributeError: 'bytes' object has no attribute 'encode'
+*****
+07/27/2017 08:58:37 PM||ERROR||line 114||getMicData: Invalid binary message detected. Dumping message. Error type AttributeError: 'bytes' object has no attribute 'encode'
+*****
+07/27/2017 08:58:37 PM||ERROR||line 114||getMicData: Invalid binary message detected. Dumping message. Error type AttributeError: 'bytes' object has no attribute 'encode'
+*****
+07/27/2017 08:58:37 PM||ERROR||line 114||getMicData: Invalid binary message detected. Dumping message. Error type AttributeError: 'bytes' object has no attribute 'encode'
+*****
+07/27/2017 08:58:37 PM||ERROR||line 114||getMicData: Invalid binary message detected. Dumping message. Error type AttributeError: 'bytes' object has no attribute 'encode'
+*****
+07/27/2017 08:58:38 PM||ERROR||line 114||getMicData: Invalid binary message detected. Dumping message. Error type AttributeError: 'bytes' object has no attribute 'encode'
+*****
+07/27/2017 08:58:38 PM||ERROR||line 114||getMicData: Invalid binary message detected. Dumping message. Error type AttributeError: 'bytes' object has no attribute 'encode'
+*****
+07/27/2017 08:58:38 PM||ERROR||line 114||getMicData: Invalid binary message detected. Dumping message. Error type AttributeError: 'bytes' object has no attribute 'encode'
+*****
+07/27/2017 08:58:38 PM||ERROR||line 114||getMicData: Invalid binary message detected. Dumping message. Error type AttributeError: 'bytes' object has no attribute 'encode'
+*****
+07/27/2017 08:58:39 PM||ERROR||line 114||getMicData: Invalid binary message detected. Dumping message. Error type AttributeError: 'bytes' object has no attribute 'encode'
+*****
+07/27/2017 08:58:39 PM||ERROR||line 114||getMicData: Invalid binary message detected. Dumping message. Error type AttributeError: 'bytes' object has no attribute 'encode'
+*****
+07/27/2017 08:58:39 PM||ERROR||line 114||getMicData: Invalid binary message detected. Dumping message. Error type AttributeError: 'bytes' object has no attribute 'encode'
+*****
+07/27/2017 08:58:39 PM||ERROR||line 114||getMicData: Invalid binary message detected. Dumping message. Error type AttributeError: 'bytes' object has no attribute 'encode'
+*****
+07/27/2017 08:58:40 PM||ERROR||line 114||getMicData: Invalid binary message detected. Dumping message. Error type AttributeError: 'bytes' object has no attribute 'encode'
+*****
+07/27/2017 08:58:40 PM||ERROR||line 114||getMicData: Invalid binary message detected. Dumping message. Error type AttributeError: 'bytes' object has no attribute 'encode'
+*****
+07/27/2017 08:58:40 PM||ERROR||line 114||getMicData: Invalid binary message detected. Dumping message. Error type AttributeError: 'bytes' object has no attribute 'encode'
+*****
+07/27/2017 08:58:41 PM||ERROR||line 114||getMicData: Invalid binary message detected. Dumping message. Error type AttributeError: 'bytes' object has no attribute 'encode'
+*****
+07/27/2017 08:58:41 PM||ERROR||line 114||getMicData: Invalid binary message detected. Dumping message. Error type AttributeError: 'bytes' object has no attribute 'encode'
+*****
+07/27/2017 08:58:41 PM||ERROR||line 114||getMicData: Invalid binary message detected. Dumping message. Error type AttributeError: 'bytes' object has no attribute 'encode'
+*****
+07/27/2017 08:58:41 PM||ERROR||line 114||getMicData: Invalid binary message detected. Dumping message. Error type AttributeError: 'bytes' object has no attribute 'encode'
+*****
+07/27/2017 08:58:42 PM||ERROR||line 114||getMicData: Invalid binary message detected. Dumping message. Error type AttributeError: 'bytes' object has no attribute 'encode'
+*****
+07/27/2017 08:58:42 PM||ERROR||line 114||getMicData: Invalid binary message detected. Dumping message. Error type AttributeError: 'bytes' object has no attribute 'encode'
+*****
+07/27/2017 08:58:42 PM||ERROR||line 114||getMicData: Invalid binary message detected. Dumping message. Error type AttributeError: 'bytes' object has no attribute 'encode'
+*****
+07/27/2017 08:58:42 PM||ERROR||line 114||getMicData: Invalid binary message detected. Dumping message. Error type AttributeError: 'bytes' object has no attribute 'encode'
+*****
+07/27/2017 08:58:43 PM||ERROR||line 114||getMicData: Invalid binary message detected. Dumping message. Error type AttributeError: 'bytes' object has no attribute 'encode'
+*****
+07/27/2017 08:58:43 PM||ERROR||line 114||getMicData: Invalid binary message detected. Dumping message. Error type AttributeError: 'bytes' object has no attribute 'encode'
+*****
+07/27/2017 08:58:43 PM||ERROR||line 114||getMicData: Invalid binary message detected. Dumping message. Error type AttributeError: 'bytes' object has no attribute 'encode'
+*****
+07/27/2017 08:58:43 PM||ERROR||line 114||getMicData: Invalid binary message detected. Dumping message. Error type AttributeError: 'bytes' object has no attribute 'encode'
+*****
+07/27/2017 08:58:44 PM||ERROR||line 114||getMicData: Invalid binary message detected. Dumping message. Error type AttributeError: 'bytes' object has no attribute 'encode'
+*****
+07/27/2017 08:58:44 PM||ERROR||line 114||getMicData: Invalid binary message detected. Dumping message. Error type AttributeError: 'bytes' object has no attribute 'encode'
+*****
+07/27/2017 08:58:44 PM||ERROR||line 114||getMicData: Invalid binary message detected. Dumping message. Error type AttributeError: 'bytes' object has no attribute 'encode'
+*****
+07/27/2017 08:58:44 PM||ERROR||line 114||getMicData: Invalid binary message detected. Dumping message. Error type AttributeError: 'bytes' object has no attribute 'encode'
+*****
+07/27/2017 08:58:45 PM||ERROR||line 114||getMicData: Invalid binary message detected. Dumping message. Error type AttributeError: 'bytes' object has no attribute 'encode'
+*****
+07/27/2017 08:58:45 PM||ERROR||line 114||getMicData: Invalid binary message detected. Dumping message. Error type AttributeError: 'bytes' object has no attribute 'encode'
+*****
+07/27/2017 08:58:45 PM||ERROR||line 114||getMicData: Invalid binary message detected. Dumping message. Error type AttributeError: 'bytes' object has no attribute 'encode'
+*****
+07/27/2017 08:58:45 PM||ERROR||line 114||getMicData: Invalid binary message detected. Dumping message. Error type AttributeError: 'bytes' object has no attribute 'encode'
+*****
+07/27/2017 08:58:46 PM||ERROR||line 114||getMicData: Invalid binary message detected. Dumping message. Error type AttributeError: 'bytes' object has no attribute 'encode'
+*****
+07/27/2017 09:03:32 PM||INFO||line 27||<module>: ---------NEW DEBUG SESSION--------
+*****
+07/27/2017 09:03:32 PM||DEBUG||line 824||_new_conn: Starting new HTTPS connection (1): stream.watsonplatform.net
+*****
+07/27/2017 09:03:33 PM||DEBUG||line 396||_make_request: https://stream.watsonplatform.net:443 "GET /authorization/api/v1/token?url=https://stream.watsonplatform.net/speech-to-text/api HTTP/1.1" 200 None
+*****
+07/27/2017 09:03:34 PM||INFO||line 93||getMicData: Mic stream initiated, recording...
+*****
+07/27/2017 09:03:43 PM||ERROR||line 120||getMicData: Sending failed, error type WebSocketConnectionClosedException: socket is already closed.
+*****
+07/27/2017 09:03:43 PM||ERROR||line 32||logExecutionInfo: !! Traceback (most recent call last):
+!!   File "/home/connor/Documents/PitchPal/pitchpal/pythonlib/ibmstt2.py", line 112, in getMicData
+    ws.send(dataChunk, opcode=0x2)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_core.py", line 234, in send
+    return self.send_frame(frame)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_core.py", line 259, in send_frame
+    l = self._send(data)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_core.py", line 423, in _send
+    return send(self.sock, data)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_socket.py", line 113, in send
+    raise WebSocketConnectionClosedException("socket is already closed.")
+!! websocket._exceptions.WebSocketConnectionClosedException: socket is already closed.
+
+*****
+07/27/2017 09:03:43 PM||INFO||line 55||resetConnection: Restarting WS...
+*****
+07/27/2017 09:03:43 PM||INFO||line 60||resetConnection: 	Closed previous websocket...
+*****
+07/27/2017 09:03:43 PM||INFO||line 70||resetConnection: 	Established WS connection...
+*****
+07/27/2017 09:03:43 PM||INFO||line 74||resetConnection: 	Sent initiation request to IBM
+*****
+07/27/2017 09:03:43 PM||INFO||line 76||resetConnection: Websocket recreated, starting Mic stream again...
+*****
+07/27/2017 09:03:43 PM||INFO||line 93||getMicData: Mic stream initiated, recording...
+*****
+07/27/2017 09:06:32 PM||INFO||line 27||<module>: 
+---------NEW DEBUG SESSION---------
+*****
+*****
+07/27/2017 09:06:32 PM||DEBUG||line 824||_new_conn: Starting new HTTPS connection (1): stream.watsonplatform.net
+*****
+07/27/2017 09:06:33 PM||DEBUG||line 396||_make_request: https://stream.watsonplatform.net:443 "GET /authorization/api/v1/token?url=https://stream.watsonplatform.net/speech-to-text/api HTTP/1.1" 200 None
+*****
+07/27/2017 09:09:32 PM||INFO||line 27||<module>: ---------NEW DEBUG SESSION---------
+*****
+07/27/2017 09:09:32 PM||DEBUG||line 824||_new_conn: Starting new HTTPS connection (1): stream.watsonplatform.net
+*****
+07/27/2017 09:09:32 PM||DEBUG||line 396||_make_request: https://stream.watsonplatform.net:443 "GET /authorization/api/v1/token?url=https://stream.watsonplatform.net/speech-to-text/api HTTP/1.1" 200 None
+*****
+07/27/2017 09:09:33 PM||INFO||line 93||getMicData: Mic stream initiated, recording...
+*****
+07/27/2017 09:12:04 PM||ERROR||line 117||getMicData: Invalid binary message detected. Dumping message. Error type OSError: [Errno 14] Bad address
+*****
+07/27/2017 09:12:04 PM||ERROR||line 120||getMicData: Sending failed, error type WebSocketConnectionClosedException: socket is already closed.
+*****
+07/27/2017 09:12:04 PM||ERROR||line 32||logExecutionInfo: !! Traceback (most recent call last):
+!!   File "/home/connor/Documents/PitchPal/pitchpal/pythonlib/ibmstt2.py", line 112, in getMicData
+    ws.send(dataChunk, opcode=0x2)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_core.py", line 234, in send
+    return self.send_frame(frame)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_core.py", line 259, in send_frame
+    l = self._send(data)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_core.py", line 423, in _send
+    return send(self.sock, data)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_socket.py", line 113, in send
+    raise WebSocketConnectionClosedException("socket is already closed.")
+!! websocket._exceptions.WebSocketConnectionClosedException: socket is already closed.
+
+*****
+07/27/2017 09:12:04 PM||INFO||line 55||resetConnection: Restarting WS...
+*****
+07/27/2017 09:12:04 PM||INFO||line 60||resetConnection: 	Closed previous websocket...
+*****
+07/27/2017 09:12:04 PM||INFO||line 70||resetConnection: 	Established WS connection...
+*****
+07/27/2017 09:12:04 PM||INFO||line 74||resetConnection: 	Sent initiation request to IBM
+*****
+07/27/2017 09:12:04 PM||INFO||line 76||resetConnection: Websocket recreated, starting Mic stream again...
+*****
+07/27/2017 09:12:04 PM||INFO||line 93||getMicData: Mic stream initiated, recording...
+*****
+07/28/2017 10:58:54 AM||INFO||line 27||<module>: ---------NEW DEBUG SESSION---------
+*****
+07/28/2017 10:58:54 AM||DEBUG||line 824||_new_conn: Starting new HTTPS connection (1): stream.watsonplatform.net
+*****
+07/28/2017 10:58:54 AM||DEBUG||line 396||_make_request: https://stream.watsonplatform.net:443 "GET /authorization/api/v1/token?url=https://stream.watsonplatform.net/speech-to-text/api HTTP/1.1" 200 None
+*****
+07/28/2017 10:58:55 AM||INFO||line 93||getMicData: Mic stream initiated, recording...
+*****
+07/28/2017 12:55:44 PM||INFO||line 27||<module>: ---------NEW DEBUG SESSION---------
+*****
+07/28/2017 12:55:44 PM||DEBUG||line 824||_new_conn: Starting new HTTPS connection (1): stream.watsonplatform.net
+*****
+07/28/2017 12:55:44 PM||DEBUG||line 396||_make_request: https://stream.watsonplatform.net:443 "GET /authorization/api/v1/token?url=https://stream.watsonplatform.net/speech-to-text/api HTTP/1.1" 200 None
+*****
+07/28/2017 12:55:44 PM||INFO||line 93||getMicData: Mic stream initiated, recording...
+*****
+07/28/2017 12:56:48 PM||INFO||line 27||<module>: ---------NEW DEBUG SESSION---------
+*****
+07/28/2017 12:56:48 PM||DEBUG||line 824||_new_conn: Starting new HTTPS connection (1): stream.watsonplatform.net
+*****
+07/28/2017 12:56:48 PM||DEBUG||line 396||_make_request: https://stream.watsonplatform.net:443 "GET /authorization/api/v1/token?url=https://stream.watsonplatform.net/speech-to-text/api HTTP/1.1" 200 None
+*****
+07/28/2017 12:56:48 PM||INFO||line 93||getMicData: Mic stream initiated, recording...
+*****
+07/28/2017 12:58:17 PM||INFO||line 27||<module>: ---------NEW DEBUG SESSION---------
+*****
+07/28/2017 12:58:17 PM||DEBUG||line 824||_new_conn: Starting new HTTPS connection (1): stream.watsonplatform.net
+*****
+07/28/2017 12:58:17 PM||DEBUG||line 396||_make_request: https://stream.watsonplatform.net:443 "GET /authorization/api/v1/token?url=https://stream.watsonplatform.net/speech-to-text/api HTTP/1.1" 200 None
+*****
+07/28/2017 12:58:18 PM||INFO||line 93||getMicData: Mic stream initiated, recording...
+*****
+07/28/2017 12:58:47 PM||INFO||line 27||<module>: ---------NEW DEBUG SESSION---------
+*****
+07/28/2017 12:58:47 PM||DEBUG||line 824||_new_conn: Starting new HTTPS connection (1): stream.watsonplatform.net
+*****
+07/28/2017 12:58:48 PM||DEBUG||line 396||_make_request: https://stream.watsonplatform.net:443 "GET /authorization/api/v1/token?url=https://stream.watsonplatform.net/speech-to-text/api HTTP/1.1" 200 None
+*****
+07/28/2017 12:58:48 PM||INFO||line 93||getMicData: Mic stream initiated, recording...
+*****
+07/28/2017 01:18:37 PM||INFO||line 27||<module>: ---------NEW DEBUG SESSION---------
+*****
+07/28/2017 01:18:37 PM||DEBUG||line 824||_new_conn: Starting new HTTPS connection (1): stream.watsonplatform.net
+*****
+07/28/2017 01:18:37 PM||DEBUG||line 396||_make_request: https://stream.watsonplatform.net:443 "GET /authorization/api/v1/token?url=https://stream.watsonplatform.net/speech-to-text/api HTTP/1.1" 200 None
+*****
+07/28/2017 01:18:38 PM||INFO||line 93||getMicData: Mic stream initiated, recording...
+*****
+07/28/2017 01:20:43 PM||ERROR||line 117||getMicData: Invalid binary message detected. Dumping message. Error type BrokenPipeError: [Errno 32] Broken pipe
+*****
+07/28/2017 01:20:43 PM||ERROR||line 120||getMicData: Sending failed, error type WebSocketConnectionClosedException: socket is already closed.
+*****
+07/28/2017 01:20:43 PM||ERROR||line 32||logExecutionInfo: !! Traceback (most recent call last):
+!!   File "/home/connor/Documents/PitchPal/pitchpal/pythonlib/ibmstt2.py", line 112, in getMicData
+    ws.send(dataChunk, opcode=0x2)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_core.py", line 234, in send
+    return self.send_frame(frame)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_core.py", line 259, in send_frame
+    l = self._send(data)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_core.py", line 423, in _send
+    return send(self.sock, data)
+!!   File "/usr/local/lib/python3.5/dist-packages/websocket/_socket.py", line 113, in send
+    raise WebSocketConnectionClosedException("socket is already closed.")
+!! websocket._exceptions.WebSocketConnectionClosedException: socket is already closed.
+
+*****
+07/28/2017 01:20:43 PM||INFO||line 55||resetConnection: Restarting WS...
+*****
+07/28/2017 01:20:43 PM||INFO||line 60||resetConnection: 	Closed previous websocket...
+*****
+07/28/2017 01:20:43 PM||INFO||line 70||resetConnection: 	Established WS connection...
+*****
+07/28/2017 01:20:43 PM||INFO||line 74||resetConnection: 	Sent initiation request to IBM
+*****
+07/28/2017 01:20:43 PM||INFO||line 76||resetConnection: Websocket recreated, starting Mic stream again...
+*****
+07/28/2017 01:20:43 PM||INFO||line 93||getMicData: Mic stream initiated, recording...
