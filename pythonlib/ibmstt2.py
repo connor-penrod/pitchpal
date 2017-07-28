@@ -24,7 +24,7 @@ logging.basicConfig(
     format="*****\n%(asctime)s||%(levelname)s||line %(lineno)d||%(funcName)s: %(message)s",
     datefmt='%m/%d/%Y %I:%M:%S %p'
     )
-logging.info("---------NEW DEBUG SESSION--------")
+logging.info("---------NEW DEBUG SESSION---------")
 
 def logExecutionInfo():
     exc_type, exc_value, exc_traceback = sys.exc_info()
@@ -106,11 +106,16 @@ def getMicData(ws):
             try:
                 dataChunk = totalData[0:CHUNKSIZE]
                 dataStr = str(dataChunk)
-                matched = re.search(r'&\w+;', dataStr)
-                if not matched:
-                    ws.send(dataChunk, opcode=0x2)
-                else:
-                    logging.error("Invalid binary message detected. Discarding message...")
+                #matched = re.search(r'&\w+;', dataStr)
+                #try:
+                 #   dataStr = dataStr.encode('utf-8')
+                ws.send(dataChunk, opcode=0x2)
+                #except Exception as e:
+                #    logging.error("Invalid binary message detected. Dumping message. Error type " + type(e).__name__ + ": " + str(e))
+                #    totalData = totalData[CHUNKSIZE:]
+            except OSError as e:
+                logging.error("Invalid binary message detected. Dumping message. Error type " + type(e).__name__ + ": " + str(e))
+                totalData = totalData[CHUNKSIZE:]
             except Exception as e:
                 logging.error("Sending failed, error type " + type(e).__name__ + ": " + str(e))
                 logExecutionInfo()
