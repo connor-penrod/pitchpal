@@ -1,2 +1,23 @@
 
 Analysis text is now: ''
+Analysis text is now: 'they '
+Change detected, checking slides 0-4
+Phrase to match: they 
+Slide: 0 -> Ratio (out of 100): 0 on phrase: '@@@@@@'
+Slide: 1 -> Ratio (out of 100): 8 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
+Slide: 2 -> Ratio (out of 100): 7 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
+Slide: 3 -> Ratio (out of 100): 11 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
+----
+No ratio found over 60/100
+----
+Analysis text is now: 'limit '
+Change detected, checking slides 0-4
+Phrase to match: limit 
+Slide: 0 -> Ratio (out of 100): 0 on phrase: '@@@@@@'
+Slide: 1 -> Ratio (out of 100): 6 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
+Slide: 2 -> Ratio (out of 100): 4 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
+Slide: 3 -> Ratio (out of 100): 2 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
+----
+No ratio found over 60/100
+----
+Analysis text is now: 'limited thought '

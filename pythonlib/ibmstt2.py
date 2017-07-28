@@ -95,7 +95,7 @@ def getMicData(ws):
     bytesSent = 0
     for i in range(0, int(RATE / CHUNK * RECORD_SECONDS)):
         try:
-            data = stream.read(CHUNK)
+            data = stream.read(CHUNK, False)
         except Exception as e:
             logging.error("Stream reading failed, error: " + str(e))
 
@@ -106,7 +106,7 @@ def getMicData(ws):
                 dataChunk = totalData[0:CHUNKSIZE]
                 ws.send(dataChunk, opcode=0x2)
             except Exception as e:
-                logging.error("Sending failed, error: " + str(e))
+                logging.error("Sending failed, error type " + type(e).__name__ + ": " + str(e))
                 logExecutionInfo()
                 resetConnection()
                 logging.info("Closing mic data stream")
@@ -150,7 +150,7 @@ def receiveAudio():
                 ws.close()
                 os.kill(os.getpid(), 9)
         except Exception as e:
-            logging.error("Receiving failed, error: " + str(e))
+            logging.error("Receiving failed, error type " + type(e).__name__ + ": " + str(e))
             logExecutionInfo()
 
         try:
