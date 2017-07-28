@@ -1,5 +1,12 @@
+# PitchPal 
+### What is it?
+PitchPal is a voice-activated presentation helper. Using fuzzy matching algorithms and Speech-to-Text technology, it automatically changes your slides for you as you speak. You'll no longer need to worry about switching slides manually yourself, or trust another person to switch in the proper place.
 
-# Installation
+Simply add a copy of your speech/pitch (or just the parts where you want it to switch) and add the slides you want it to present, and PitchPal will handle the rest.
+
+Currently PitchPal only supports .GIF image format.
+
+### Installation
 PitchPal is compatible with Ubuntu 16.xx
 
 PitchPal requires Python 3 and Pip to be installed on your computer.
@@ -10,14 +17,14 @@ To install, navigate to the root 'pitchpal' directory and run
 
 ---
 
-# Running
+### Running
 To run PitchPal, navigate to the root 'pitchpal' directory and run
 
   `sudo ./start.sh`
 
 ---
 
-# Adding Slides and Pitches
+### Adding Slides and Pitches
 To add slides, navigate to `pitchpal/pythonlib/images` and put the desired slides in there. PitchPal presents them in alphanumeric order.
 
 To change the pitch manuscript, navigate to `pitchpal/pythonlib` and edit the `manuscript.txt` file. PitchPal pairs each line (text ending with a newline) to correspond to each slide in order.
@@ -49,5 +56,5 @@ Change to slide 3
 
 ---
 
-# Slideshow Configuration & Settings
+### Slideshow Configuration & Settings
 PitchPal is configured via a `settings.conf` file located in the root directory.
