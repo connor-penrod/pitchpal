@@ -1,4 +1,4 @@
-
+import threading
 import tkinter, sys, getopt, os, textwrap
 from math import floor, ceil
 from time import sleep
@@ -37,6 +37,8 @@ accuracy_threshold = SLIDE_DETECTION_THRESHOLD
 font_size = FONT_SIZE
 font_color = FONT_COLOR
 
+monitoring = True
+
 # clear debug file
 open(sys.argv[1] + "/log", "w").close()
 
@@ -49,11 +51,27 @@ def log(string):
     f.write("\n" + string)
     f.close()
 
+def sttMonitor():
+    global p
+    print("STT Monitor active...")
+    while(p.poll() == None and monitoring):
+        pass
+    if(monitoring):
+        print("STT process unexpected termination detected, restarting process...")
+        p = subprocess.Popen(["python3", sys.argv[1] + "/ibmstt2.py", str(sys.argv[1]), str(os.getpid())])
+        print("STT process restarted.")
+        sttMonitor()
+
+monitor = threading.Thread(target=sttMonitor)
+monitor.start()
+
 def close(event):
+    global monitoring
     global analysis_text
     global p
     print("Exitting PitchPal")
     analysis_text = ""
+    monitoring = False
     p.kill() #os.kill(child_pid, signal.SIGTERM)
     root.destroy()
     
@@ -66,7 +84,7 @@ def retrieveText():
         file.close()
     except Exception as e:
         current_text = "[Blank]"
-        log("Error: ", str(e))
+        log("Error, 'overlay.txt' could not be opened: ", str(e))
     
     chars = ceil(-1.462*font_size + 109.6)
     format_text = textwrap.fill(current_text, chars)
