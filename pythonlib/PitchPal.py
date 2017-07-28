@@ -19,6 +19,7 @@ try:
     parser.read(sys.argv[1] + "/../settings.conf")
     FONT_SIZE = int(parser.get('font_settings', 'font_size'))
     FONT_COLOR = parser.get('font_settings', 'font_color')
+    FONT_BACKGROUND_TRANSPARENCY = parser.get('font_settings', 'font_background_transparency')
     SLIDE_DETECTION_RANGE = int(parser.get('slide_settings', 'slide_detection_range'))
     SLIDE_DETECTION_THRESHOLD = int(parser.get('slide_settings', 'slide_detection_threshold'))
     print("settings.conf successfully loaded...")
@@ -27,6 +28,7 @@ except Exception as e:
     print("There was an error reading settings.conf, using default settings...")
     FONT_SIZE = 35
     FONT_COLOR = 'white'
+    FONT_BACKGROUND_TRANSPARENCY = '75'
     SLIDE_DETECTION_RANGE = 2
     SLIDE_DETECTION_THRESHOLD = 60
 
@@ -38,6 +40,7 @@ accuracy_threshold = SLIDE_DETECTION_THRESHOLD
 font_size = FONT_SIZE
 font_color = FONT_COLOR
 font_outline_color = "black"
+font_background_transparency = FONT_BACKGROUND_TRANSPARENCY
 
 monitoring = True
 
@@ -204,7 +207,7 @@ def updatetext(new_text):
     
     canvas.itemconfigure(subtitle, text = modified_text)
     subCoords = canvas.bbox("subtitletext")
-    subtitleBBox = canvas.create_rectangle(subCoords[0], subCoords[1], subCoords[2], subCoords[3], fill="black", stipple="gray75")
+    subtitleBBox = canvas.create_rectangle(subCoords[0], subCoords[1], subCoords[2], subCoords[3], fill="black", stipple=font_background_transparency)
     canvas.lift(subtitle, subtitleBBox)
 
 def checkSwitch():
