@@ -1,23 +1,848 @@
 
 Analysis text is now: ''
-Analysis text is now: 'they '
+Analysis text is now: 'today '
 Change detected, checking slides 0-4
-Phrase to match: they 
+Phrase to match: today 
 Slide: 0 -> Ratio (out of 100): 0 on phrase: '@@@@@@'
-Slide: 1 -> Ratio (out of 100): 8 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
+Slide: 1 -> Ratio (out of 100): 10 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
 Slide: 2 -> Ratio (out of 100): 7 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
-Slide: 3 -> Ratio (out of 100): 11 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
+Slide: 3 -> Ratio (out of 100): 7 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
 ----
 No ratio found over 60/100
 ----
-Analysis text is now: 'limit '
+Analysis text is now: ''
+Analysis text is now: 'today I am here '
 Change detected, checking slides 0-4
-Phrase to match: limit 
+Phrase to match: today I am here 
 Slide: 0 -> Ratio (out of 100): 0 on phrase: '@@@@@@'
-Slide: 1 -> Ratio (out of 100): 6 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
+Slide: 1 -> Ratio (out of 100): 19 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
+Slide: 2 -> Ratio (out of 100): 15 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
+Slide: 3 -> Ratio (out of 100): 18 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
+----
+No ratio found over 60/100
+----
+Analysis text is now: 'today I am here to talk '
+Change detected, checking slides 0-4
+Phrase to match: today I am here to talk 
+Slide: 0 -> Ratio (out of 100): 0 on phrase: '@@@@@@'
+Slide: 1 -> Ratio (out of 100): 29 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
+Slide: 2 -> Ratio (out of 100): 18 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
+Slide: 3 -> Ratio (out of 100): 26 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
+----
+No ratio found over 60/100
+----
+Analysis text is now: 'today I am here to talk to you '
+Change detected, checking slides 0-4
+Phrase to match: today I am here to talk to you 
+Slide: 0 -> Ratio (out of 100): 0 on phrase: '@@@@@@'
+Slide: 1 -> Ratio (out of 100): 37 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
+Slide: 2 -> Ratio (out of 100): 20 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
+Slide: 3 -> Ratio (out of 100): 28 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
+----
+No ratio found over 60/100
+----
+Analysis text is now: 'today I am here to talk to you about '
+Change detected, checking slides 0-4
+Phrase to match: today I am here to talk to you about 
+Slide: 0 -> Ratio (out of 100): 0 on phrase: '@@@@@@'
+Slide: 1 -> Ratio (out of 100): 43 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
+Slide: 2 -> Ratio (out of 100): 21 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
+Slide: 3 -> Ratio (out of 100): 28 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
+----
+No ratio found over 60/100
+----
+Analysis text is now: 'today I am here to talk to you about tech '
+Change detected, checking slides 0-4
+Phrase to match: today I am here to talk to you about tech 
+Slide: 0 -> Ratio (out of 100): 0 on phrase: '@@@@@@'
+Slide: 1 -> Ratio (out of 100): 48 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
+Slide: 2 -> Ratio (out of 100): 20 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
+Slide: 3 -> Ratio (out of 100): 24 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
+----
+No ratio found over 60/100
+----
+Analysis text is now: 'today I am here to talk to you about the technology '
+Change detected, checking slides 0-4
+Phrase to match: today I am here to talk to you about the technology 
+Slide: 0 -> Ratio (out of 100): 0 on phrase: '@@@@@@'
+Slide: 1 -> Ratio (out of 100): 57 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
+Slide: 2 -> Ratio (out of 100): 30 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
+Slide: 3 -> Ratio (out of 100): 29 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
+----
+No ratio found over 60/100
+----
+Analysis text is now: 'today I am here to talk to you about the technology that will '
+Change detected, checking slides 0-4
+Phrase to match: today I am here to talk to you about the technology that will 
+Slide: 0 -> Ratio (out of 100): 0 on phrase: '@@@@@@'
+Slide: 1 -> Ratio (out of 100): 65 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
+Slide: 2 -> Ratio (out of 100): 30 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
+Slide: 3 -> Ratio (out of 100): 34 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
+----
+Highest ratio found: 65/100
+----
+Switching to *Slide 1*
+----
+Analysis window is now 107
+----
+Analysis text is now: 'today I am here to talk to you about the technology that will drive '
+Change detected, checking slides 1-5
+Phrase to match: today I am here to talk to you about the technology that will drive 
+Slide: 1 -> Ratio (out of 100): 69 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
+Slide: 2 -> Ratio (out of 100): 32 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
+Slide: 3 -> Ratio (out of 100): 36 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
+Slide: 4 -> Ratio (out of 100): 29 on phrase: 'the ability of a computer to understand human language and respond via the most expressive form of human communication - speech'
+----
+Highest ratio found: 69/100
+----
+Switching to *Slide 1*
+----
+Analysis window is now 107
+----
+Analysis text is now: 'today I am here to talk to you about the technology that will drive the neck '
+Change detected, checking slides 1-5
+Phrase to match: today I am here to talk to you about the technology that will drive the neck 
+Slide: 1 -> Ratio (out of 100): 73 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
+Slide: 2 -> Ratio (out of 100): 33 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
+Slide: 3 -> Ratio (out of 100): 37 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
+Slide: 4 -> Ratio (out of 100): 31 on phrase: 'the ability of a computer to understand human language and respond via the most expressive form of human communication - speech'
+----
+Highest ratio found: 73/100
+----
+Switching to *Slide 1*
+----
+Analysis window is now 107
+----
+Analysis text is now: 'today I am here to talk to you about the technology that will drive the next '
+Change detected, checking slides 1-5
+Phrase to match: today I am here to talk to you about the technology that will drive the next 
+Slide: 1 -> Ratio (out of 100): 75 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
+Slide: 2 -> Ratio (out of 100): 33 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
+Slide: 3 -> Ratio (out of 100): 39 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
+Slide: 4 -> Ratio (out of 100): 29 on phrase: 'the ability of a computer to understand human language and respond via the most expressive form of human communication - speech'
+----
+Highest ratio found: 75/100
+----
+Switching to *Slide 1*
+----
+Analysis window is now 107
+----
+Analysis text is now: 'today I am here to talk to you about the technology that will drive the next decade of '
+Change detected, checking slides 1-5
+Phrase to match: today I am here to talk to you about the technology that will drive the next decade of 
+Slide: 1 -> Ratio (out of 100): 81 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
+Slide: 2 -> Ratio (out of 100): 32 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
+Slide: 3 -> Ratio (out of 100): 34 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
+Slide: 4 -> Ratio (out of 100): 30 on phrase: 'the ability of a computer to understand human language and respond via the most expressive form of human communication - speech'
+----
+Highest ratio found: 81/100
+----
+Switching to *Slide 1*
+----
+Analysis window is now 107
+----
+Analysis text is now: 'today I am here to talk to you about the technology that will drive the next decade of it the '
+Change detected, checking slides 1-5
+Phrase to match: today I am here to talk to you about the technology that will drive the next decade of it the 
+Slide: 1 -> Ratio (out of 100): 83 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
+Slide: 2 -> Ratio (out of 100): 31 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
+Slide: 3 -> Ratio (out of 100): 38 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
+Slide: 4 -> Ratio (out of 100): 31 on phrase: 'the ability of a computer to understand human language and respond via the most expressive form of human communication - speech'
+----
+Highest ratio found: 83/100
+----
+Switching to *Slide 1*
+----
+Analysis window is now 107
+----
+Analysis text is now: 'today I am here to talk to you about the technology that will drive the next decade of innovation '
+Change detected, checking slides 1-5
+Phrase to match: today I am here to talk to you about the technology that will drive the next decade of innovation 
+Slide: 1 -> Ratio (out of 100): 87 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
+Slide: 2 -> Ratio (out of 100): 30 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
+Slide: 3 -> Ratio (out of 100): 34 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
+Slide: 4 -> Ratio (out of 100): 36 on phrase: 'the ability of a computer to understand human language and respond via the most expressive form of human communication - speech'
+----
+Highest ratio found: 87/100
+----
+Switching to *Slide 1*
+----
+Analysis window is now 107
+----
+Analysis text is now: 'today I am here to talk to you about the technology that will drive the next decade of innovation art '
+Change detected, checking slides 1-5
+Phrase to match: today I am here to talk to you about the technology that will drive the next decade of innovation art 
+Slide: 1 -> Ratio (out of 100): 89 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
+Slide: 2 -> Ratio (out of 100): 31 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
+Slide: 3 -> Ratio (out of 100): 33 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
+Slide: 4 -> Ratio (out of 100): 36 on phrase: 'the ability of a computer to understand human language and respond via the most expressive form of human communication - speech'
+----
+Highest ratio found: 89/100
+----
+Switching to *Slide 1*
+----
+Analysis window is now 107
+----
+Analysis text is now: 'day I am here to talk to you about the technology that will drive the next decade of innovation artificial '
+Change detected, checking slides 1-5
+Phrase to match: day I am here to talk to you about the technology that will drive the next decade of innovation artificial 
+Slide: 1 -> Ratio (out of 100): 92 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
+Slide: 2 -> Ratio (out of 100): 30 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
+Slide: 3 -> Ratio (out of 100): 38 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
+Slide: 4 -> Ratio (out of 100): 34 on phrase: 'the ability of a computer to understand human language and respond via the most expressive form of human communication - speech'
+----
+Highest ratio found: 92/100
+----
+Switching to *Slide 1*
+----
+Analysis window is now 107
+----
+Analysis text is now: 'am here to talk to you about the technology that will drive the next decade of innovation artificial until '
+Change detected, checking slides 1-5
+Phrase to match: am here to talk to you about the technology that will drive the next decade of innovation artificial until 
+Slide: 1 -> Ratio (out of 100): 92 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
+Slide: 2 -> Ratio (out of 100): 30 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
+Slide: 3 -> Ratio (out of 100): 40 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
+Slide: 4 -> Ratio (out of 100): 34 on phrase: 'the ability of a computer to understand human language and respond via the most expressive form of human communication - speech'
+----
+Highest ratio found: 92/100
+----
+Switching to *Slide 1*
+----
+Analysis window is now 107
+----
+Analysis text is now: ' to talk to you about the technology that will drive the next decade of innovation artificial intelligence '
+Change detected, checking slides 1-5
+Phrase to match:  to talk to you about the technology that will drive the next decade of innovation artificial intelligence 
+Slide: 1 -> Ratio (out of 100): 93 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
+Slide: 2 -> Ratio (out of 100): 28 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
+Slide: 3 -> Ratio (out of 100): 43 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
+Slide: 4 -> Ratio (out of 100): 34 on phrase: 'the ability of a computer to understand human language and respond via the most expressive form of human communication - speech'
+----
+Highest ratio found: 93/100
+----
+Switching to *Slide 1*
+----
+Analysis window is now 107
+----
+Analysis text is now: 'so '
+Change detected, checking slides 1-5
+Phrase to match: so 
+Slide: 1 -> Ratio (out of 100): 3 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
 Slide: 2 -> Ratio (out of 100): 4 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
 Slide: 3 -> Ratio (out of 100): 2 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
+Slide: 4 -> Ratio (out of 100): 3 on phrase: 'the ability of a computer to understand human language and respond via the most expressive form of human communication - speech'
 ----
 No ratio found over 60/100
 ----
-Analysis text is now: 'limited thought '
+Analysis text is now: 'so true '
+Change detected, checking slides 1-5
+Phrase to match: so true 
+Slide: 1 -> Ratio (out of 100): 9 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
+Slide: 2 -> Ratio (out of 100): 9 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
+Slide: 3 -> Ratio (out of 100): 7 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
+Slide: 4 -> Ratio (out of 100): 4 on phrase: 'the ability of a computer to understand human language and respond via the most expressive form of human communication - speech'
+----
+No ratio found over 60/100
+----
+Analysis text is now: 'self driving car '
+Change detected, checking slides 1-5
+Phrase to match: self driving car 
+Slide: 1 -> Ratio (out of 100): 16 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
+Slide: 2 -> Ratio (out of 100): 27 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
+Slide: 3 -> Ratio (out of 100): 26 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
+Slide: 4 -> Ratio (out of 100): 11 on phrase: 'the ability of a computer to understand human language and respond via the most expressive form of human communication - speech'
+----
+No ratio found over 60/100
+----
+Analysis text is now: 'self driving cars '
+Change detected, checking slides 1-5
+Phrase to match: self driving cars 
+Slide: 1 -> Ratio (out of 100): 16 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
+Slide: 2 -> Ratio (out of 100): 29 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
+Slide: 3 -> Ratio (out of 100): 27 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
+Slide: 4 -> Ratio (out of 100): 12 on phrase: 'the ability of a computer to understand human language and respond via the most expressive form of human communication - speech'
+----
+No ratio found over 60/100
+----
+Analysis text is now: 'self driving cars pretty '
+Change detected, checking slides 1-5
+Phrase to match: self driving cars pretty 
+Slide: 1 -> Ratio (out of 100): 17 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
+Slide: 2 -> Ratio (out of 100): 35 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
+Slide: 3 -> Ratio (out of 100): 31 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
+Slide: 4 -> Ratio (out of 100): 5 on phrase: 'the ability of a computer to understand human language and respond via the most expressive form of human communication - speech'
+----
+No ratio found over 60/100
+----
+Analysis text is now: 'self driving cars predicted my '
+Analysis text is now: ''
+Change detected, checking slides 1-5
+Phrase to match: 
+Slide: 1 -> Ratio (out of 100): 0 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
+Slide: 2 -> Ratio (out of 100): 0 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
+Slide: 3 -> Ratio (out of 100): 0 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
+Slide: 4 -> Ratio (out of 100): 0 on phrase: 'the ability of a computer to understand human language and respond via the most expressive form of human communication - speech'
+----
+No ratio found over 60/100
+----
+Analysis text is now: 'self driving cars predicted my '
+Analysis text is now: ''
+Analysis text is now: 'self driving cars predicted my '
+Analysis text is now: ''
+Analysis text is now: 'self driving cars predicted my '
+Change detected, checking slides 1-5
+Phrase to match: self driving cars predicted my 
+Slide: 1 -> Ratio (out of 100): 20 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
+Slide: 2 -> Ratio (out of 100): 42 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
+Slide: 3 -> Ratio (out of 100): 31 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
+Slide: 4 -> Ratio (out of 100): 22 on phrase: 'the ability of a computer to understand human language and respond via the most expressive form of human communication - speech'
+----
+No ratio found over 60/100
+----
+Analysis text is now: ''
+Analysis text is now: 'self driving cars predicted my '
+Analysis text is now: ''
+Analysis text is now: 'self driving cars predicted my '
+Analysis text is now: ''
+Analysis text is now: 'self driving cars predicted my '
+Analysis text is now: ''
+Analysis text is now: 'self driving cars predicted my '
+Analysis text is now: 'and it's a '
+Change detected, checking slides 1-5
+Phrase to match: and it's a 
+Slide: 1 -> Ratio (out of 100): 11 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
+Slide: 2 -> Ratio (out of 100): 15 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
+Slide: 3 -> Ratio (out of 100): 17 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
+Slide: 4 -> Ratio (out of 100): 10 on phrase: 'the ability of a computer to understand human language and respond via the most expressive form of human communication - speech'
+----
+No ratio found over 60/100
+----
+Analysis text is now: 'financial plan '
+Change detected, checking slides 1-5
+Phrase to match: financial plan 
+Slide: 1 -> Ratio (out of 100): 15 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
+Slide: 2 -> Ratio (out of 100): 25 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
+Slide: 3 -> Ratio (out of 100): 22 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
+Slide: 4 -> Ratio (out of 100): 11 on phrase: 'the ability of a computer to understand human language and respond via the most expressive form of human communication - speech'
+----
+No ratio found over 60/100
+----
+Analysis text is now: 'financial planning '
+Change detected, checking slides 1-5
+Phrase to match: financial planning 
+Slide: 1 -> Ratio (out of 100): 17 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
+Slide: 2 -> Ratio (out of 100): 30 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
+Slide: 3 -> Ratio (out of 100): 17 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
+Slide: 4 -> Ratio (out of 100): 16 on phrase: 'the ability of a computer to understand human language and respond via the most expressive form of human communication - speech'
+----
+No ratio found over 60/100
+----
+Analysis text is now: 'financial planning all '
+Change detected, checking slides 1-5
+Phrase to match: financial planning all 
+Slide: 1 -> Ratio (out of 100): 18 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
+Slide: 2 -> Ratio (out of 100): 35 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
+Slide: 3 -> Ratio (out of 100): 22 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
+Slide: 4 -> Ratio (out of 100): 16 on phrase: 'the ability of a computer to understand human language and respond via the most expressive form of human communication - speech'
+----
+No ratio found over 60/100
+----
+Analysis text is now: 'financial planning all of these '
+Change detected, checking slides 1-5
+Phrase to match: financial planning all of these 
+Slide: 1 -> Ratio (out of 100): 20 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
+Slide: 2 -> Ratio (out of 100): 46 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
+Slide: 3 -> Ratio (out of 100): 24 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
+Slide: 4 -> Ratio (out of 100): 16 on phrase: 'the ability of a computer to understand human language and respond via the most expressive form of human communication - speech'
+----
+No ratio found over 60/100
+----
+Analysis text is now: ''
+Analysis text is now: 'financial planning all of these type '
+Change detected, checking slides 1-5
+Phrase to match: financial planning all of these type 
+Slide: 1 -> Ratio (out of 100): 19 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
+Slide: 2 -> Ratio (out of 100): 49 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
+Slide: 3 -> Ratio (out of 100): 26 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
+Slide: 4 -> Ratio (out of 100): 20 on phrase: 'the ability of a computer to understand human language and respond via the most expressive form of human communication - speech'
+----
+No ratio found over 60/100
+----
+Analysis text is now: 'financial planning all of these technologies '
+Change detected, checking slides 1-5
+Phrase to match: financial planning all of these technologies 
+Slide: 1 -> Ratio (out of 100): 28 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
+Slide: 2 -> Ratio (out of 100): 59 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
+Slide: 3 -> Ratio (out of 100): 40 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
+Slide: 4 -> Ratio (out of 100): 20 on phrase: 'the ability of a computer to understand human language and respond via the most expressive form of human communication - speech'
+----
+No ratio found over 60/100
+----
+Analysis text is now: 'financial planning all of these technologies and '
+Change detected, checking slides 1-5
+Phrase to match: financial planning all of these technologies and 
+Slide: 1 -> Ratio (out of 100): 32 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
+Slide: 2 -> Ratio (out of 100): 60 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
+Slide: 3 -> Ratio (out of 100): 44 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
+Slide: 4 -> Ratio (out of 100): 20 on phrase: 'the ability of a computer to understand human language and respond via the most expressive form of human communication - speech'
+----
+No ratio found over 60/100
+----
+Analysis text is now: 'financial planning all of these technologies are near '
+Change detected, checking slides 1-5
+Phrase to match: financial planning all of these technologies are near 
+Slide: 1 -> Ratio (out of 100): 37 on phrase: 'today i'm here to talk to you about the technology that will drive the next decade of innovation artificial intelligence'
+Slide: 2 -> Ratio (out of 100): 66 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
+Slide: 3 -> Ratio (out of 100): 45 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
+Slide: 4 -> Ratio (out of 100): 19 on phrase: 'the ability of a computer to understand human language and respond via the most expressive form of human communication - speech'
+----
+Highest ratio found: 66/100
+----
+Switching to *Slide 2*
+----
+Analysis window is now 84
+----
+Analysis text is now: ''
+Analysis text is now: 'financial planning all of these technologies are near '
+Analysis text is now: 'in order '
+Change detected, checking slides 2-6
+Phrase to match: in order 
+Slide: 2 -> Ratio (out of 100): 9 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
+Slide: 3 -> Ratio (out of 100): 13 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
+Slide: 4 -> Ratio (out of 100): 9 on phrase: 'the ability of a computer to understand human language and respond via the most expressive form of human communication - speech'
+Slide: 5 -> Ratio (out of 100): 14 on phrase: 'natural language processing will change the way humans interact with machines'
+----
+No ratio found over 60/100
+----
+Analysis text is now: 'and one of the '
+Change detected, checking slides 2-6
+Phrase to match: and one of the 
+Slide: 2 -> Ratio (out of 100): 23 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
+Slide: 3 -> Ratio (out of 100): 30 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
+Slide: 4 -> Ratio (out of 100): 18 on phrase: 'the ability of a computer to understand human language and respond via the most expressive form of human communication - speech'
+Slide: 5 -> Ratio (out of 100): 22 on phrase: 'natural language processing will change the way humans interact with machines'
+----
+No ratio found over 60/100
+----
+Analysis text is now: 'and one of the key '
+Change detected, checking slides 2-6
+Phrase to match: and one of the key 
+Slide: 2 -> Ratio (out of 100): 24 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
+Slide: 3 -> Ratio (out of 100): 37 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
+Slide: 4 -> Ratio (out of 100): 19 on phrase: 'the ability of a computer to understand human language and respond via the most expressive form of human communication - speech'
+Slide: 5 -> Ratio (out of 100): 25 on phrase: 'natural language processing will change the way humans interact with machines'
+----
+No ratio found over 60/100
+----
+Analysis text is now: 'and one of the key to '
+Change detected, checking slides 2-6
+Phrase to match: and one of the key to 
+Slide: 2 -> Ratio (out of 100): 28 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
+Slide: 3 -> Ratio (out of 100): 42 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
+Slide: 4 -> Ratio (out of 100): 20 on phrase: 'the ability of a computer to understand human language and respond via the most expressive form of human communication - speech'
+Slide: 5 -> Ratio (out of 100): 26 on phrase: 'natural language processing will change the way humans interact with machines'
+----
+No ratio found over 60/100
+----
+Analysis text is now: 'and one of the key tech '
+Change detected, checking slides 2-6
+Phrase to match: and one of the key tech 
+Slide: 2 -> Ratio (out of 100): 31 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
+Slide: 3 -> Ratio (out of 100): 44 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
+Slide: 4 -> Ratio (out of 100): 23 on phrase: 'the ability of a computer to understand human language and respond via the most expressive form of human communication - speech'
+Slide: 5 -> Ratio (out of 100): 34 on phrase: 'natural language processing will change the way humans interact with machines'
+----
+No ratio found over 60/100
+----
+Analysis text is now: 'and one of the key technologies to '
+Change detected, checking slides 2-6
+Phrase to match: and one of the key technologies to 
+Slide: 2 -> Ratio (out of 100): 41 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
+Slide: 3 -> Ratio (out of 100): 55 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
+Slide: 4 -> Ratio (out of 100): 21 on phrase: 'the ability of a computer to understand human language and respond via the most expressive form of human communication - speech'
+Slide: 5 -> Ratio (out of 100): 32 on phrase: 'natural language processing will change the way humans interact with machines'
+----
+No ratio found over 60/100
+----
+Analysis text is now: 'and one of the key technologies driving a '
+Change detected, checking slides 2-6
+Phrase to match: and one of the key technologies driving a 
+Slide: 2 -> Ratio (out of 100): 40 on phrase: 'self driving cars predictive medicine and automated financial planning - all of these technologies are near'
+Slide: 3 -> Ratio (out of 100): 65 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
+Slide: 4 -> Ratio (out of 100): 20 on phrase: 'the ability of a computer to understand human language and respond via the most expressive form of human communication - speech'
+Slide: 5 -> Ratio (out of 100): 34 on phrase: 'natural language processing will change the way humans interact with machines'
+----
+Highest ratio found: 65/100
+----
+Switching to *Slide 3*
+----
+Analysis window is now 127
+----
+Analysis text is now: 'and one of the key technologies trading area '
+Change detected, checking slides 3-7
+Phrase to match: and one of the key technologies trading area 
+Slide: 3 -> Ratio (out of 100): 64 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
+Slide: 4 -> Ratio (out of 100): 20 on phrase: 'the ability of a computer to understand human language and respond via the most expressive form of human communication - speech'
+Slide: 5 -> Ratio (out of 100): 34 on phrase: 'natural language processing will change the way humans interact with machines'
+Slide: 6 -> Ratio (out of 100): 31 on phrase: 'and there's a whole community of developers and innovators out there who are seeking a platform that opens this technology and allows them to innovate'
+----
+Highest ratio found: 64/100
+----
+Switching to *Slide 3*
+----
+Analysis window is now 127
+----
+Analysis text is now: 'and one of the key technologies trading area future '
+Change detected, checking slides 3-7
+Phrase to match: and one of the key technologies trading area future 
+Slide: 3 -> Ratio (out of 100): 69 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
+Slide: 4 -> Ratio (out of 100): 19 on phrase: 'the ability of a computer to understand human language and respond via the most expressive form of human communication - speech'
+Slide: 5 -> Ratio (out of 100): 33 on phrase: 'natural language processing will change the way humans interact with machines'
+Slide: 6 -> Ratio (out of 100): 31 on phrase: 'and there's a whole community of developers and innovators out there who are seeking a platform that opens this technology and allows them to innovate'
+----
+Highest ratio found: 69/100
+----
+Switching to *Slide 3*
+----
+Analysis window is now 127
+----
+Analysis text is now: 'and one of the key technologies trading area future is now '
+Change detected, checking slides 3-7
+Phrase to match: and one of the key technologies trading area future is now 
+Slide: 3 -> Ratio (out of 100): 73 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
+Slide: 4 -> Ratio (out of 100): 18 on phrase: 'the ability of a computer to understand human language and respond via the most expressive form of human communication - speech'
+Slide: 5 -> Ratio (out of 100): 34 on phrase: 'natural language processing will change the way humans interact with machines'
+Slide: 6 -> Ratio (out of 100): 32 on phrase: 'and there's a whole community of developers and innovators out there who are seeking a platform that opens this technology and allows them to innovate'
+----
+Highest ratio found: 73/100
+----
+Switching to *Slide 3*
+----
+Analysis window is now 127
+----
+Analysis text is now: 'and one of the key technologies trading area future is not for '
+Change detected, checking slides 3-7
+Phrase to match: and one of the key technologies trading area future is not for 
+Slide: 3 -> Ratio (out of 100): 73 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
+Slide: 4 -> Ratio (out of 100): 26 on phrase: 'the ability of a computer to understand human language and respond via the most expressive form of human communication - speech'
+Slide: 5 -> Ratio (out of 100): 33 on phrase: 'natural language processing will change the way humans interact with machines'
+Slide: 6 -> Ratio (out of 100): 32 on phrase: 'and there's a whole community of developers and innovators out there who are seeking a platform that opens this technology and allows them to innovate'
+----
+Highest ratio found: 73/100
+----
+Switching to *Slide 3*
+----
+Analysis window is now 127
+----
+Analysis text is now: 'and one of the key technologies trading area future is naturally my '
+Change detected, checking slides 3-7
+Phrase to match: and one of the key technologies trading area future is naturally my 
+Slide: 3 -> Ratio (out of 100): 78 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
+Slide: 4 -> Ratio (out of 100): 17 on phrase: 'the ability of a computer to understand human language and respond via the most expressive form of human communication - speech'
+Slide: 5 -> Ratio (out of 100): 17 on phrase: 'natural language processing will change the way humans interact with machines'
+Slide: 6 -> Ratio (out of 100): 29 on phrase: 'and there's a whole community of developers and innovators out there who are seeking a platform that opens this technology and allows them to innovate'
+----
+Highest ratio found: 78/100
+----
+Switching to *Slide 3*
+----
+Analysis window is now 127
+----
+Analysis text is now: 'and one of the key technologies trading area future is naturally much for '
+Change detected, checking slides 3-7
+Phrase to match: and one of the key technologies trading area future is naturally much for 
+Slide: 3 -> Ratio (out of 100): 77 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
+Slide: 4 -> Ratio (out of 100): 25 on phrase: 'the ability of a computer to understand human language and respond via the most expressive form of human communication - speech'
+Slide: 5 -> Ratio (out of 100): 17 on phrase: 'natural language processing will change the way humans interact with machines'
+Slide: 6 -> Ratio (out of 100): 28 on phrase: 'and there's a whole community of developers and innovators out there who are seeking a platform that opens this technology and allows them to innovate'
+----
+Highest ratio found: 77/100
+----
+Switching to *Slide 3*
+----
+Analysis window is now 127
+----
+Analysis text is now: 'and one of the key technologies trading area future is naturally much process '
+Change detected, checking slides 3-7
+Phrase to match: and one of the key technologies trading area future is naturally much process 
+Slide: 3 -> Ratio (out of 100): 83 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
+Slide: 4 -> Ratio (out of 100): 20 on phrase: 'the ability of a computer to understand human language and respond via the most expressive form of human communication - speech'
+Slide: 5 -> Ratio (out of 100): 23 on phrase: 'natural language processing will change the way humans interact with machines'
+Slide: 6 -> Ratio (out of 100): 28 on phrase: 'and there's a whole community of developers and innovators out there who are seeking a platform that opens this technology and allows them to innovate'
+----
+Highest ratio found: 83/100
+----
+Switching to *Slide 3*
+----
+Analysis window is now 127
+----
+Analysis text is now: 'and one of the key technologies trading area future is naturally much processing '
+Change detected, checking slides 3-7
+Phrase to match: and one of the key technologies trading area future is naturally much processing 
+Slide: 3 -> Ratio (out of 100): 85 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
+Slide: 4 -> Ratio (out of 100): 21 on phrase: 'the ability of a computer to understand human language and respond via the most expressive form of human communication - speech'
+Slide: 5 -> Ratio (out of 100): 27 on phrase: 'natural language processing will change the way humans interact with machines'
+Slide: 6 -> Ratio (out of 100): 29 on phrase: 'and there's a whole community of developers and innovators out there who are seeking a platform that opens this technology and allows them to innovate'
+----
+Highest ratio found: 85/100
+----
+Switching to *Slide 3*
+----
+Analysis window is now 127
+----
+Analysis text is now: 'and one of the key technologies trading area future is natural image processing '
+Change detected, checking slides 3-7
+Phrase to match: and one of the key technologies trading area future is natural image processing 
+Slide: 3 -> Ratio (out of 100): 88 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
+Slide: 4 -> Ratio (out of 100): 21 on phrase: 'the ability of a computer to understand human language and respond via the most expressive form of human communication - speech'
+Slide: 5 -> Ratio (out of 100): 29 on phrase: 'natural language processing will change the way humans interact with machines'
+Slide: 6 -> Ratio (out of 100): 30 on phrase: 'and there's a whole community of developers and innovators out there who are seeking a platform that opens this technology and allows them to innovate'
+----
+Highest ratio found: 88/100
+----
+Switching to *Slide 3*
+----
+Analysis window is now 127
+----
+Analysis text is now: 'you '
+Change detected, checking slides 3-7
+Phrase to match: you 
+Slide: 3 -> Ratio (out of 100): 9 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
+Slide: 4 -> Ratio (out of 100): 2 on phrase: 'the ability of a computer to understand human language and respond via the most expressive form of human communication - speech'
+Slide: 5 -> Ratio (out of 100): 5 on phrase: 'natural language processing will change the way humans interact with machines'
+Slide: 6 -> Ratio (out of 100): 5 on phrase: 'and there's a whole community of developers and innovators out there who are seeking a platform that opens this technology and allows them to innovate'
+----
+No ratio found over 60/100
+----
+Analysis text is now: 'the ability '
+Change detected, checking slides 3-7
+Phrase to match: the ability 
+Slide: 3 -> Ratio (out of 100): 12 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
+Slide: 4 -> Ratio (out of 100): 17 on phrase: 'the ability of a computer to understand human language and respond via the most expressive form of human communication - speech'
+Slide: 5 -> Ratio (out of 100): 16 on phrase: 'natural language processing will change the way humans interact with machines'
+Slide: 6 -> Ratio (out of 100): 12 on phrase: 'and there's a whole community of developers and innovators out there who are seeking a platform that opens this technology and allows them to innovate'
+----
+No ratio found over 60/100
+----
+Analysis text is now: 'you believe '
+Change detected, checking slides 3-7
+Phrase to match: you believe 
+Slide: 3 -> Ratio (out of 100): 6 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
+Slide: 4 -> Ratio (out of 100): 10 on phrase: 'the ability of a computer to understand human language and respond via the most expressive form of human communication - speech'
+Slide: 5 -> Ratio (out of 100): 9 on phrase: 'natural language processing will change the way humans interact with machines'
+Slide: 6 -> Ratio (out of 100): 10 on phrase: 'and there's a whole community of developers and innovators out there who are seeking a platform that opens this technology and allows them to innovate'
+----
+No ratio found over 60/100
+----
+Analysis text is now: 'the ability of computer '
+Change detected, checking slides 3-7
+Phrase to match: the ability of computer 
+Slide: 3 -> Ratio (out of 100): 17 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
+Slide: 4 -> Ratio (out of 100): 32 on phrase: 'the ability of a computer to understand human language and respond via the most expressive form of human communication - speech'
+Slide: 5 -> Ratio (out of 100): 24 on phrase: 'natural language processing will change the way humans interact with machines'
+Slide: 6 -> Ratio (out of 100): 21 on phrase: 'and there's a whole community of developers and innovators out there who are seeking a platform that opens this technology and allows them to innovate'
+----
+No ratio found over 60/100
+----
+Analysis text is now: 'you believe entered under '
+Change detected, checking slides 3-7
+Phrase to match: you believe entered under 
+Slide: 3 -> Ratio (out of 100): 9 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
+Slide: 4 -> Ratio (out of 100): 16 on phrase: 'the ability of a computer to understand human language and respond via the most expressive form of human communication - speech'
+Slide: 5 -> Ratio (out of 100): 21 on phrase: 'natural language processing will change the way humans interact with machines'
+Slide: 6 -> Ratio (out of 100): 14 on phrase: 'and there's a whole community of developers and innovators out there who are seeking a platform that opens this technology and allows them to innovate'
+----
+No ratio found over 60/100
+----
+Analysis text is now: 'the ability of computer to understand '
+Change detected, checking slides 3-7
+Phrase to match: the ability of computer to understand 
+Slide: 3 -> Ratio (out of 100): 7 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
+Slide: 4 -> Ratio (out of 100): 46 on phrase: 'the ability of a computer to understand human language and respond via the most expressive form of human communication - speech'
+Slide: 5 -> Ratio (out of 100): 23 on phrase: 'natural language processing will change the way humans interact with machines'
+Slide: 6 -> Ratio (out of 100): 22 on phrase: 'and there's a whole community of developers and innovators out there who are seeking a platform that opens this technology and allows them to innovate'
+----
+No ratio found over 60/100
+----
+Analysis text is now: 'the ability of computer to understand human '
+Change detected, checking slides 3-7
+Phrase to match: the ability of computer to understand human 
+Slide: 3 -> Ratio (out of 100): 14 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
+Slide: 4 -> Ratio (out of 100): 51 on phrase: 'the ability of a computer to understand human language and respond via the most expressive form of human communication - speech'
+Slide: 5 -> Ratio (out of 100): 21 on phrase: 'natural language processing will change the way humans interact with machines'
+Slide: 6 -> Ratio (out of 100): 27 on phrase: 'and there's a whole community of developers and innovators out there who are seeking a platform that opens this technology and allows them to innovate'
+----
+No ratio found over 60/100
+----
+Analysis text is now: 'the ability of computer to understand human language '
+Change detected, checking slides 3-7
+Phrase to match: the ability of computer to understand human language 
+Slide: 3 -> Ratio (out of 100): 22 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
+Slide: 4 -> Ratio (out of 100): 59 on phrase: 'the ability of a computer to understand human language and respond via the most expressive form of human communication - speech'
+Slide: 5 -> Ratio (out of 100): 22 on phrase: 'natural language processing will change the way humans interact with machines'
+Slide: 6 -> Ratio (out of 100): 26 on phrase: 'and there's a whole community of developers and innovators out there who are seeking a platform that opens this technology and allows them to innovate'
+----
+No ratio found over 60/100
+----
+Analysis text is now: 'the ability of computer to understand human language and '
+Change detected, checking slides 3-7
+Phrase to match: the ability of computer to understand human language and 
+Slide: 3 -> Ratio (out of 100): 23 on phrase: 'and one of the key technologies driving our ai future is natural language processing'
+Slide: 4 -> Ratio (out of 100): 62 on phrase: 'the ability of a computer to understand human language and respond via the most expressive form of human communication - speech'
+Slide: 5 -> Ratio (out of 100): 25 on phrase: 'natural language processing will change the way humans interact with machines'
+Slide: 6 -> Ratio (out of 100): 21 on phrase: 'and there's a whole community of developers and innovators out there who are seeking a platform that opens this technology and allows them to innovate'
+----
+Highest ratio found: 62/100
+----
+Switching to *Slide 4*
+----
+Analysis window is now 77
+----
+Analysis text is now: 'the ability of computer to understand human language and risk '
+Change detected, checking slides 4-8
+Phrase to match: the ability of computer to understand human language and risk 
+Slide: 4 -> Ratio (out of 100): 63 on phrase: 'the ability of a computer to understand human language and respond via the most expressive form of human communication - speech'
+Slide: 5 -> Ratio (out of 100): 26 on phrase: 'natural language processing will change the way humans interact with machines'
+Slide: 6 -> Ratio (out of 100): 25 on phrase: 'and there's a whole community of developers and innovators out there who are seeking a platform that opens this technology and allows them to innovate'
+Slide: 7 -> Ratio (out of 100): 24 on phrase: 'but so far its been the purview of a few large companies solutions like apple's siri microsoft's cortana and google assistant have been walled off proprietary and secretive not anymore '
+----
+Highest ratio found: 63/100
+----
+Switching to *Slide 4*
+----
+Analysis window is now 77
+----
+Analysis text is now: 'the ability of computer to understand human language and respond you '
+Change detected, checking slides 4-8
+Phrase to match: the ability of computer to understand human language and respond you 
+Slide: 4 -> Ratio (out of 100): 67 on phrase: 'the ability of a computer to understand human language and respond via the most expressive form of human communication - speech'
+Slide: 5 -> Ratio (out of 100): 27 on phrase: 'natural language processing will change the way humans interact with machines'
+Slide: 6 -> Ratio (out of 100): 27 on phrase: 'and there's a whole community of developers and innovators out there who are seeking a platform that opens this technology and allows them to innovate'
+Slide: 7 -> Ratio (out of 100): 25 on phrase: 'but so far its been the purview of a few large companies solutions like apple's siri microsoft's cortana and google assistant have been walled off proprietary and secretive not anymore '
+----
+Highest ratio found: 67/100
+----
+Switching to *Slide 4*
+----
+Analysis window is now 77
+----
+Analysis text is now: 'the ability of computer to understand human language and respond within the '
+Change detected, checking slides 4-8
+Phrase to match: the ability of computer to understand human language and respond within the 
+Slide: 4 -> Ratio (out of 100): 70 on phrase: 'the ability of a computer to understand human language and respond via the most expressive form of human communication - speech'
+Slide: 5 -> Ratio (out of 100): 37 on phrase: 'natural language processing will change the way humans interact with machines'
+Slide: 6 -> Ratio (out of 100): 26 on phrase: 'and there's a whole community of developers and innovators out there who are seeking a platform that opens this technology and allows them to innovate'
+Slide: 7 -> Ratio (out of 100): 13 on phrase: 'but so far its been the purview of a few large companies solutions like apple's siri microsoft's cortana and google assistant have been walled off proprietary and secretive not anymore '
+----
+Highest ratio found: 70/100
+----
+Switching to *Slide 4*
+----
+Analysis window is now 77
+----
+Analysis text is now: 'the ability of computer to understand human language and respond me the most '
+Change detected, checking slides 4-8
+Phrase to match: the ability of computer to understand human language and respond me the most 
+Slide: 4 -> Ratio (out of 100): 74 on phrase: 'the ability of a computer to understand human language and respond via the most expressive form of human communication - speech'
+Slide: 5 -> Ratio (out of 100): 38 on phrase: 'natural language processing will change the way humans interact with machines'
+Slide: 6 -> Ratio (out of 100): 29 on phrase: 'and there's a whole community of developers and innovators out there who are seeking a platform that opens this technology and allows them to innovate'
+Slide: 7 -> Ratio (out of 100): 15 on phrase: 'but so far its been the purview of a few large companies solutions like apple's siri microsoft's cortana and google assistant have been walled off proprietary and secretive not anymore '
+----
+Highest ratio found: 74/100
+----
+Switching to *Slide 4*
+----
+Analysis window is now 77
+----
+Analysis text is now: 'express '
+Change detected, checking slides 4-8
+Phrase to match: express 
+Slide: 4 -> Ratio (out of 100): 12 on phrase: 'the ability of a computer to understand human language and respond via the most expressive form of human communication - speech'
+Slide: 5 -> Ratio (out of 100): 16 on phrase: 'natural language processing will change the way humans interact with machines'
+Slide: 6 -> Ratio (out of 100): 6 on phrase: 'and there's a whole community of developers and innovators out there who are seeking a platform that opens this technology and allows them to innovate'
+Slide: 7 -> Ratio (out of 100): 3 on phrase: 'but so far its been the purview of a few large companies solutions like apple's siri microsoft's cortana and google assistant have been walled off proprietary and secretive not anymore '
+----
+No ratio found over 60/100
+----
+Analysis text is now: 'expressive form '
+Change detected, checking slides 4-8
+Phrase to match: expressive form 
+Slide: 4 -> Ratio (out of 100): 22 on phrase: 'the ability of a computer to understand human language and respond via the most expressive form of human communication - speech'
+Slide: 5 -> Ratio (out of 100): 22 on phrase: 'natural language processing will change the way humans interact with machines'
+Slide: 6 -> Ratio (out of 100): 13 on phrase: 'and there's a whole community of developers and innovators out there who are seeking a platform that opens this technology and allows them to innovate'
+Slide: 7 -> Ratio (out of 100): 11 on phrase: 'but so far its been the purview of a few large companies solutions like apple's siri microsoft's cortana and google assistant have been walled off proprietary and secretive not anymore '
+----
+No ratio found over 60/100
+----
+Analysis text is now: 'expressive former he '
+Change detected, checking slides 4-8
+Phrase to match: expressive former he 
+Slide: 4 -> Ratio (out of 100): 24 on phrase: 'the ability of a computer to understand human language and respond via the most expressive form of human communication - speech'
+Slide: 5 -> Ratio (out of 100): 24 on phrase: 'natural language processing will change the way humans interact with machines'
+Slide: 6 -> Ratio (out of 100): 16 on phrase: 'and there's a whole community of developers and innovators out there who are seeking a platform that opens this technology and allows them to innovate'
+Slide: 7 -> Ratio (out of 100): 12 on phrase: 'but so far its been the purview of a few large companies solutions like apple's siri microsoft's cortana and google assistant have been walled off proprietary and secretive not anymore '
+----
+No ratio found over 60/100
+----
+Analysis text is now: ''
+Analysis text is now: 'expressive for him '
+Change detected, checking slides 4-8
+Phrase to match: expressive for him 
+Slide: 4 -> Ratio (out of 100): 22 on phrase: 'the ability of a computer to understand human language and respond via the most expressive form of human communication - speech'
+Slide: 5 -> Ratio (out of 100): 27 on phrase: 'natural language processing will change the way humans interact with machines'
+Slide: 6 -> Ratio (out of 100): 13 on phrase: 'and there's a whole community of developers and innovators out there who are seeking a platform that opens this technology and allows them to innovate'
+Slide: 7 -> Ratio (out of 100): 11 on phrase: 'but so far its been the purview of a few large companies solutions like apple's siri microsoft's cortana and google assistant have been walled off proprietary and secretive not anymore '
+----
+No ratio found over 60/100
+----
+Analysis text is now: 'expressive for him to make '
+Change detected, checking slides 4-8
+Phrase to match: expressive for him to make 
+Slide: 4 -> Ratio (out of 100): 27 on phrase: 'the ability of a computer to understand human language and respond via the most expressive form of human communication - speech'
+Slide: 5 -> Ratio (out of 100): 35 on phrase: 'natural language processing will change the way humans interact with machines'
+Slide: 6 -> Ratio (out of 100): 21 on phrase: 'and there's a whole community of developers and innovators out there who are seeking a platform that opens this technology and allows them to innovate'
+Slide: 7 -> Ratio (out of 100): 11 on phrase: 'but so far its been the purview of a few large companies solutions like apple's siri microsoft's cortana and google assistant have been walled off proprietary and secretive not anymore '
+----
+No ratio found over 60/100
+----
+Analysis text is now: 'expressive for him Mitnick '
+Change detected, checking slides 4-8
+Phrase to match: expressive for him Mitnick 
+Slide: 4 -> Ratio (out of 100): 26 on phrase: 'the ability of a computer to understand human language and respond via the most expressive form of human communication - speech'
+Slide: 5 -> Ratio (out of 100): 31 on phrase: 'natural language processing will change the way humans interact with machines'
+Slide: 6 -> Ratio (out of 100): 15 on phrase: 'and there's a whole community of developers and innovators out there who are seeking a platform that opens this technology and allows them to innovate'
+Slide: 7 -> Ratio (out of 100): 10 on phrase: 'but so far its been the purview of a few large companies solutions like apple's siri microsoft's cortana and google assistant have been walled off proprietary and secretive not anymore '
+----
+No ratio found over 60/100
+----
+Analysis text is now: 'expressive for him to make communication '
+Change detected, checking slides 4-8
+Phrase to match: expressive for him to make communication 
+Slide: 4 -> Ratio (out of 100): 42 on phrase: 'the ability of a computer to understand human language and respond via the most expressive form of human communication - speech'
+Slide: 5 -> Ratio (out of 100): 34 on phrase: 'natural language processing will change the way humans interact with machines'
+Slide: 6 -> Ratio (out of 100): 18 on phrase: 'and there's a whole community of developers and innovators out there who are seeking a platform that opens this technology and allows them to innovate'
+Slide: 7 -> Ratio (out of 100): 14 on phrase: 'but so far its been the purview of a few large companies solutions like apple's siri microsoft's cortana and google assistant have been walled off proprietary and secretive not anymore '
+----
+No ratio found over 60/100
+----
+Analysis text is now: 'expressive for him make communication '
+Change detected, checking slides 4-8
+Phrase to match: expressive for him make communication 
+Slide: 4 -> Ratio (out of 100): 40 on phrase: 'the ability of a computer to understand human language and respond via the most expressive form of human communication - speech'
+Slide: 5 -> Ratio (out of 100): 31 on phrase: 'natural language processing will change the way humans interact with machines'
+Slide: 6 -> Ratio (out of 100): 20 on phrase: 'and there's a whole community of developers and innovators out there who are seeking a platform that opens this technology and allows them to innovate'
+Slide: 7 -> Ratio (out of 100): 18 on phrase: 'but so far its been the purview of a few large companies solutions like apple's siri microsoft's cortana and google assistant have been walled off proprietary and secretive not anymore '
+----
+No ratio found over 60/100
+----
+Analysis text is now: 'speech '
+Change detected, checking slides 4-8
+Phrase to match: speech 
+Slide: 4 -> Ratio (out of 100): 9 on phrase: 'the ability of a computer to understand human language and respond via the most expressive form of human communication - speech'
+Slide: 5 -> Ratio (out of 100): 12 on phrase: 'natural language processing will change the way humans interact with machines'
+Slide: 6 -> Ratio (out of 100): 9 on phrase: 'and there's a whole community of developers and innovators out there who are seeking a platform that opens this technology and allows them to innovate'
+Slide: 7 -> Ratio (out of 100): 4 on phrase: 'but so far its been the purview of a few large companies solutions like apple's siri microsoft's cortana and google assistant have been walled off proprietary and secretive not anymore '
+----
+No ratio found over 60/100
+----

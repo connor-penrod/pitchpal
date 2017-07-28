@@ -1,3 +1,4 @@
+import re
 import logging, traceback
 from websocket import create_connection
 from watson_developer_cloud import AuthorizationV1, SpeechToTextV1
@@ -104,7 +105,12 @@ def getMicData(ws):
         if len(totalData) > CHUNKSIZE:
             try:
                 dataChunk = totalData[0:CHUNKSIZE]
-                ws.send(dataChunk, opcode=0x2)
+                dataStr = str(dataChunk)
+                matched = re.search(r'&\w+;', dataStr)
+                if not matched:
+                    ws.send(dataChunk, opcode=0x2)
+                else:
+                    logging.error("Invalid binary message detected. Discarding message...")
             except Exception as e:
                 logging.error("Sending failed, error type " + type(e).__name__ + ": " + str(e))
                 logExecutionInfo()
