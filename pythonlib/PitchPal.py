@@ -66,7 +66,7 @@ def retrieveText():
         file.close()
     except Exception as e:
         current_text = "[Blank]"
-        log("Error: ", str(e.message))
+        log("Error: ", str(e))
     
     chars = ceil(-1.462*font_size + 109.6)
     format_text = textwrap.fill(current_text, chars)
