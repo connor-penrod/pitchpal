@@ -213,7 +213,12 @@ def updatetext(new_text):
 def checkSwitch():
     global current_slide
     
-    if(checkSwitch.last_text != analysis_text):  
+    if(checkSwitch.last_text != analysis_text):
+        if "next slide please" in analysis_text:
+            switchslide(current_slide+1)
+        elif "previous slide please" in analysis_text:
+            switchslide(current_slide-1)
+  
         maxIdx = current_slide
         maxRat = 0
         log("Change detected, checking slides " + str(current_slide) + "-" + str(current_slide+4))
