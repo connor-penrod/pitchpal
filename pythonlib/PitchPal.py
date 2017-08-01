@@ -7,6 +7,39 @@ from PIL import Image, ImageTk
 from fuzzywuzzy import fuzz
 from configparser import SafeConfigParser
 import subprocess
+
+
+def text2int(textnum, numwords={}):
+    if not numwords:
+      units = [
+        "zero", "one", "two", "three", "four", "five", "six", "seven", "eight",
+        "nine", "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen",
+        "sixteen", "seventeen", "eighteen", "nineteen",
+      ]
+
+      tens = ["", "", "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety"]
+
+      scales = ["hundred", "thousand", "million", "billion", "trillion"]
+
+      numwords["and"] = (1, 0)
+      for idx, word in enumerate(units):    numwords[word] = (1, idx)
+      for idx, word in enumerate(tens):     numwords[word] = (1, idx * 10)
+      for idx, word in enumerate(scales):   numwords[word] = (10 ** (idx * 3 or 2), 0)
+
+    current = result = 0
+    for word in textnum.split():
+        if word not in numwords:
+          raise Exception("Illegal word: " + word)
+
+        scale, increment = numwords[word]
+        current = current * scale + increment
+        if scale > 100:
+            result += current
+            current = 0
+
+    return result + current
+
+
 child_pid = None
 try:
     p = subprocess.Popen(["python3", sys.argv[1] + "/ibmstt2.py", str(sys.argv[1]), str(os.getpid())])
@@ -64,21 +97,24 @@ def log(string):
 
 def sttMonitor():
     global p
+    global child_pid
     print("STT Monitor active...")
     while(p.poll() == None and monitoring):
         pass
     if(monitoring):
+        canvas.itemconfigure(wifiIndicator, state="normal")
+        sleep(2)
         print("STT process unexpected termination detected, restarting process...")
         try:
             p = subprocess.Popen(["python3", sys.argv[1] + "/ibmstt2.py", str(sys.argv[1]), str(os.getpid())])
+            child_pid = p.id
         except Exception as e:
             print("STT process could not be recreated, error type " + type(e).__name__ + ": " + str(e))
             return
         print("STT process restarted.")
+        canvas.itemconfigure(wifiIndicator, state="hidden")
         sttMonitor()
 
-monitor = threading.Thread(target=sttMonitor)
-monitor.start()
 
 def close(event):
     global monitoring
@@ -218,20 +254,36 @@ def checkSwitch():
             switchslide(current_slide+1)
         elif "previous slide please" in analysis_text:
             switchslide(current_slide-1)
-  
+        elif "first slide please" in analysis_text:
+            switchslide(0)
+        elif "last slide please" in analysis_text:
+            switchslide(len(slides)-1)
+        elif "slide" in analysis_text and "please" in analysis_text:
+            print("trigger")
+            wordList = analysis_text.split()
+            slideNumberList = []
+            j = 1
+            while "please" not in slideNumberList:
+                slideNumberList.append(wordList[wordList.index("slide")+j])
+                j += 1
+            slideNumber = " ".join(slideNumberList[:-1])
+            try:
+                switchslide(text2int(slideNumber)-1)
+            except:
+                pass
         maxIdx = current_slide
         maxRat = 0
         log("Change detected, checking slides " + str(current_slide) + "-" + str(current_slide+4))
         log("Phrase to match: " + analysis_text)
         for i in range(current_slide, current_slide+SLIDE_DETECTION_RANGE+1):
-            if(i >= 0):
+            if(i >= 0 and i <= len(phrases)-1):
                 rat = fuzz.ratio(phrases[i], analysis_text)
+                log("Slide: " + str(i) + " -> Ratio (out of 100): " + str(rat) + " on phrase: '" + phrases[i] + "'")
+                if(rat > maxRat and rat > accuracy_threshold):
+                    maxIdx = i
+                    maxRat = rat
             else:
                 rat = -1
-            log("Slide: " + str(i) + " -> Ratio (out of 100): " + str(rat) + " on phrase: '" + phrases[i] + "'")
-            if(rat > maxRat and rat > accuracy_threshold):
-                maxIdx = i
-                maxRat = rat
         if maxRat != 0:
             log("----\nHighest ratio found: " + str(maxRat) + "/100" + "\n----")
             switchslide(maxIdx)
@@ -254,7 +306,7 @@ slides = []
 try:
     fileList = sorted(os.listdir(sys.argv[1] + "/images"))
 except Exception as e:
-    print("Image folder not found. Errory type " + type(e).__name__ + ": " + str(e))
+    print("Image folder not found. Error type " + type(e).__name__ + ": " + str(e))
     print(" Exitting...")
     close()
 for filename in fileList:
@@ -295,6 +347,8 @@ subtitleFont = font.Font(family="Helvetica", size=font_size, weight="bold")
 subtitle = canvas.create_text(screen_width/2,screen_height*5/6,text="test", fill=font_color, font=subtitleFont, justify="center", tags="subtitletext")
 subtitleBBox = None
 
+wifiIndicator = canvas.create_rectangle(10, 10, floor(screen_width*0.03125)+500, floor(screen_height*0.06), fill='yellow')
+canvas.itemconfigure(wifiIndicator, state="hidden")
 #subtitle = tkinter.Label(canvas, text="TEST", font=('Calibri','36'), width = 50, justify=tkinter.CENTER, wraplength = screen_width * 7/8, fg="black", bg="white")
 #subtitle.attributes("-alpha", 0.5)
 
@@ -313,6 +367,10 @@ root.lift()
 
 checkSwitch.last_text = ""
 retrieveText.last_text = " "
+
+monitor = threading.Thread(target=sttMonitor)
+monitor.start()
+
 
 retrieveText()
 checkSwitch()
