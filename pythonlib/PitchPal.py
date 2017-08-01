@@ -264,7 +264,12 @@ def checkSwitch():
             slideNumberList = []
             j = 1
             while "please" not in slideNumberList:
-                slideNumberList.append(wordList[wordList.index("slide")+j])
+                currWord = wordList[wordList.index("slide")+j]
+                if currWord == "for":
+                    currWord = "four"
+                elif currWord == "to" or currWord == "too":
+                    currWord = "two"
+                slideNumberList.append(currWord)
                 j += 1
             slideNumber = " ".join(slideNumberList[:-1])
             try:
