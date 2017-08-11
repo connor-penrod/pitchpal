@@ -55,6 +55,14 @@ try:
     FONT_BACKGROUND_TRANSPARENCY = parser.get('font_settings', 'font_background_transparency')
     SLIDE_DETECTION_RANGE = int(parser.get('slide_settings', 'slide_detection_range'))
     SLIDE_DETECTION_THRESHOLD = int(parser.get('slide_settings', 'slide_detection_threshold'))
+    NEXT_SLIDE_PHRASE = parser.get('slide_settings', 'next_slide_phrase')
+    PREVIOUS_SLIDE_PHRASE = parser.get('slide_settings', 'previous_slide_phrase')
+    FIRST_SLIDE_PHRASE = parser.get('slide_settings', 'first_slide_phrase')
+    LAST_SLIDE_PHRASE = parser.get('slide_settings', 'last_slide_phrase')
+    CUSTOM_SLIDE_PHRASE = parser.get('slide_settings', 'custom_slide_phrase')
+    SHOW_TEXT_PHRASE = parser.get('slide_settings', 'show_subtitle_phrase')
+    HIDE_TEXT_PHRASE = parser.get('slide_settings', 'hide_subtitle_phrase')
+    INITIAL_TEXT_STATE = bool(int(parser.get('slide_settings', 'initial_text_state')))
     print("settings.conf successfully loaded...")
 except Exception as e:
     print(str(e))
@@ -64,7 +72,15 @@ except Exception as e:
     FONT_BACKGROUND_TRANSPARENCY = '75'
     SLIDE_DETECTION_RANGE = 2
     SLIDE_DETECTION_THRESHOLD = 60
+    NEXT_SLIDE_PHRASE = "next slide please"
+    PREVIOUS_SLIDE_PHRASE = "previous slide please"
+    FIRST_SLIDE_PLEASE = "first slide please"
+    LAST_SLIDE_PLEASE = "last slide please"
+    CUSTOM_SLIDE_PHRASE = "slide x please"
+    SHOW_TEXT_PHRASE = "show text please"
+    HIDE_TEXT_PHRASE = "hide text please"
 
+show_text = INITIAL_TEXT_STATE
 current_slide = 0
 current_text = ""
 analysis_text = ""
@@ -102,7 +118,7 @@ def sttMonitor():
     while(p.poll() == None and monitoring):
         pass
     if(monitoring):
-        canvas.itemconfigure(wifiIndicator, state="normal")
+        #canvas.itemconfigure(wifiIndicator, state="normal")
         sleep(2)
         print("STT process unexpected termination detected, restarting process...")
         try:
@@ -112,7 +128,7 @@ def sttMonitor():
             print("STT process could not be recreated, error type " + type(e).__name__ + ": " + str(e))
             return
         print("STT process restarted.")
-        canvas.itemconfigure(wifiIndicator, state="hidden")
+        #canvas.itemconfigure(wifiIndicator, state="hidden")
         sttMonitor()
 
 
@@ -235,47 +251,81 @@ def updatetext(new_text):
         #current_text = modified_text
     
     #canvas.itemconfigure(subtitleOutline, text = modified_text)
+
     try:
         canvas.delete(subtitleBBox)
     except:
         pass
 
-    
-    canvas.itemconfigure(subtitle, text = modified_text)
-    subCoords = canvas.bbox("subtitletext")
-    subtitleBBox = canvas.create_rectangle(subCoords[0], subCoords[1], subCoords[2], subCoords[3], fill="black", stipple=font_background_transparency)
-    canvas.lift(subtitle, subtitleBBox)
+    if not show_text:
+        try:
+            canvas.itemconfigure(subtitleBBox, state="hidden")
+        except:
+            pass
+        canvas.itemconfigure(subtitle, state="hidden")
+    else:
+        try:
+            canvas.itemconfigure(subtitleBBox, state="normal")
+        except:
+            pass
+        canvas.itemconfigure(subtitle, state="normal")
+        canvas.itemconfigure(subtitle, text = modified_text)
+        subCoords = canvas.bbox("subtitletext")
+        subtitleBBox = canvas.create_rectangle(subCoords[0], subCoords[1], subCoords[2], subCoords[3], fill="black", stipple=font_background_transparency)
+        canvas.lift(subtitle, subtitleBBox)
 
 def checkSwitch():
     global current_slide
-    
+    global show_text
     if(checkSwitch.last_text != analysis_text):
-        if "next slide please" in analysis_text:
+
+        customPhrase = CUSTOM_SLIDE_PHRASE.split("x")
+        customPhrase1 = customPhrase[0]
+        customPhrase2 = customPhrase[1]
+
+        if NEXT_SLIDE_PHRASE in analysis_text:
             switchslide(current_slide+1)
-        elif "previous slide please" in analysis_text:
+        elif PREVIOUS_SLIDE_PHRASE in analysis_text:
             switchslide(current_slide-1)
-        elif "first slide please" in analysis_text:
+        elif FIRST_SLIDE_PHRASE in analysis_text:
             switchslide(0)
-        elif "last slide please" in analysis_text:
+        elif LAST_SLIDE_PHRASE in analysis_text:
             switchslide(len(slides)-1)
-        elif "slide" in analysis_text and "please" in analysis_text:
-            print("trigger")
-            wordList = analysis_text.split()
-            slideNumberList = []
-            j = 1
-            while "please" not in slideNumberList:
-                currWord = wordList[wordList.index("slide")+j]
-                if currWord == "for":
-                    currWord = "four"
-                elif currWord == "to" or currWord == "too":
-                    currWord = "two"
-                slideNumberList.append(currWord)
-                j += 1
-            slideNumber = " ".join(slideNumberList[:-1])
+        elif SHOW_TEXT_PHRASE in analysis_text:
+            show_text = True
+        elif HIDE_TEXT_PHRASE in analysis_text:
+            show_text = False
+        elif customPhrase1 in analysis_text and customPhrase2 in analysis_text:
+            wordStart = analysis_text.index(customPhrase1) + CUSTOM_SLIDE_PHRASE.index("x")
             try:
-                switchslide(text2int(slideNumber)-1)
+                slideNumber = analysis_text[wordStart:(wordStart+analysis_text[wordStart:].replace(" ", "XXX", 1).find(" "))-2]
+                if slideNumber == "":
+                    try:
+                        slideNumber = analysis_text[wordStart:wordStart+analysis_text[wordStart:].index(" ")]
+                    except:
+                        try:
+                            slideNumber = analysis_text[wordStart:]
+                        except:
+                            pass
+            except Exception as e:
+                print("Retrieving slide number from text failed: " + str(e))
+                slideNumber = None
+            print(slideNumber)
+            if "to" in slideNumber:
+                slideNumber.replace("to", "two")
+            if "for" in slideNumber:
+                slideNumber.replace("for", "four")
+            slideNumberList = slideNumber.split()
+            print(slideNumber)
+            try:
+                convertednum = text2int(slideNumber)
+                if convertednum > 0 and convertednum < len(slides)+1:
+                    switchslide(convertednum-1)
             except:
-                pass
+                try:
+                    switchslide(text2int(slideNumberList[0])-1)
+                except:
+                    pass
         maxIdx = current_slide
         maxRat = 0
         log("Change detected, checking slides " + str(current_slide) + "-" + str(current_slide+4))
@@ -352,8 +402,8 @@ subtitleFont = font.Font(family="Helvetica", size=font_size, weight="bold")
 subtitle = canvas.create_text(screen_width/2,screen_height*5/6,text="test", fill=font_color, font=subtitleFont, justify="center", tags="subtitletext")
 subtitleBBox = None
 
-wifiIndicator = canvas.create_rectangle(10, 10, floor(screen_width*0.03125)+500, floor(screen_height*0.06), fill='yellow')
-canvas.itemconfigure(wifiIndicator, state="hidden")
+#wifiIndicator = canvas.create_rectangle(10, 10, floor(screen_width*0.03125)+500, floor(screen_height*0.06), fill='yellow')
+#canvas.itemconfigure(wifiIndicator, state="hidden")
 #subtitle = tkinter.Label(canvas, text="TEST", font=('Calibri','36'), width = 50, justify=tkinter.CENTER, wraplength = screen_width * 7/8, fg="black", bg="white")
 #subtitle.attributes("-alpha", 0.5)
 
