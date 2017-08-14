@@ -35,10 +35,11 @@ whole community of developers
 purview of a few large companies
 the world's first open source artificial intelligence platform.
 artificial intelligence platform that brings natural language processing
+open technologies like wikipedia wordpress
 developing a wireless speaker with a high quality
 make it relatable and set a positive tone
-also wanted to encourage our community
-we based it on raspberry pi
+hack explore and extend
+raspberry pi
 in fact we've open sourced our hardware
 software platform that allows developers
 community is building the technology
@@ -48,9 +49,9 @@ recognize users based on their voice
 artificial intelligence can create products
 Among these products will be a handful
 so much so that not only will people
-use technology in a profound ways
 what would you build
 Thank you
 Temporary phrase to fix end of presentation bug
 Another very different phrase to fix the end of presentation bug
 Finally another phrase to fix the end of presentation bug
+Some other debug phrase
