@@ -153,8 +153,8 @@ def retrieveText():
         current_text = file.read()
         file.close()
     except Exception as e:
-        current_text = "[Blank]"
-        log("Error, 'overlay.txt' could not be opened: ", str(e))
+        current_text = "[]"
+        log("Error, 'overlay.txt' could not be opened: " + str(e))
     
     chars = ceil(-1.462*font_size + 109.6)
     format_text = textwrap.fill(current_text, chars)
