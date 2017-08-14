@@ -384,12 +384,19 @@ except Exception as e:
     print("Exitting...")
     close()
 
-        
 analysis_cutoff = len(phrases[1])
 
 root.bind("<space>", lambda event, num=1: switch(event, num))
 root.bind("<BackSpace>", lambda event, num=-1: switch(event, num))
-    
+
+
+def toggleText(event, val):
+    global show_text
+    show_text = val
+        
+root.bind("<h>", lambda event: toggleText(event, 0))
+root.bind("<s>", lambda event: toggleText(event, 1))
+
 canvas = tkinter.Canvas(root, width = screen_width, height = screen_height)
 canvas.pack()
 
