@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 yeah like that's what it is 
+=======
+that's 
+>>>>>>> 5ab89af1e7198b64bd0d53aea2a8cbab305cca2c
