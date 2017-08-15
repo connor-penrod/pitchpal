@@ -1,0 +1,5 @@
+1. Improve (remake?) Websocket to IBM Watson.
+2. Add Mycroft vocabulary corpus.
+3. Remove %HESITATION (change setting in Websocket connection).
+4. Change sliding window width to average of next three slides. 
+5. Fix the commands for small phrases.
