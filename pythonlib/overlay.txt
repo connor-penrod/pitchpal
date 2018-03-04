@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 yeah like that's what it is 
+=======
+that's 
+>>>>>>> 5ab89af... Removed Mycroft credentials
