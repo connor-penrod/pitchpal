@@ -57,4 +57,5 @@ Change to slide 3
 ---
 
 ### Slideshow Configuration & Settings
+
 PitchPal is configured via a `settings.conf` file located in the root directory.
